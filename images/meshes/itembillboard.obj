@@ -1,0 +1,17 @@
+# Blender v2.68 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib itembillboard.mtl
+o Plane_Plane_None
+v -0.500000 1.000000 0.000001
+v -0.500000 -0.000000 0.000001
+v 0.500000 1.000000 -0.000001
+v 0.500000 0.000000 -0.000001
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+vt 1.000000 1.000000
+vt 1.000000 0.000000
+g Plane_Plane_None_Plane_Plane_None_None
+usemtl None
+s off
+f 1/1 2/2 3/3
+f 2/2 4/4 3/3

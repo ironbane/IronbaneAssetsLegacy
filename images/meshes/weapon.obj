@@ -1,0 +1,31 @@
+# Blender v2.68 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib weapon.mtl
+o Plane_Plane_None_Plane_Plane_None_None.001_Plane_Plane_None_Plane_Plane_None_None.002
+v 0.000000 0.010001 0.707107
+v 0.707107 0.009999 -0.000000
+v -0.707107 0.010001 0.000000
+v -0.000000 0.009999 -0.707107
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+vt 1.000000 1.000000
+vt 1.000000 0.000000
+g Plane_Plane_None_Plane_Plane_None_None.001_Plane_Plane_None_Plane_Plane_None_None.002_None
+usemtl None
+s off
+f 1/1 2/2 3/3
+f 2/2 4/4 3/3
+o Plane_Plane_None_Plane_Plane_None_None
+v 0.010001 -0.000000 0.707107
+v 0.009999 -0.707107 -0.000000
+v 0.010001 0.707107 0.000000
+v 0.009999 0.000000 -0.707107
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+vt 1.000000 1.000000
+vt 1.000000 0.000000
+g Plane_Plane_None_Plane_Plane_None_None_Plane_Plane_None_Plane_Plane_None_None_None.001
+usemtl None.001
+s off
+f 5/5 6/6 7/7
+f 6/6 8/8 7/7

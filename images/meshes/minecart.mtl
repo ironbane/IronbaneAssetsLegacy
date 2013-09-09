@@ -1,0 +1,33 @@
+# Blender MTL File: 'None'
+# Material Count: 3
+
+newmtl None
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Applications/XAMPP/xamppfiles/htdocs/ibdata/plugins/game/images/tiles/39.png
+
+newmtl None_34.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Applications/XAMPP/xamppfiles/htdocs/ibdata/plugins/game/images/tiles/34.png
+map_d /Applications/XAMPP/xamppfiles/htdocs/ibdata/plugins/game/images/tiles/34.png
+
+newmtl None_99.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd /Applications/XAMPP/xamppfiles/htdocs/ibdata/plugins/game/images/tiles/99.png

@@ -1,0 +1,17 @@
+# Blender v2.68 (sub 0) OBJ File: ''
+# www.blender.org
+mtllib itemhorizontal.mtl
+o Plane
+v 0.500000 0.009999 0.500000
+v -0.500000 0.010001 0.500000
+v 0.500000 0.009999 -0.500000
+v -0.500000 0.010001 -0.500000
+vt 0.000000 1.000000
+vt 0.000000 0.000000
+vt 1.000000 1.000000
+vt 1.000000 0.000000
+g Plane_Plane_None
+usemtl None
+s off
+f 2/1 1/2 4/3
+f 1/2 3/4 4/3
