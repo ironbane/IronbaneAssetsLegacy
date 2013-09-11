@@ -1,28 +1,7 @@
 # Blender MTL File: 'tutorial.blend'
-# Material Count: 5
-newmtl None.001_1.png.001
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\1.png
+# Material Count: 2
 
-
-newmtl None.001_19.png.001
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\19.png
-
-
-newmtl None.001_35.png.001
+newmtl None.001
 Ns 0.000000
 Ka 0.000000 0.000000 0.000000
 Kd 0.640000 0.640000 0.640000
@@ -31,7 +10,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd C:\tiles\35.png
-
 
 newmtl None.001_47.png.002
 Ns 0.000000
@@ -42,16 +20,3 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd C:\tiles\47.png
-
-
-newmtl None.001_49.png.001
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\49.png
-
-
