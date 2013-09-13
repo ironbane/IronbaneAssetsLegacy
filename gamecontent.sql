@@ -165,7 +165,7 @@ CREATE TABLE `ib_items` (
   `value` int(10) unsigned NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1065 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1070 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -174,7 +174,7 @@ CREATE TABLE `ib_items` (
 
 LOCK TABLES `ib_items` WRITE;
 /*!40000 ALTER TABLE `ib_items` DISABLE KEYS */;
-INSERT INTO `ib_items` VALUES (1064,1,1,13,1,0,0,'{}'),(66,89,1,6,0,4,1,'{}'),(65,71,5,6,0,3,2,'{}'),(64,71,5,6,0,2,2,'{}'),(63,1,1,6,1,0,0,'{}'),(739,1,1,8,1,0,0,'{}'),(1054,1,1,11,1,0,0,'{}'),(1052,33,5,5,1,1,10,'{}'),(1051,78,5,5,0,0,100,'{}'),(829,78,5,12,0,2,2,'{}'),(828,1,1,12,0,1,0,'{}'),(827,1,1,12,1,0,0,'{}');
+INSERT INTO `ib_items` VALUES (66,89,1,6,0,4,1,'{}'),(65,71,5,6,0,3,2,'{}'),(64,71,5,6,0,2,2,'{}'),(63,1,1,6,1,0,0,'{}'),(739,1,1,8,1,0,0,'{}'),(1054,1,1,11,1,0,0,'{}'),(829,78,5,12,0,2,2,'{}'),(828,1,1,12,0,1,0,'{}'),(827,1,1,12,1,0,0,'{}');
 /*!40000 ALTER TABLE `ib_items` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -315,7 +315,7 @@ CREATE TABLE `ib_zones` (
   `name` varchar(255) NOT NULL,
   `type` tinyint(3) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=11 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=12 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 --
@@ -324,7 +324,7 @@ CREATE TABLE `ib_zones` (
 
 LOCK TABLES `ib_zones` WRITE;
 /*!40000 ALTER TABLE `ib_zones` DISABLE KEYS */;
-INSERT INTO `ib_zones` VALUES (1,'World',1),(2,'Developer\'s Zone',2),(3,'Tutorial',3),(4,'Ironbane Castle',4),(5,'Underground River',2),(6,'Bat Cave',2),(7,'Ironbane\'s Chamber',4),(8,'Enigma Fortress ',4),(9,'Rat Basement',2),(10,'Cave Of Darkness',4);
+INSERT INTO `ib_zones` VALUES (1,'World',1),(2,'Developer\'s Zone',2),(3,'Tutorial',3),(4,'Ironbane Castle',4),(5,'Underground River',2),(6,'Bat Cave',2),(7,'Ironbane\'s Chamber',4),(8,'Enigma Fortress ',4),(9,'Rat Basement',2),(10,'Cave Of Darkness',4),(11,'Cave of Darkness(test)',4);
 /*!40000 ALTER TABLE `ib_zones` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -337,4 +337,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2013-09-11 20:45:27
+-- Dump completed on 2013-09-12  7:53:28
