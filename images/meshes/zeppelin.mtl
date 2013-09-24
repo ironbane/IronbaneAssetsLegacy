@@ -1,20 +1,21 @@
 # Blender MTL File: 'ship.blend'
-# Material Count: 7
+# Material Count: 8
 
 newmtl Material
-Ns 92.156863
+Ns 90.196078
 Ka 0.000000 0.000000 0.000000
-Kd 0.384000 0.291840 0.153600
+Kd 0.307200 0.233472 0.122880
 Ks 0.100000 0.100000 0.100000
 Ni 1.000000
 d 1.000000
 illum 2
 map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/51.png
+map_d /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/51.png
 
 newmtl Material.002
-Ns 92.156863
+Ns 90.196078
 Ka 0.000000 0.000000 0.000000
-Kd 0.480000 0.364800 0.192000
+Kd 0.384000 0.291840 0.153600
 Ks 0.100000 0.100000 0.100000
 Ni 1.000000
 d 1.000000
@@ -22,9 +23,9 @@ illum 2
 map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/74.png
 
 newmtl Material.002_54.png
-Ns 92.156863
+Ns 90.196078
 Ka 0.000000 0.000000 0.000000
-Kd 0.480000 0.364800 0.192000
+Kd 0.384000 0.291840 0.153600
 Ks 0.100000 0.100000 0.100000
 Ni 1.000000
 d 1.000000
@@ -32,9 +33,9 @@ illum 2
 map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/54.png
 
 newmtl Material.wood
-Ns 35.294118
+Ns 33.333333
 Ka 0.000000 0.000000 0.000000
-Kd 0.130842 0.108870 0.072150
+Kd 0.104674 0.087096 0.057720
 Ks 0.150000 0.150000 0.150000
 Ni 1.000000
 d 1.000000
@@ -42,9 +43,9 @@ illum 2
 map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/54.png
 
 newmtl Material.wood_58.png
-Ns 35.294118
+Ns 33.333333
 Ka 0.000000 0.000000 0.000000
-Kd 0.130842 0.108870 0.072150
+Kd 0.104674 0.087096 0.057720
 Ks 0.150000 0.150000 0.150000
 Ni 1.000000
 d 1.000000
@@ -58,13 +59,22 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/103.png
+map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/43.png
 
-newmtl None_55.png
+newmtl None_17.png
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/55.png
+map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/17.png
+
+newmtl None_58.png
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd /Applications/XAMPP/xamppfiles/htdocs/IronbaneServer/IronbaneAssets/images/tiles/58.png
