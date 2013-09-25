@@ -2,18 +2,15 @@
 actorScripts["Zeppelin"] = State.extend({
 	Init: function() {
 
-
-
+		this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
+			[1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1045,1046]
+			//[1,2,3]
+		);
 
 	},
 	Enter: function(unit) {
 
 		unit.mass = 5;
-
-		this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
-			[1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1045,1046]
-			//[1,2,3]
-		);
 
 		if ( !this.waypoints.length ) return;
 
@@ -70,4 +67,23 @@ actorScripts["Zeppelin"] = State.extend({
 		}
 
     }
+});
+
+actorScripts["ZeppelinB"] = actorScripts["Zeppelin"].extend({
+	Init: function() {
+		this._super();
+	},
+	Enter: function(unit) {
+
+		unit.mass = 5;
+
+		if ( !this.waypoints.length ) return;
+
+		unit.position.copy(this.waypoints[9].pos);
+
+		unit.stateMachine.ChangeState(new Patrol(this.waypoints, {
+			firstWaypoint: 1040
+		}));
+
+	}
 });
