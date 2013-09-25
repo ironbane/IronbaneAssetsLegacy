@@ -8,6 +8,8 @@ actorScripts["Zeppelin"] = State.extend({
 	},
 	Enter: function(unit) {
 
+		unit.mass = 5;
+
 		this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
 			[1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1045,1046]
 			//[1,2,3]
@@ -44,17 +46,17 @@ actorScripts["Zeppelin"] = State.extend({
 					pause = 20000;
 				}
 				if ( data.id === 1038 ) {
-					unit.maxSpeed = 1.0;
+					unit.maxSpeed = 2.0;
 				}
 				if ( data.id === 1040 ) {
-					unit.maxSpeed = 2.0;
+					unit.maxSpeed = 4.0;
 				}
 
 				if ( data.id === 1046 ) {
-					unit.maxSpeed = 1.0;
+					unit.maxSpeed = 2.0;
 				}
 				if ( data.id === 1031 ) {
-					unit.maxSpeed = 2.0;
+					unit.maxSpeed = 4.0;
 				}
 
 				unit.stateMachine.ChangeState(new Patrol(this.waypoints, {
