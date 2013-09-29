@@ -34,9 +34,9 @@
                 3,
                 18
             ],
-            "f": 110.33250000000007,
+            "f": 79.74500000000003,
             "g": 1,
-            "h": 109.33250000000007,
+            "h": 78.74500000000003,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -91,49 +91,13 @@
                 1,
                 5
             ],
-            "f": 2,
-            "g": 2,
+            "f": 0,
+            "g": 0,
             "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 5,
-                "pos": {
-                    "x": 18.93,
-                    "y": 43.27,
-                    "z": 30.12
-                },
-                "edges": [
-                    4,
-                    6
-                ],
-                "f": 40.3425,
-                "g": 1,
-                "h": 39.3425,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 6,
-                    "pos": {
-                        "x": 19.2,
-                        "y": 43.27,
-                        "z": 36.6
-                    },
-                    "edges": [
-                        2,
-                        5
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 5,
@@ -146,12 +110,12 @@
                 4,
                 6
             ],
-            "f": 40.3425,
+            "f": 1,
             "g": 1,
-            "h": 39.3425,
+            "h": 0,
             "cost": 1,
             "visited": true,
-            "closed": true,
+            "closed": false,
             "parent": {
                 "id": 6,
                 "pos": {
