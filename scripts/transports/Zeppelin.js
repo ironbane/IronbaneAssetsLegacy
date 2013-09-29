@@ -7,6 +7,9 @@ actorScripts["Zeppelin"] = State.extend({
 			//[1,2,3]
 		);
 
+		this.slowSpeed = 4;
+		this.normalSpeed = 8;
+
 	},
 	Enter: function(unit) {
 
@@ -43,17 +46,17 @@ actorScripts["Zeppelin"] = State.extend({
 					pause = 20000;
 				}
 				if ( data.id === 1038 ) {
-					unit.maxSpeed = 2.0;
+					unit.maxSpeed = this.slowSpeed;
 				}
 				if ( data.id === 1040 ) {
-					unit.maxSpeed = 4.0;
+					unit.maxSpeed = this.normalSpeed;
 				}
 
 				if ( data.id === 1046 ) {
-					unit.maxSpeed = 2.0;
+					unit.maxSpeed = this.slowSpeed;
 				}
 				if ( data.id === 1031 ) {
-					unit.maxSpeed = 4.0;
+					unit.maxSpeed = this.normalSpeed;
 				}
 
 				unit.stateMachine.ChangeState(new Patrol(this.waypoints, {
@@ -62,7 +65,7 @@ actorScripts["Zeppelin"] = State.extend({
 					firstWaypoint: data.id
 				}));
 
-				console.log("Going to waypoint "+data.id);
+				//console.log("Going to waypoint "+data.id);
 				break;
 		}
 
