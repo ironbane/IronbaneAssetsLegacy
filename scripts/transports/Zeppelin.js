@@ -7,7 +7,7 @@ actorScripts["Zeppelin"] = State.extend({
 			//[1,2,3]
 		);
 
-		this.slowSpeed = 4;
+		this.slowSpeed = 2;
 		this.normalSpeed = 8;
 
 	},
