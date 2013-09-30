@@ -13,7 +13,7 @@ actorScripts["Zeppelin"] = State.extend({
 	},
 	Enter: function(unit) {
 
-		unit.mass = 5;
+		unit.mass = 3;
 
 		if ( !this.waypoints.length ) return;
 
