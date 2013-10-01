@@ -3,7 +3,7 @@ actorScripts["Zeppelin"] = State.extend({
 	Init: function() {
 
 		this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
-			[1030,1031,1032,1033,1034,1035,1036,1037,1038,1039,1040,1041,1042,1043,1044,1045,1046]
+			[1030,1031,1032,1033,1037,1038,1039,1040,1044,1045,1046]
 			//[1,2,3]
 		);
 
