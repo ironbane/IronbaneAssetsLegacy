@@ -82,7 +82,7 @@ actorScripts["ZeppelinB"] = actorScripts["Zeppelin"].extend({
 
 		if ( !this.waypoints.length ) return;
 
-		unit.position.copy(this.waypoints[9].pos);
+		unit.position.copy(this.waypoints[7].pos);
 
 		unit.stateMachine.ChangeState(new Patrol(this.waypoints, {
 			firstWaypoint: 1040
