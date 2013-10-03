@@ -1,1 +1,66 @@
-{"nodes":[{"id":33,"pos":{"x":181.39,"y":44.15,"z":-162.38},"edges":[34],"f":0,"g":0,"h":0,"cost":1,"visited":false,"closed":true,"parent":null},{"id":34,"pos":{"x":203.26,"y":41.94,"z":-167.14},"edges":[29],"f":1,"g":1,"h":0,"cost":1,"visited":true,"closed":false,"parent":{"id":33,"pos":{"x":181.39,"y":44.15,"z":-162.38},"edges":[34],"f":0,"g":0,"h":0,"cost":1,"visited":false,"closed":true,"parent":null}}]}
+{
+    "nodes": [
+        {
+            "id": 33,
+            "pos": {
+                "x": 181.39,
+                "y": 44.15,
+                "z": -162.38
+            },
+            "edges": [
+                34
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": true,
+            "parent": null
+        },
+        {
+            "id": 34,
+            "pos": {
+                "x": 203.26,
+                "y": 41.94,
+                "z": -167.14
+            },
+            "edges": [
+                29
+            ],
+            "f": 1,
+            "g": 1,
+            "h": 0,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 33,
+                "pos": {
+                    "x": 181.39,
+                    "y": 44.15,
+                    "z": -162.38
+                },
+                "edges": [
+                    34
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
+        },
+        {
+            "id": 726,
+            "pos": {
+                "x": 216,
+                "y": 23.38,
+                "z": -60
+            },
+            "edges": []
+        }
+    ]
+}
