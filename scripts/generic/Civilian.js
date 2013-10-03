@@ -13,6 +13,8 @@ actorScripts["Civilian"] = State.extend({
     },
     Enter: function(unit) {
 
+        unit.maxSpeed = getRandomFloat(1,3);
+
         if ( this.isMale) {
             unit.skin = getRandomInt(skinIdMaleStart, skinIdMaleEnd);
             unit.hair = getRandomInt(hairIdMaleStart, hairIdMaleEnd);
