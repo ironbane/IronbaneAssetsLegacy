@@ -8,7 +8,7 @@ actorScripts["Civilian"] = State.extend({
 
         this.isMale = getRandomInt(0,1) ? true : false;
 
-
+        this.wanderRange = 20;
 
     },
     Enter: function(unit) {
@@ -36,8 +36,15 @@ actorScripts["Civilian"] = State.extend({
             unit.head = 0;
         }
 
+        var me = this;
+        var waypointList = [];
+        _.each(unit.connectedNodeList, function(node) {
+            if ( unit.InRangeOfPosition(node.pos, me.wanderRange) ) {
+                waypointList.push(node.pos);
+            }
+        });
 
-        unit.stateMachine.ChangeState(new Wander());
+        unit.stateMachine.ChangeState(new Wander(waypointList));
     },
     Execute: function(unit, dTime) {
 
