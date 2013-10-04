@@ -3,8 +3,10 @@
 // A civilian NPC that wanders around and has a random appearance
 // Not hostile to the player
 
-actorScripts["Civilian"] = State.extend({
+actorScripts["Civilian"] = MonsterState.extend({
     Init: function() {
+
+        this._super();
 
         this.isMale = getRandomInt(0,1) ? true : false;
 
@@ -13,7 +15,7 @@ actorScripts["Civilian"] = State.extend({
     },
     Enter: function(unit) {
 
-        unit.maxSpeed = getRandomFloat(1,3);
+        unit.maxSpeed = getRandomFloat(2,4);
 
         if ( this.isMale) {
             unit.skin = getRandomInt(skinIdMaleStart, skinIdMaleEnd);
@@ -36,26 +38,7 @@ actorScripts["Civilian"] = State.extend({
             unit.head = 0;
         }
 
-        var me = this;
-        var waypointList = [];
-        _.each(unit.connectedNodeList, function(node) {
-            if ( unit.InRangeOfPosition(node.pos, me.wanderRange) ) {
-                waypointList.push(node.pos);
-            }
-        });
-
-        unit.stateMachine.ChangeState(new Wander(waypointList));
-    },
-    Execute: function(unit, dTime) {
-
-
-
-    },
-    Exit: function(unit) {
-
-
-    },
-    HandleMessage: function(unit, message, data) {
+        this._super(unit);
 
     }
 });
