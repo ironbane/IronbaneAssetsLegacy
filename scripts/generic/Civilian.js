@@ -30,7 +30,7 @@ actorScripts["Civilian"] = State.extend({
         unit.feet = ChooseRandom([0,1,2,13,15,20,24,84,85]);
 
         if ( getRandomInt(0,1) ) {
-            unit.head = ChooseRandom([1,2,3,4,5,6,7,8,9,10,11,12,17,18,21,22,86,87,89,93]);
+            unit.head = ChooseRandom([1,2,3,4,5,6,7,8,9,12,17,22,86,87,89,93]);
         }
         else {
             unit.head = 0;
