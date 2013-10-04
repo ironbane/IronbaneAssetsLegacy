@@ -8,6 +8,15 @@ Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
+map_Kd C:\tiles\17.png
+
+newmtl None_1.png
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
 map_Kd C:\tiles\1.png
 
 newmtl None_15.png
@@ -18,15 +27,6 @@ Ks 0.8 0.8 0.8
 d 1
 illum 2
 map_Kd C:\tiles\15.png
-
-newmtl None_17.png
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd C:\tiles\17.png
 
 newmtl None_35.png
 Ns 0
