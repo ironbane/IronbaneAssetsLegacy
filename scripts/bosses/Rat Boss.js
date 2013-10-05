@@ -1,20 +1,7 @@
 
-actorScripts["Rat Boss"] = State.extend({
+actorScripts["Rat Boss"] = MonsterState.extend({
     Init: function() {
-
-
-    },
-    Enter: function(unit) {
-        //unit.Say("<Squeak?>");
-    },
-    Execute: function(unit, dTime) {
-
-
-
-    },
-    Exit: function(unit) {
-
-
+        this._super();
     },
     HandleMessage: function(unit, message, data) {
         switch(message) {
@@ -22,5 +9,6 @@ actorScripts["Rat Boss"] = State.extend({
                 unit.Say("<Squeak!>");
                 break;
         }
+        this._super(unit, message, data);
     }
 });

@@ -12,6 +12,8 @@ actorScripts["Civilian"] = MonsterState.extend({
 
         this.wanderRange = 20;
 
+        this.wanderConfig = {};
+
     },
     Enter: function(unit) {
 
@@ -40,5 +42,30 @@ actorScripts["Civilian"] = MonsterState.extend({
 
         this._super(unit);
 
+    },
+    Execute: function(unit, dTime) {
+
+    },
+    HandleMessage: function(unit, message, data) {
+
+        switch (message) {
+            case "attacked":
+
+                unit.maxSpeed = 4;
+
+                unit.stateMachine.ChangeState(
+                    new FleeEnemy(data.attacker, this.waypointList));
+
+                break;
+            case "stopFlee":
+                // We lost the enemy or gave  up
+
+                // Go back to wandering
+                unit.stateMachine.ChangeState(new Wander(this.waypointList));
+
+                unit.maxSpeed = this.normalSpeed;
+
+                break;
+        }
     }
 });
