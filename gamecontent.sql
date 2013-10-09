@@ -221,7 +221,7 @@ CREATE TABLE `ib_items` (
   `value` int(10) unsigned NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26962 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=26992 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_items` WRITE;
@@ -279,14 +279,14 @@ INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, 
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17513,35,7,50,1,2,28,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17512,81,6,50,1,1,14,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17511,64,2,50,0,0,4,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26961,110,1,70,1,5,1,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26991,110,1,70,1,5,1,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18446,78,5,20,0,0,100,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26960,109,1,70,0,4,1,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26990,109,1,70,0,4,1,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (10684,1,1,100,1,0,0,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26959,66,15,70,1,0,30,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26958,105,6,70,0,1,17,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26957,106,7,70,1,2,17,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26956,108,3,70,0,3,10,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26989,66,15,70,1,0,30,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26988,105,6,70,0,1,17,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26987,106,7,70,1,2,17,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26986,108,3,70,0,3,10,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (19415,10,4,81,1,0,50,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (19414,79,7,81,1,1,12,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17358,1,1,124,1,0,0,'{}');
@@ -577,7 +577,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1428 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1438 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1300,6 +1300,10 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1397,133.46,0.34,-71.14,2,106,1.69,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1423,72.16,0.15,-61.94,9,100,3.99,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1400,55.24,0.00,-64.02,9,105,3.11,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1437,53.00,0.00,-61.96,9,105,1.42,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1434,84.11,0.00,-41.21,9,100,0.94,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1435,84.57,0.00,-42.14,9,100,1.66,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1436,53.00,0.00,-61.96,9,106,1.42,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1419,50.99,0.00,-55.33,9,5,NULL,33,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":4.711629385639274,\"startOpen\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1420,87.34,0.00,-44.28,9,6,NULL,0,'{\"switchNumber\":1419}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1421,56.91,0.00,-71.83,9,5,NULL,33,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.546444078460603,\"startOpen\":false}');
@@ -1307,6 +1311,12 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1425,70.35,0.15,-62.41,9,106,3.27,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1426,68.21,0.15,-62.78,9,106,3.27,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1427,69.89,0.15,-63.76,9,106,3.93,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1428,72.78,0.00,-47.57,9,105,4.83,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1429,72.78,0.00,-47.57,9,105,4.83,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1430,72.57,0.00,-49.43,9,105,4.83,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1431,72.88,0.00,-48.37,9,100,4.83,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1432,73.10,0.00,-46.74,9,100,5.25,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1433,83.44,0.00,-40.29,9,100,0.94,0,'null');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
