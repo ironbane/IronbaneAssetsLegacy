@@ -94,7 +94,7 @@ CREATE TABLE `ib_item_templates` (
   `charimage` smallint(4) unsigned NOT NULL DEFAULT '0' COMMENT 'UNUSED',
   `basevalue` int(11) NOT NULL DEFAULT '0' COMMENT 'base value for price before any modifiers.',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=104 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=105 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_item_templates` WRITE;
@@ -199,6 +199,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (101,'AI: Rat Attack',0,'weapon','sword',4,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (102,'AI: Rat Boss Attack',0,'weapon','sword',7,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (103,'AI: Shadow Rat Boss Attack',0,'weapon','dagger',5,0.40,'0',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (104,'AI: Acid Slime Attack',0,'weapon','staff',4,1.00,'',0,0);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_items`;
@@ -214,7 +215,7 @@ CREATE TABLE `ib_items` (
   `value` int(10) unsigned NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26391 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=26436 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_items` WRITE;
@@ -269,20 +270,20 @@ INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, 
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18866,91,8,67,1,4,19,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18864,88,8,67,1,2,0,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26286,80,6,13,1,2,28,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26390,29,4,70,0,4,100,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26389,97,4,70,0,8,15,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26435,29,4,70,0,4,100,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26434,97,4,70,0,8,15,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17513,35,7,50,1,2,28,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17512,81,6,50,1,1,14,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17511,64,2,50,0,0,4,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26388,99,7,70,0,9,15,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26387,94,1,70,0,1,5,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26433,99,7,70,0,9,15,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26432,94,1,70,0,1,5,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18446,78,5,20,0,0,100,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26386,66,15,70,1,0,30,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26431,66,15,70,1,0,30,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (10684,1,1,100,1,0,0,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26385,92,4,70,1,5,10,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26384,22,3,70,0,3,8,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26383,98,6,70,0,7,15,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26382,94,1,70,0,2,5,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26430,92,4,70,1,5,10,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26429,22,3,70,0,3,8,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26428,98,6,70,0,7,15,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26427,94,1,70,0,2,5,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (19415,10,4,81,1,0,50,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (19414,79,7,81,1,1,12,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17358,1,1,124,1,0,0,'{}');
@@ -554,7 +555,7 @@ INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`,
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (103,'a','Basement Rat',20,27,0,0,0,0,0,0,7,0,'1',3,'10:94;5:100;1:96',400,0,1.50,10,10,0,0,0,1.00,1,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (104,'','Shai',20,658,0,0,0,0,0,0,350,0,'103',3,'',400,0,4.00,10,10,0,0,0,1.00,1,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (105,'a','Plague Rat',20,659,0,0,0,0,0,0,50,0,'102',3,'',400,0,2.00,10,10,0,0,0,1.00,1,0);
-INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (106,'a',NULL,NULL,0,0,0,0,0,0,0,1,0,'',3,'',30,0,1.00,10,10,0,0,0,1.00,0,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (106,'a','Acid Slime',20,660,0,0,0,0,0,0,65,0,'9',3,'20:9;',400,0,2.00,10,10,0,0,0,1.00,0,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (107,'a',NULL,NULL,0,0,0,0,0,0,0,1,0,'',3,'',30,0,1.00,10,10,0,0,0,1.00,0,0);
 /*!40000 ALTER TABLE `ib_unit_templates` ENABLE KEYS */;
 UNLOCK TABLES;
