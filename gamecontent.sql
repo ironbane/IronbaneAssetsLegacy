@@ -123,7 +123,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (25,'Long Bow',61,'weapon','bow',3,2.00,'ARROW',0,8);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (26,'Dull Dagger',55,'weapon','dagger',1,0.40,'',0,2);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (27,'Dull Axe',21,'weapon','axe',1,1.00,'',0,4);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (28,'Rod of Healing',6,'weapon','staff',2,1.00,'PLASMABALL',0,50);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (28,'Rod of Healing',6,'weapon','staff',-2,1.00,'PLASMABALL',0,50);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (29,'Blessed Wand',62,'weapon','staff',4,1.00,'PLASMABALL',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (30,'Hatchet',17,'weapon','axe',3,0.80,'',0,6);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (31,'Zombiefinger',27,'weapon','staff',1,0.30,'ACIDBALL',0,2);
