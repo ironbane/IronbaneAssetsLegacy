@@ -16,27 +16,28 @@
                 11,
                 17
             ],
-            "f": 17,
+            "f": 33,
             "g": 1,
-            "h": 16,
+            "h": 32,
             "cost": 1,
             "visited": true,
-            "closed": true,
+            "closed": false,
             "parent": {
-                "id": 17,
+                "id": 11,
                 "pos": {
-                    "x": 0,
+                    "x": -2,
                     "y": 0,
-                    "z": -18
+                    "z": -14
                 },
                 "edges": [
-                    10,
+                    7,
                     1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
                 ],
                 "f": 0,
                 "g": 0,
@@ -57,59 +58,13 @@
             "edges": [
                 1
             ],
-            "f": 2,
-            "g": 2,
+            "f": 0,
+            "g": 0,
             "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -16
-                },
-                "edges": [
-                    2,
-                    3,
-                    5,
-                    6,
-                    7,
-                    11,
-                    17
-                ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 17,
-                    "pos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        10,
-                        1,
-                        9,
-                        18,
-                        19,
-                        20,
-                        21
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 3,
@@ -121,59 +76,13 @@
             "edges": [
                 1
             ],
-            "f": 18,
-            "g": 2,
-            "h": 16,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -16
-                },
-                "edges": [
-                    2,
-                    3,
-                    5,
-                    6,
-                    7,
-                    11,
-                    17
-                ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 17,
-                    "pos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        10,
-                        1,
-                        9,
-                        18,
-                        19,
-                        20,
-                        21
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 5,
@@ -187,58 +96,36 @@
                 7,
                 11
             ],
-            "f": 34,
-            "g": 2,
-            "h": 32,
+            "f": 17,
+            "g": 1,
+            "h": 16,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 1,
+                "id": 11,
                 "pos": {
-                    "x": 0,
+                    "x": -2,
                     "y": 0,
-                    "z": -16
+                    "z": -14
                 },
                 "edges": [
-                    2,
-                    3,
-                    5,
-                    6,
                     7,
-                    11,
-                    17
+                    1,
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
                 ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 17,
-                    "pos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        10,
-                        1,
-                        9,
-                        18,
-                        19,
-                        20,
-                        21
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -251,59 +138,13 @@
             "edges": [
                 1
             ],
-            "f": 18,
-            "g": 2,
-            "h": 16,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -16
-                },
-                "edges": [
-                    2,
-                    3,
-                    5,
-                    6,
-                    7,
-                    11,
-                    17
-                ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 17,
-                    "pos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        10,
-                        1,
-                        9,
-                        18,
-                        19,
-                        20,
-                        21
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 7,
@@ -322,53 +163,36 @@
                 12,
                 13
             ],
-            "f": 22,
-            "g": 2,
+            "f": 21,
+            "g": 1,
             "h": 20,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 9,
+                "id": 11,
                 "pos": {
-                    "x": 2,
+                    "x": -2,
                     "y": 0,
-                    "z": -16
+                    "z": -14
                 },
                 "edges": [
                     7,
-                    17
+                    1,
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
                 ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 17,
-                    "pos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        10,
-                        1,
-                        9,
-                        18,
-                        19,
-                        20,
-                        21
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -400,36 +224,13 @@
                 7,
                 17
             ],
-            "f": 5,
-            "g": 1,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": true,
-            "parent": {
-                "id": 17,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -18
-                },
-                "edges": [
-                    10,
-                    1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 10,
@@ -443,27 +244,28 @@
                 11,
                 17
             ],
-            "f": 37,
+            "f": 21,
             "g": 1,
-            "h": 36,
+            "h": 20,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 17,
+                "id": 11,
                 "pos": {
-                    "x": 0,
+                    "x": -2,
                     "y": 0,
-                    "z": -18
+                    "z": -14
                 },
                 "edges": [
-                    10,
+                    7,
                     1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
                 ],
                 "f": 0,
                 "g": 0,
@@ -491,59 +293,13 @@
                 15,
                 16
             ],
-            "f": 42,
-            "g": 2,
-            "h": 40,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 1,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -16
-                },
-                "edges": [
-                    2,
-                    3,
-                    5,
-                    6,
-                    7,
-                    11,
-                    17
-                ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 17,
-                    "pos": {
-                        "x": 0,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        10,
-                        1,
-                        9,
-                        18,
-                        19,
-                        20,
-                        21
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 12,
@@ -556,13 +312,37 @@
                 7,
                 11
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 11,
+                "pos": {
+                    "x": -2,
+                    "y": 0,
+                    "z": -14
+                },
+                "edges": [
+                    7,
+                    1,
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 13,
@@ -592,13 +372,37 @@
             "edges": [
                 11
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 17,
+            "g": 1,
+            "h": 16,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 11,
+                "pos": {
+                    "x": -2,
+                    "y": 0,
+                    "z": -14
+                },
+                "edges": [
+                    7,
+                    1,
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 15,
@@ -610,13 +414,37 @@
             "edges": [
                 11
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 11,
+                "pos": {
+                    "x": -2,
+                    "y": 0,
+                    "z": -14
+                },
+                "edges": [
+                    7,
+                    1,
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 16,
@@ -628,13 +456,37 @@
             "edges": [
                 11
             ],
-            "f": 0,
-            "g": 0,
+            "f": 1,
+            "g": 1,
             "h": 0,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 11,
+                "pos": {
+                    "x": -2,
+                    "y": 0,
+                    "z": -14
+                },
+                "edges": [
+                    7,
+                    1,
+                    10,
+                    12,
+                    5,
+                    14,
+                    15,
+                    16
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 17,
@@ -657,7 +509,7 @@
             "h": 0,
             "cost": 1,
             "visited": false,
-            "closed": true,
+            "closed": false,
             "parent": null
         },
         {
@@ -670,36 +522,13 @@
             "edges": [
                 17
             ],
-            "f": 9,
-            "g": 1,
-            "h": 8,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": true,
-            "parent": {
-                "id": 17,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -18
-                },
-                "edges": [
-                    10,
-                    1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 19,
@@ -711,36 +540,13 @@
             "edges": [
                 17
             ],
-            "f": 21,
-            "g": 1,
-            "h": 20,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 17,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -18
-                },
-                "edges": [
-                    10,
-                    1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 20,
@@ -752,36 +558,13 @@
             "edges": [
                 17
             ],
-            "f": 53,
-            "g": 1,
-            "h": 52,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 17,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -18
-                },
-                "edges": [
-                    10,
-                    1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 21,
@@ -793,36 +576,13 @@
             "edges": [
                 17
             ],
-            "f": 41,
-            "g": 1,
-            "h": 40,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 17,
-                "pos": {
-                    "x": 0,
-                    "y": 0,
-                    "z": -18
-                },
-                "edges": [
-                    10,
-                    1,
-                    9,
-                    18,
-                    19,
-                    20,
-                    21
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 22,
@@ -841,13 +601,30 @@
                 29,
                 30
             ],
-            "f": 0,
-            "g": 0,
+            "f": 1,
+            "g": 1,
             "h": 0,
             "cost": 1,
-            "visited": false,
-            "closed": true,
-            "parent": null
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 25,
+                "pos": {
+                    "x": -30,
+                    "y": 0,
+                    "z": -6
+                },
+                "edges": [
+                    22
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 23,
@@ -859,37 +636,13 @@
             "edges": [
                 22
             ],
-            "f": 17,
-            "g": 1,
-            "h": 16,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 24,
@@ -901,37 +654,13 @@
             "edges": [
                 22
             ],
-            "f": 21,
-            "g": 1,
-            "h": 20,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 25,
@@ -943,37 +672,13 @@
             "edges": [
                 22
             ],
-            "f": 9,
-            "g": 1,
-            "h": 8,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 26,
@@ -985,37 +690,13 @@
             "edges": [
                 22
             ],
-            "f": 5,
-            "g": 1,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 27,
@@ -1027,37 +708,13 @@
             "edges": [
                 22
             ],
-            "f": 1,
-            "g": 1,
+            "f": 0,
+            "g": 0,
             "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 28,
@@ -1069,37 +726,13 @@
             "edges": [
                 22
             ],
-            "f": 5,
-            "g": 1,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 29,
@@ -1111,37 +744,13 @@
             "edges": [
                 22
             ],
-            "f": 9,
-            "g": 1,
-            "h": 8,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 30,
@@ -1153,37 +762,13 @@
             "edges": [
                 22
             ],
-            "f": 21,
-            "g": 1,
-            "h": 20,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 22,
-                "pos": {
-                    "x": -30,
-                    "y": 0,
-                    "z": -4
-                },
-                "edges": [
-                    23,
-                    24,
-                    25,
-                    26,
-                    27,
-                    28,
-                    29,
-                    30
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 31,
@@ -1199,51 +784,13 @@
                 35,
                 36
             ],
-            "f": 6,
-            "g": 2,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": true,
-            "parent": {
-                "id": 34,
-                "pos": {
-                    "x": -32,
-                    "y": 0,
-                    "z": -18
-                },
-                "edges": [
-                    31,
-                    32,
-                    38
-                ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 38,
-                    "pos": {
-                        "x": -32,
-                        "y": 0,
-                        "z": -20
-                    },
-                    "edges": [
-                        34,
-                        33,
-                        39
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 32,
@@ -1256,50 +803,33 @@
                 31,
                 34
             ],
-            "f": 10,
-            "g": 2,
-            "h": 8,
+            "f": 1,
+            "g": 1,
+            "h": 0,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 34,
+                "id": 31,
                 "pos": {
                     "x": -32,
                     "y": 0,
-                    "z": -18
+                    "z": -16
                 },
                 "edges": [
-                    31,
                     32,
-                    38
+                    33,
+                    34,
+                    35,
+                    36
                 ],
-                "f": 17,
-                "g": 1,
-                "h": 16,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 38,
-                    "pos": {
-                        "x": -32,
-                        "y": 0,
-                        "z": -20
-                    },
-                    "edges": [
-                        34,
-                        33,
-                        39
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -1313,23 +843,25 @@
                 31,
                 38
             ],
-            "f": 21,
+            "f": 5,
             "g": 1,
-            "h": 20,
+            "h": 4,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 38,
+                "id": 31,
                 "pos": {
                     "x": -32,
                     "y": 0,
-                    "z": -20
+                    "z": -16
                 },
                 "edges": [
-                    34,
+                    32,
                     33,
-                    39
+                    34,
+                    35,
+                    36
                 ],
                 "f": 0,
                 "g": 0,
@@ -1352,23 +884,25 @@
                 32,
                 38
             ],
-            "f": 17,
+            "f": 9,
             "g": 1,
-            "h": 16,
+            "h": 8,
             "cost": 1,
             "visited": true,
-            "closed": true,
+            "closed": false,
             "parent": {
-                "id": 38,
+                "id": 31,
                 "pos": {
                     "x": -32,
                     "y": 0,
-                    "z": -20
+                    "z": -16
                 },
                 "edges": [
-                    34,
+                    32,
                     33,
-                    39
+                    34,
+                    35,
+                    36
                 ],
                 "f": 0,
                 "g": 0,
@@ -1389,9 +923,9 @@
             "edges": [
                 31
             ],
-            "f": 3,
-            "g": 3,
-            "h": 0,
+            "f": 9,
+            "g": 1,
+            "h": 8,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -1409,51 +943,13 @@
                     35,
                     36
                 ],
-                "f": 6,
-                "g": 2,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 34,
-                    "pos": {
-                        "x": -32,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        31,
-                        32,
-                        38
-                    ],
-                    "f": 17,
-                    "g": 1,
-                    "h": 16,
-                    "cost": 1,
-                    "visited": true,
-                    "closed": true,
-                    "parent": {
-                        "id": 38,
-                        "pos": {
-                            "x": -32,
-                            "y": 0,
-                            "z": -20
-                        },
-                        "edges": [
-                            34,
-                            33,
-                            39
-                        ],
-                        "f": 0,
-                        "g": 0,
-                        "h": 0,
-                        "cost": 1,
-                        "visited": false,
-                        "closed": true,
-                        "parent": null
-                    }
-                }
+                "parent": null
             }
         },
         {
@@ -1466,8 +962,8 @@
             "edges": [
                 31
             ],
-            "f": 7,
-            "g": 3,
+            "f": 5,
+            "g": 1,
             "h": 4,
             "cost": 1,
             "visited": true,
@@ -1486,51 +982,13 @@
                     35,
                     36
                 ],
-                "f": 6,
-                "g": 2,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 34,
-                    "pos": {
-                        "x": -32,
-                        "y": 0,
-                        "z": -18
-                    },
-                    "edges": [
-                        31,
-                        32,
-                        38
-                    ],
-                    "f": 17,
-                    "g": 1,
-                    "h": 16,
-                    "cost": 1,
-                    "visited": true,
-                    "closed": true,
-                    "parent": {
-                        "id": 38,
-                        "pos": {
-                            "x": -32,
-                            "y": 0,
-                            "z": -20
-                        },
-                        "edges": [
-                            34,
-                            33,
-                            39
-                        ],
-                        "f": 0,
-                        "g": 0,
-                        "h": 0,
-                        "cost": 1,
-                        "visited": false,
-                        "closed": true,
-                        "parent": null
-                    }
-                }
+                "parent": null
             }
         },
         {
@@ -1550,7 +1008,7 @@
             "h": 0,
             "cost": 1,
             "visited": false,
-            "closed": true,
+            "closed": false,
             "parent": null
         },
         {
@@ -1564,32 +1022,13 @@
                 38,
                 41
             ],
-            "f": 69,
-            "g": 1,
-            "h": 68,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 38,
-                "pos": {
-                    "x": -32,
-                    "y": 0,
-                    "z": -20
-                },
-                "edges": [
-                    34,
-                    33,
-                    39
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 41,
@@ -1640,13 +1079,30 @@
                 47,
                 48
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": true,
-            "parent": null
+            "parent": {
+                "id": 45,
+                "pos": {
+                    "x": -18,
+                    "y": 0,
+                    "z": -20
+                },
+                "edges": [
+                    44
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 45,
@@ -1658,8 +1114,26 @@
             "edges": [
                 44
             ],
-            "f": 1,
-            "g": 1,
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": true,
+            "parent": null
+        },
+        {
+            "id": 46,
+            "pos": {
+                "x": -20,
+                "y": 0,
+                "z": -22
+            },
+            "edges": [
+                44
+            ],
+            "f": 2,
+            "g": 2,
             "h": 0,
             "cost": 1,
             "visited": true,
@@ -1677,27 +1151,99 @@
                     47,
                     48
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 45,
+                    "pos": {
+                        "x": -18,
+                        "y": 0,
+                        "z": -20
+                    },
+                    "edges": [
+                        44
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
-            "id": 46,
+            "id": 47,
             "pos": {
-                "x": -20,
+                "x": -22,
                 "y": 0,
                 "z": -22
             },
             "edges": [
                 44
             ],
-            "f": 9,
-            "g": 1,
+            "f": 6,
+            "g": 2,
+            "h": 4,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 44,
+                "pos": {
+                    "x": -20,
+                    "y": 0,
+                    "z": -20
+                },
+                "edges": [
+                    45,
+                    46,
+                    47,
+                    48
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 45,
+                    "pos": {
+                        "x": -18,
+                        "y": 0,
+                        "z": -20
+                    },
+                    "edges": [
+                        44
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
+        },
+        {
+            "id": 48,
+            "pos": {
+                "x": -22,
+                "y": 0,
+                "z": -20
+            },
+            "edges": [
+                44
+            ],
+            "f": 10,
+            "g": 2,
             "h": 8,
             "cost": 1,
             "visited": true,
@@ -1715,89 +1261,30 @@
                     47,
                     48
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
-            }
-        },
-        {
-            "id": 47,
-            "pos": {
-                "x": -22,
-                "y": 0,
-                "z": -22
-            },
-            "edges": [
-                44
-            ],
-            "f": 21,
-            "g": 1,
-            "h": 20,
-            "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 44,
-                "pos": {
-                    "x": -20,
-                    "y": 0,
-                    "z": -20
-                },
-                "edges": [
-                    45,
-                    46,
-                    47,
-                    48
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
-        },
-        {
-            "id": 48,
-            "pos": {
-                "x": -22,
-                "y": 0,
-                "z": -20
-            },
-            "edges": [
-                44
-            ],
-            "f": 17,
-            "g": 1,
-            "h": 16,
-            "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 44,
-                "pos": {
-                    "x": -20,
-                    "y": 0,
-                    "z": -20
-                },
-                "edges": [
-                    45,
-                    46,
-                    47,
-                    48
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 45,
+                    "pos": {
+                        "x": -18,
+                        "y": 0,
+                        "z": -20
+                    },
+                    "edges": [
+                        44
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
@@ -1830,13 +1317,52 @@
                 56,
                 58
             ],
-            "f": 0,
-            "g": 0,
+            "f": 2,
+            "g": 2,
             "h": 0,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 55,
+                "pos": {
+                    "x": -10,
+                    "y": 0,
+                    "z": -36
+                },
+                "edges": [
+                    54,
+                    56,
+                    63
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 63,
+                    "pos": {
+                        "x": -8,
+                        "y": 0,
+                        "z": -38
+                    },
+                    "edges": [
+                        60,
+                        55,
+                        65,
+                        66
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
         },
         {
             "id": 55,
@@ -1850,13 +1376,33 @@
                 56,
                 63
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
-            "closed": false,
-            "parent": null
+            "visited": true,
+            "closed": true,
+            "parent": {
+                "id": 63,
+                "pos": {
+                    "x": -8,
+                    "y": 0,
+                    "z": -38
+                },
+                "edges": [
+                    60,
+                    55,
+                    65,
+                    66
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 56,
@@ -1871,13 +1417,52 @@
                 60,
                 61
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 6,
+            "g": 2,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 55,
+                "pos": {
+                    "x": -10,
+                    "y": 0,
+                    "z": -36
+                },
+                "edges": [
+                    54,
+                    56,
+                    63
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 63,
+                    "pos": {
+                        "x": -8,
+                        "y": 0,
+                        "z": -38
+                    },
+                    "edges": [
+                        60,
+                        55,
+                        65,
+                        66
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
         },
         {
             "id": 58,
@@ -1910,13 +1495,33 @@
                 62,
                 63
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 21,
+            "g": 1,
+            "h": 20,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 63,
+                "pos": {
+                    "x": -8,
+                    "y": 0,
+                    "z": -38
+                },
+                "edges": [
+                    60,
+                    55,
+                    65,
+                    66
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 61,
@@ -1968,34 +1573,13 @@
                 65,
                 66
             ],
-            "f": 1,
-            "g": 1,
+            "f": 0,
+            "g": 0,
             "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 66,
-                "pos": {
-                    "x": -6,
-                    "y": 0,
-                    "z": -36
-                },
-                "edges": [
-                    63,
-                    65,
-                    67,
-                    68,
-                    69
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 64,
@@ -2018,25 +1602,24 @@
                 66,
                 67
             ],
-            "f": 5,
+            "f": 41,
             "g": 1,
-            "h": 4,
+            "h": 40,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 66,
+                "id": 63,
                 "pos": {
-                    "x": -6,
+                    "x": -8,
                     "y": 0,
-                    "z": -36
+                    "z": -38
                 },
                 "edges": [
-                    63,
+                    60,
+                    55,
                     65,
-                    67,
-                    68,
-                    69
+                    66
                 ],
                 "f": 0,
                 "g": 0,
@@ -2061,13 +1644,33 @@
                 68,
                 69
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 37,
+            "g": 1,
+            "h": 36,
             "cost": 1,
-            "visited": false,
-            "closed": true,
-            "parent": null
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 63,
+                "pos": {
+                    "x": -8,
+                    "y": 0,
+                    "z": -38
+                },
+                "edges": [
+                    60,
+                    55,
+                    65,
+                    66
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 67,
@@ -2083,34 +1686,13 @@
                 69,
                 70
             ],
-            "f": 21,
-            "g": 1,
-            "h": 20,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 66,
-                "pos": {
-                    "x": -6,
-                    "y": 0,
-                    "z": -36
-                },
-                "edges": [
-                    63,
-                    65,
-                    67,
-                    68,
-                    69
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 68,
@@ -2127,34 +1709,13 @@
                 72,
                 73
             ],
-            "f": 33,
-            "g": 1,
-            "h": 32,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 66,
-                "pos": {
-                    "x": -6,
-                    "y": 0,
-                    "z": -36
-                },
-                "edges": [
-                    63,
-                    65,
-                    67,
-                    68,
-                    69
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 69,
@@ -2167,34 +1728,13 @@
                 66,
                 67
             ],
-            "f": 17,
-            "g": 1,
-            "h": 16,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 66,
-                "pos": {
-                    "x": -6,
-                    "y": 0,
-                    "z": -36
-                },
-                "edges": [
-                    63,
-                    65,
-                    67,
-                    68,
-                    69
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 70,
@@ -2288,13 +1828,30 @@
                 79,
                 80
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": true,
-            "parent": null
+            "parent": {
+                "id": 79,
+                "pos": {
+                    "x": 6,
+                    "y": 0,
+                    "z": -32
+                },
+                "edges": [
+                    74
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 75,
@@ -2306,8 +1863,8 @@
             "edges": [
                 74
             ],
-            "f": 17,
-            "g": 1,
+            "f": 18,
+            "g": 2,
             "h": 16,
             "cost": 1,
             "visited": true,
@@ -2327,13 +1884,30 @@
                     79,
                     80
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 79,
+                    "pos": {
+                        "x": 6,
+                        "y": 0,
+                        "z": -32
+                    },
+                    "edges": [
+                        74
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
@@ -2346,8 +1920,8 @@
             "edges": [
                 74
             ],
-            "f": 21,
-            "g": 1,
+            "f": 22,
+            "g": 2,
             "h": 20,
             "cost": 1,
             "visited": true,
@@ -2367,13 +1941,30 @@
                     79,
                     80
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 79,
+                    "pos": {
+                        "x": 6,
+                        "y": 0,
+                        "z": -32
+                    },
+                    "edges": [
+                        74
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
@@ -2386,8 +1977,8 @@
             "edges": [
                 74
             ],
-            "f": 9,
-            "g": 1,
+            "f": 10,
+            "g": 2,
             "h": 8,
             "cost": 1,
             "visited": true,
@@ -2407,13 +1998,30 @@
                     79,
                     80
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 79,
+                    "pos": {
+                        "x": 6,
+                        "y": 0,
+                        "z": -32
+                    },
+                    "edges": [
+                        74
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
@@ -2426,8 +2034,8 @@
             "edges": [
                 74
             ],
-            "f": 1,
-            "g": 1,
+            "f": 2,
+            "g": 2,
             "h": 0,
             "cost": 1,
             "visited": true,
@@ -2447,13 +2055,30 @@
                     79,
                     80
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 79,
+                    "pos": {
+                        "x": 6,
+                        "y": 0,
+                        "z": -32
+                    },
+                    "edges": [
+                        74
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
@@ -2466,35 +2091,13 @@
             "edges": [
                 74
             ],
-            "f": 5,
-            "g": 1,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 74,
-                "pos": {
-                    "x": 8,
-                    "y": 0,
-                    "z": -34
-                },
-                "edges": [
-                    75,
-                    76,
-                    77,
-                    78,
-                    79,
-                    80
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 80,
@@ -2506,8 +2109,8 @@
             "edges": [
                 74
             ],
-            "f": 9,
-            "g": 1,
+            "f": 10,
+            "g": 2,
             "h": 8,
             "cost": 1,
             "visited": true,
@@ -2527,13 +2130,30 @@
                     79,
                     80
                 ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
+                "f": 5,
+                "g": 1,
+                "h": 4,
                 "cost": 1,
-                "visited": false,
+                "visited": true,
                 "closed": true,
-                "parent": null
+                "parent": {
+                    "id": 79,
+                    "pos": {
+                        "x": 6,
+                        "y": 0,
+                        "z": -32
+                    },
+                    "edges": [
+                        74
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
             }
         },
         {
@@ -2679,9 +2299,9 @@
             "edges": [
                 92
             ],
-            "f": 9,
+            "f": 33,
             "g": 1,
-            "h": 8,
+            "h": 32,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -2763,9 +2383,9 @@
                 97,
                 96
             ],
-            "f": 17,
+            "f": 9,
             "g": 1,
-            "h": 16,
+            "h": 8,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -2810,12 +2430,12 @@
                 105,
                 100
             ],
-            "f": 21,
+            "f": 5,
             "g": 1,
-            "h": 20,
+            "h": 4,
             "cost": 1,
             "visited": true,
-            "closed": false,
+            "closed": true,
             "parent": {
                 "id": 92,
                 "pos": {
@@ -2857,9 +2477,9 @@
                 101,
                 102
             ],
-            "f": 9,
+            "f": 17,
             "g": 1,
-            "h": 8,
+            "h": 16,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -2899,9 +2519,9 @@
                 92,
                 97
             ],
-            "f": 1,
+            "f": 41,
             "g": 1,
-            "h": 0,
+            "h": 40,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -2940,9 +2560,9 @@
             "edges": [
                 92
             ],
-            "f": 5,
+            "f": 53,
             "g": 1,
-            "h": 4,
+            "h": 52,
             "cost": 1,
             "visited": true,
             "closed": false,
@@ -2982,13 +2602,59 @@
                 97,
                 96
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 10,
+            "g": 2,
+            "h": 8,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 96,
+                "pos": {
+                    "x": 8,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    92,
+                    97,
+                    95,
+                    103,
+                    104,
+                    105,
+                    100
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 92,
+                    "pos": {
+                        "x": 10,
+                        "y": 0,
+                        "z": -52
+                    },
+                    "edges": [
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
         },
         {
             "id": 101,
@@ -3036,13 +2702,59 @@
             "edges": [
                 96
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 6,
+            "g": 2,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 96,
+                "pos": {
+                    "x": 8,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    92,
+                    97,
+                    95,
+                    103,
+                    104,
+                    105,
+                    100
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 92,
+                    "pos": {
+                        "x": 10,
+                        "y": 0,
+                        "z": -52
+                    },
+                    "edges": [
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
         },
         {
             "id": 104,
@@ -3054,13 +2766,59 @@
             "edges": [
                 96
             ],
-            "f": 0,
-            "g": 0,
+            "f": 2,
+            "g": 2,
             "h": 0,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 96,
+                "pos": {
+                    "x": 8,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    92,
+                    97,
+                    95,
+                    103,
+                    104,
+                    105,
+                    100
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 92,
+                    "pos": {
+                        "x": 10,
+                        "y": 0,
+                        "z": -52
+                    },
+                    "edges": [
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
         },
         {
             "id": 105,
@@ -3072,13 +2830,59 @@
             "edges": [
                 96
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 6,
+            "g": 2,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 96,
+                "pos": {
+                    "x": 8,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    92,
+                    97,
+                    95,
+                    103,
+                    104,
+                    105,
+                    100
+                ],
+                "f": 5,
+                "g": 1,
+                "h": 4,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 92,
+                    "pos": {
+                        "x": 10,
+                        "y": 0,
+                        "z": -52
+                    },
+                    "edges": [
+                        93,
+                        94,
+                        95,
+                        96,
+                        97,
+                        98,
+                        99
+                    ],
+                    "f": 0,
+                    "g": 0,
+                    "h": 0,
+                    "cost": 1,
+                    "visited": false,
+                    "closed": true,
+                    "parent": null
+                }
+            }
         },
         {
             "id": 123,
@@ -3090,13 +2894,79 @@
             "edges": [
                 121
             ],
-            "f": 0,
-            "g": 0,
+            "f": 3,
+            "g": 3,
             "h": 0,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 121,
+                "pos": {
+                    "x": 14,
+                    "y": 0,
+                    "z": -58
+                },
+                "edges": [
+                    114,
+                    115,
+                    119,
+                    120,
+                    123,
+                    124,
+                    125
+                ],
+                "f": 10,
+                "g": 2,
+                "h": 8,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 119,
+                    "pos": {
+                        "x": 12,
+                        "y": 0,
+                        "z": -60
+                    },
+                    "edges": [
+                        112,
+                        114,
+                        121
+                    ],
+                    "f": 17,
+                    "g": 1,
+                    "h": 16,
+                    "cost": 1,
+                    "visited": true,
+                    "closed": true,
+                    "parent": {
+                        "id": 112,
+                        "pos": {
+                            "x": 14,
+                            "y": 0,
+                            "z": -62
+                        },
+                        "edges": [
+                            106,
+                            113,
+                            111,
+                            117,
+                            118,
+                            119,
+                            114,
+                            115
+                        ],
+                        "f": 0,
+                        "g": 0,
+                        "h": 0,
+                        "cost": 1,
+                        "visited": false,
+                        "closed": true,
+                        "parent": null
+                    }
+                }
+            }
         },
         {
             "id": 124,
@@ -3108,13 +2978,79 @@
             "edges": [
                 121
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 7,
+            "g": 3,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 121,
+                "pos": {
+                    "x": 14,
+                    "y": 0,
+                    "z": -58
+                },
+                "edges": [
+                    114,
+                    115,
+                    119,
+                    120,
+                    123,
+                    124,
+                    125
+                ],
+                "f": 10,
+                "g": 2,
+                "h": 8,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 119,
+                    "pos": {
+                        "x": 12,
+                        "y": 0,
+                        "z": -60
+                    },
+                    "edges": [
+                        112,
+                        114,
+                        121
+                    ],
+                    "f": 17,
+                    "g": 1,
+                    "h": 16,
+                    "cost": 1,
+                    "visited": true,
+                    "closed": true,
+                    "parent": {
+                        "id": 112,
+                        "pos": {
+                            "x": 14,
+                            "y": 0,
+                            "z": -62
+                        },
+                        "edges": [
+                            106,
+                            113,
+                            111,
+                            117,
+                            118,
+                            119,
+                            114,
+                            115
+                        ],
+                        "f": 0,
+                        "g": 0,
+                        "h": 0,
+                        "cost": 1,
+                        "visited": false,
+                        "closed": true,
+                        "parent": null
+                    }
+                }
+            }
         },
         {
             "id": 125,
@@ -3126,13 +3062,79 @@
             "edges": [
                 121
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 19,
+            "g": 3,
+            "h": 16,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 121,
+                "pos": {
+                    "x": 14,
+                    "y": 0,
+                    "z": -58
+                },
+                "edges": [
+                    114,
+                    115,
+                    119,
+                    120,
+                    123,
+                    124,
+                    125
+                ],
+                "f": 10,
+                "g": 2,
+                "h": 8,
+                "cost": 1,
+                "visited": true,
+                "closed": true,
+                "parent": {
+                    "id": 119,
+                    "pos": {
+                        "x": 12,
+                        "y": 0,
+                        "z": -60
+                    },
+                    "edges": [
+                        112,
+                        114,
+                        121
+                    ],
+                    "f": 17,
+                    "g": 1,
+                    "h": 16,
+                    "cost": 1,
+                    "visited": true,
+                    "closed": true,
+                    "parent": {
+                        "id": 112,
+                        "pos": {
+                            "x": 14,
+                            "y": 0,
+                            "z": -62
+                        },
+                        "edges": [
+                            106,
+                            113,
+                            111,
+                            117,
+                            118,
+                            119,
+                            114,
+                            115
+                        ],
+                        "f": 0,
+                        "g": 0,
+                        "h": 0,
+                        "cost": 1,
+                        "visited": false,
+                        "closed": true,
+                        "parent": null
+                    }
+                }
+            }
         },
         {
             "id": 126,
@@ -3151,23 +3153,28 @@
                 133,
                 134
             ],
-            "f": 5,
+            "f": 17,
             "g": 1,
-            "h": 4,
+            "h": 16,
             "cost": 1,
             "visited": true,
-            "closed": true,
+            "closed": false,
             "parent": {
-                "id": 132,
+                "id": 131,
                 "pos": {
                     "x": 26,
                     "y": 0,
-                    "z": -52
+                    "z": -54
                 },
                 "edges": [
                     126,
-                    131,
-                    136
+                    129,
+                    130,
+                    132,
+                    133,
+                    135,
+                    136,
+                    137
                 ],
                 "f": 0,
                 "g": 0,
@@ -3189,56 +3196,13 @@
                 126,
                 129
             ],
-            "f": 10,
-            "g": 2,
-            "h": 8,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 126,
-                "pos": {
-                    "x": 28,
-                    "y": 0,
-                    "z": -54
-                },
-                "edges": [
-                    127,
-                    128,
-                    129,
-                    130,
-                    131,
-                    132,
-                    133,
-                    134
-                ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 132,
-                    "pos": {
-                        "x": 26,
-                        "y": 0,
-                        "z": -52
-                    },
-                    "edges": [
-                        126,
-                        131,
-                        136
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 128,
@@ -3251,56 +3215,13 @@
                 126,
                 129
             ],
-            "f": 22.1024,
-            "g": 2,
-            "h": 20.1024,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 126,
-                "pos": {
-                    "x": 28,
-                    "y": 0,
-                    "z": -54
-                },
-                "edges": [
-                    127,
-                    128,
-                    129,
-                    130,
-                    131,
-                    132,
-                    133,
-                    134
-                ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 132,
-                    "pos": {
-                        "x": 26,
-                        "y": 0,
-                        "z": -52
-                    },
-                    "edges": [
-                        126,
-                        131,
-                        136
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 129,
@@ -3318,55 +3239,36 @@
                 142,
                 127
             ],
-            "f": 18,
-            "g": 2,
-            "h": 16,
+            "f": 21,
+            "g": 1,
+            "h": 20,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 126,
+                "id": 131,
                 "pos": {
-                    "x": 28,
+                    "x": 26,
                     "y": 0,
                     "z": -54
                 },
                 "edges": [
-                    127,
-                    128,
+                    126,
                     129,
                     130,
-                    131,
                     132,
                     133,
-                    134
+                    135,
+                    136,
+                    137
                 ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 132,
-                    "pos": {
-                        "x": 26,
-                        "y": 0,
-                        "z": -52
-                    },
-                    "edges": [
-                        126,
-                        131,
-                        136
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -3386,55 +3288,36 @@
                 142,
                 143
             ],
-            "f": 22,
-            "g": 2,
-            "h": 20,
+            "f": 9,
+            "g": 1,
+            "h": 8,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 126,
+                "id": 131,
                 "pos": {
-                    "x": 28,
+                    "x": 26,
                     "y": 0,
                     "z": -54
                 },
                 "edges": [
-                    127,
-                    128,
+                    126,
                     129,
                     130,
-                    131,
                     132,
                     133,
-                    134
+                    135,
+                    136,
+                    137
                 ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 132,
-                    "pos": {
-                        "x": 26,
-                        "y": 0,
-                        "z": -52
-                    },
-                    "edges": [
-                        126,
-                        131,
-                        136
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -3454,32 +3337,13 @@
                 136,
                 137
             ],
-            "f": 9,
-            "g": 1,
-            "h": 8,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 132,
-                "pos": {
-                    "x": 26,
-                    "y": 0,
-                    "z": -52
-                },
-                "edges": [
-                    126,
-                    131,
-                    136
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 132,
@@ -3493,13 +3357,37 @@
                 131,
                 136
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 9,
+            "g": 1,
+            "h": 8,
             "cost": 1,
-            "visited": false,
-            "closed": true,
-            "parent": null
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 131,
+                "pos": {
+                    "x": 26,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    126,
+                    129,
+                    130,
+                    132,
+                    133,
+                    135,
+                    136,
+                    137
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 133,
@@ -3512,55 +3400,36 @@
                 126,
                 131
             ],
-            "f": 2,
-            "g": 2,
-            "h": 0,
+            "f": 21,
+            "g": 1,
+            "h": 20,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 126,
+                "id": 131,
                 "pos": {
-                    "x": 28,
+                    "x": 26,
                     "y": 0,
                     "z": -54
                 },
                 "edges": [
-                    127,
-                    128,
+                    126,
                     129,
                     130,
-                    131,
                     132,
                     133,
-                    134
+                    135,
+                    136,
+                    137
                 ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 132,
-                    "pos": {
-                        "x": 26,
-                        "y": 0,
-                        "z": -52
-                    },
-                    "edges": [
-                        126,
-                        131,
-                        136
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -3573,56 +3442,13 @@
             "edges": [
                 126
             ],
-            "f": 6,
-            "g": 2,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 126,
-                "pos": {
-                    "x": 28,
-                    "y": 0,
-                    "z": -54
-                },
-                "edges": [
-                    127,
-                    128,
-                    129,
-                    130,
-                    131,
-                    132,
-                    133,
-                    134
-                ],
-                "f": 5,
-                "g": 1,
-                "h": 4,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 132,
-                    "pos": {
-                        "x": 26,
-                        "y": 0,
-                        "z": -52
-                    },
-                    "edges": [
-                        126,
-                        131,
-                        136
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 135,
@@ -3636,13 +3462,37 @@
                 136,
                 130
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 131,
+                "pos": {
+                    "x": 26,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    126,
+                    129,
+                    130,
+                    132,
+                    133,
+                    135,
+                    136,
+                    137
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 136,
@@ -3661,23 +3511,28 @@
                 139,
                 140
             ],
-            "f": 21,
+            "f": 1,
             "g": 1,
-            "h": 20,
+            "h": 0,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 132,
+                "id": 131,
                 "pos": {
                     "x": 26,
                     "y": 0,
-                    "z": -52
+                    "z": -54
                 },
                 "edges": [
                     126,
-                    131,
-                    136
+                    129,
+                    130,
+                    132,
+                    133,
+                    135,
+                    136,
+                    137
                 ],
                 "f": 0,
                 "g": 0,
@@ -3699,13 +3554,37 @@
                 131,
                 136
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 5,
+            "g": 1,
+            "h": 4,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 131,
+                "pos": {
+                    "x": 26,
+                    "y": 0,
+                    "z": -54
+                },
+                "edges": [
+                    126,
+                    129,
+                    130,
+                    132,
+                    133,
+                    135,
+                    136,
+                    137
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 138,
