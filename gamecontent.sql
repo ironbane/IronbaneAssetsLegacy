@@ -213,7 +213,7 @@ CREATE TABLE `ib_items` (
   `value` int(10) unsigned NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=26103 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=26148 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_items` WRITE;
@@ -235,7 +235,7 @@ INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, 
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (6797,46,4,87,0,1,20,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (6796,33,5,87,1,0,10,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (6795,78,5,87,0,3,1000,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26102,97,4,70,0,8,15,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26147,97,4,70,0,8,15,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17448,91,8,60,0,1,19,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17447,46,4,60,1,0,20,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17446,78,5,60,0,2,300,'{}');
@@ -250,12 +250,12 @@ INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, 
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (13882,80,6,13,1,2,28,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17514,83,12,50,1,3,24,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (16498,92,4,119,1,1,10,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26101,99,7,70,0,9,15,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26100,94,1,70,0,1,5,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26146,99,7,70,0,9,15,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26145,94,1,70,0,1,5,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18870,66,15,67,1,1,30,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18869,86,0,67,0,9,1,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (10685,1,1,98,1,0,0,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26099,66,15,70,1,0,30,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26144,66,15,70,1,0,30,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17047,31,1,36,0,2,2,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17046,78,5,36,0,0,100,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18868,78,5,67,0,0,300,'{}');
@@ -273,15 +273,15 @@ INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, 
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17513,35,7,50,1,2,28,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17512,81,6,50,1,1,14,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17511,64,2,50,0,0,4,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26098,92,4,70,1,5,10,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26143,92,4,70,1,5,10,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (13878,79,7,13,1,4,12,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (18446,78,5,20,0,0,100,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (13877,70,7,13,1,1,20,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (10684,1,1,100,1,0,0,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26097,78,5,70,0,4,100,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26096,22,3,70,0,3,8,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26095,98,6,70,0,7,15,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26094,94,1,70,0,2,5,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26142,78,5,70,0,4,100,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26141,22,3,70,0,3,8,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26140,98,6,70,0,7,15,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (26139,94,1,70,0,2,5,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (19415,10,4,81,1,0,50,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (19414,79,7,81,1,1,12,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17358,1,1,124,1,0,0,'{}');
