@@ -1,9 +1,9 @@
 
 actorScripts["Rat Boss"] = MonsterState.extend({
-    Init: function() {
+    init: function() {
         this._super();
     },
-    HandleMessage: function(unit, message, data) {
+    handleMessage: function(unit, message, data) {
         switch(message) {
             case "attacked":
                 unit.Say("<Squeak!>");

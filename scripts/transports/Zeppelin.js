@@ -1,6 +1,6 @@
 
 actorScripts["Zeppelin"] = State.extend({
-	Init: function() {
+	init: function() {
 
 		this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
 			[1030,1031,1032,1033,1037,1038,1039,1040,1044,1045,1046]
@@ -11,7 +11,7 @@ actorScripts["Zeppelin"] = State.extend({
 		this.normalSpeed = 8;
 
 	},
-	Enter: function(unit) {
+	enter: function(unit) {
 
 		unit.mass = 3;
 
@@ -19,19 +19,19 @@ actorScripts["Zeppelin"] = State.extend({
 
 		unit.position.copy(this.waypoints[0].pos);
 
-		unit.stateMachine.ChangeState(new Patrol(this.waypoints));
+		unit.stateMachine.changeState(new Patrol(this.waypoints));
 
 	},
-	Execute: function(unit, dTime) {
+	execute: function(unit, dTime) {
 
-
-
-	},
-	Exit: function(unit) {
 
 
 	},
-    HandleMessage: function(unit, message, data) {
+	exit: function(unit) {
+
+
+	},
+    handleMessage: function(unit, message, data) {
 		switch(message) {
 			case "changeWaypoint":
 				var seek = true;
@@ -59,7 +59,7 @@ actorScripts["Zeppelin"] = State.extend({
 					unit.maxSpeed = this.normalSpeed;
 				}
 
-				unit.stateMachine.ChangeState(new Patrol(this.waypoints, {
+				unit.stateMachine.changeState(new Patrol(this.waypoints, {
 					seek: seek,
 					pause: pause,
 					firstWaypoint: data.id
@@ -73,10 +73,10 @@ actorScripts["Zeppelin"] = State.extend({
 });
 
 actorScripts["ZeppelinB"] = actorScripts["Zeppelin"].extend({
-	Init: function() {
+	init: function() {
 		this._super();
 	},
-	Enter: function(unit) {
+	enter: function(unit) {
 
 		unit.mass = 3;
 
@@ -84,7 +84,7 @@ actorScripts["ZeppelinB"] = actorScripts["Zeppelin"].extend({
 
 		unit.position.copy(this.waypoints[7].pos);
 
-		unit.stateMachine.ChangeState(new Patrol(this.waypoints, {
+		unit.stateMachine.changeState(new Patrol(this.waypoints, {
 			firstWaypoint: 1040
 		}));
 

@@ -4,7 +4,7 @@
 // Not hostile to the player
 
 actorScripts["Civilian"] = MonsterState.extend({
-    Init: function() {
+    init: function() {
 
         this._super();
 
@@ -15,7 +15,7 @@ actorScripts["Civilian"] = MonsterState.extend({
         this.wanderConfig = {};
 
     },
-    Enter: function(unit) {
+    enter: function(unit) {
 
         unit.maxSpeed = getRandomFloat(2,4);
 
@@ -43,17 +43,17 @@ actorScripts["Civilian"] = MonsterState.extend({
         this._super(unit);
 
     },
-    Execute: function(unit, dTime) {
+    execute: function(unit, dTime) {
 
     },
-    HandleMessage: function(unit, message, data) {
+    handleMessage: function(unit, message, data) {
 
         switch (message) {
             case "attacked":
 
                 unit.maxSpeed = 4;
 
-                unit.stateMachine.ChangeState(
+                unit.stateMachine.changeState(
                     new FleeEnemy(data.attacker, this.waypointList));
 
                 break;
@@ -61,7 +61,7 @@ actorScripts["Civilian"] = MonsterState.extend({
                 // We lost the enemy or gave  up
 
                 // Go back to wandering
-                unit.stateMachine.ChangeState(new Wander(this.waypointList));
+                unit.stateMachine.changeState(new Wander(this.waypointList));
 
                 unit.maxSpeed = this.normalSpeed;
 
