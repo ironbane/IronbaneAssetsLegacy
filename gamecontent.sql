@@ -94,7 +94,7 @@ CREATE TABLE `ib_item_templates` (
   `charimage` smallint(4) unsigned NOT NULL DEFAULT '0' COMMENT 'UNUSED',
   `basevalue` int(11) NOT NULL DEFAULT '0' COMMENT 'base value for price before any modifiers.',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=115 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=116 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_item_templates` WRITE;
@@ -165,7 +165,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (67,'Wings',5,'armor','body',2,1.00,'',0,12);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (68,'Shadowknight Sword',33,'weapon','sword',8,1.00,'',0,16);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (69,'Dragon Boots',13,'armor','feet',8,1.00,'',0,36);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (70,'Mithril Boots',15,'armor','feet',7,1.00,'',0,20);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (70,'Mithril Boots',15,'armor','feet',4,1.00,'',0,20);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (71,'Cheese',130,'consumable','restorative',5,1.00,'HEALSPARKS',0,2);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (72,'Nobleman Sword',35,'weapon','sword',6,0.50,'',0,6);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (73,'Spellbook',132,'weapon','staff',5,1.00,'FIREBALL',0,10);
@@ -174,7 +174,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (76,'Red Crystal',135,'tool','',4,1.00,'',0,8);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (77,'Red Crystal Lode',136,'tool','',6,1.00,'',0,12);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (78,'Moneybag',137,'cash','',5,1.00,'',0,10);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (79,'Mithril Helmet',17,'armor','head',7,1.00,'',0,12);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (79,'Mithril Helmet',17,'armor','head',5,1.00,'',0,12);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (80,'Mithril Armor',16,'armor','body',6,1.00,'',0,28);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (81,'Blackthorn Helmet',21,'armor','head',6,1.00,'',0,14);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (82,'Blackthorn Armor',19,'armor','body',8,1.00,'',0,32);
@@ -210,6 +210,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (112,'Spectator',81,'armor','body',9,1.00,'',0,36);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (113,'Quick Hat',93,'armor','head',6,1.00,'',0,20);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (114,'AI: Acid Zombie Attack',0,'weapon','staff',12,2.00,'ACIDBALL',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (115,'Winters Mantle',94,'armor','body',8,1.00,'',0,32);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_items`;
