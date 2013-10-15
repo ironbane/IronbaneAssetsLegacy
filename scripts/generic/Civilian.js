@@ -1,71 +1,62 @@
-
-
 // A civilian NPC that wanders around and has a random appearance
 // Not hostile to the player
 
-actorScripts["Civilian"] = MonsterState.extend({
+var MonsterState = require(global.APP_ROOT_PATH + '/src/server/game/ai/states/monster'),
+    FleeEnemy = require(global.APP_ROOT_PATH + '/src/server/game/ai/states/fleeEnemy'),
+    Wander = require(global.APP_ROOT_PATH + '/src/server/game/ai/states/wander'),
+    Constants = require(global.APP_ROOT_PATH + '/src/common/constants'),
+    // hack! how to avoid this?
+    _ = require(global.APP_ROOT_PATH + '/node_modules/underscore');
+
+var Civilian = MonsterState.extend({
     init: function() {
-
         this._super();
-
-        this.isMale = getRandomInt(0,1) ? true : false;
-
+        this.isMale = _.sample([false, true]);
         this.wanderRange = 20;
-
         this.wanderConfig = {};
-
     },
     enter: function(unit) {
+        unit.maxSpeed = _.random(2, 4);
 
-        unit.maxSpeed = getRandomFloat(2,4);
-
-        if ( this.isMale) {
-            unit.skin = getRandomInt(skinIdMaleStart, skinIdMaleEnd);
-            unit.hair = getRandomInt(hairIdMaleStart, hairIdMaleEnd);
-            unit.eyes = getRandomInt(eyesIdMaleStart, eyesIdMaleEnd);
-        }
-        else {
-            unit.skin = getRandomInt(skinIdFemaleStart, skinIdFemaleEnd);
-            unit.hair = getRandomInt(hairIdFemaleStart, hairIdFemaleEnd);
-            unit.eyes = getRandomInt(eyesIdFemaleStart, eyesIdFemaleEnd);
+        if (this.isMale) {
+            unit.skin = _.random(Constants.skinIdMaleStart, Constants.skinIdMaleEnd);
+            unit.hair = _.random(Constants.hairIdMaleStart, Constants.hairIdMaleEnd);
+            unit.eyes = _.random(Constants.eyesIdMaleStart, Constants.eyesIdMaleEnd);
+        } else {
+            unit.skin = _.random(Constants.skinIdFemaleStart, Constants.skinIdFemaleEnd);
+            unit.hair = _.random(Constants.hairIdFemaleStart, Constants.hairIdFemaleEnd);
+            unit.eyes = _.random(Constants.eyesIdFemaleStart, Constants.eyesIdFemaleEnd);
         }
 
-        unit.body = ChooseRandom([0,1,2,3,4,16,19,23,81,82,83,94]);
-        unit.feet = ChooseRandom([0,1,2,13,15,20,24,84,85]);
+        unit.body = _.sample([0, 1, 2, 3, 4, 16, 19, 23, 81, 82, 83, 94]);
+        unit.feet = _.sample([0, 1, 2, 13, 15, 20, 24, 84, 85]);
 
-        if ( getRandomInt(0,1) ) {
-            unit.head = ChooseRandom([1,2,3,4,5,6,7,8,9,12,17,22,86,87,89,93]);
-        }
-        else {
+        if (_.sample([false, true])) {
+            unit.head = _.sample([1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 17, 22, 86, 87, 89, 93]);
+        } else {
             unit.head = 0;
         }
 
         this._super(unit);
-
-    },
-    execute: function(unit, dTime) {
-
     },
     handleMessage: function(unit, message, data) {
-
         switch (message) {
             case "attacked":
-
                 unit.maxSpeed = 4;
 
-                unit.stateMachine.changeState(
-                    new FleeEnemy(data.attacker, this.waypointList));
-
+                unit.stateMachine.changeState(new FleeEnemy(data.attacker, this.waypointList));
                 break;
             case "stopFlee":
                 // We lost the enemy or gave  up
 
                 // Go back to wandering
                 unit.stateMachine.changeState(new Wander(this.waypointList));
-
                 unit.maxSpeed = this.normalSpeed;
-
                 break;
         }
     }
 });
+
+module.exports = {
+    "Civilian": Civilian
+};
