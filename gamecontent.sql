@@ -228,7 +228,7 @@ CREATE TABLE `ib_items` (
   `value` int(10) unsigned NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=33304 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=33324 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_items` WRITE;
@@ -273,10 +273,10 @@ INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, 
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (29029,23,10,36,1,1,24,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (29028,78,5,36,0,0,100,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (30452,78,5,70,0,9,16,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33303,72,6,52,1,3,6,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33302,80,6,52,1,1,28,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33301,49,10,52,1,0,40,'{}');
-INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33300,70,7,52,1,2,20,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33323,72,6,52,1,3,6,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33322,80,6,52,1,1,28,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33321,49,10,52,1,0,40,'{}');
+INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (33320,70,7,52,1,2,20,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (30451,115,6,70,1,3,32,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (17443,79,7,60,1,9,12,'{}');
 INSERT INTO `ib_items` (`id`, `template`, `attr1`, `owner`, `equipped`, `slot`, `value`, `data`) VALUES (30450,117,6,70,0,1,32,'{}');
