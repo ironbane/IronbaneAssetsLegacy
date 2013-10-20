@@ -9,12 +9,12 @@
         "colors": 0,
         "uvs": 681,
         "materials": 2,
-        "md5": "6e1aa87e05e3c9fcb44a0e84bb6d8650"
+        "md5": "bad5b28f31658c58e4a60e5493d08a42"
     },
     "scale": 0.003333,
     "materials": [
         {
-            "mapDiffuse": "93.png"
+            "mapDiffuse": "9.png"
         },
         {
             "mapDiffuse": "35.png"

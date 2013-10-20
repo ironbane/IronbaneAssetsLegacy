@@ -1,5 +1,5 @@
-# Blender MTL File: 'worldbackup.blend'
-# Material Count: 19
+# Blender MTL File: 'crazyironbaneworld.blend'
+# Material Count: 11
 
 newmtl None
 Ns 0.000000
@@ -29,57 +29,27 @@ Ks 0.800000 0.800000 0.800000
 Ni 1.000000
 d 1.000000
 illum 2
+map_Kd C:\tiles\99.png
+
+newmtl None.002_11.png.001
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\tiles\11.png
+
+newmtl None.002_17.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
 map_Kd C:\tiles\17.png
-
-newmtl None.003
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\92.png
-
-newmtl None.003_15.png
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\15.png
-
-newmtl None.003_35.png.001
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\35.png
-
-newmtl None.003_48.png
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.640000 0.640000 0.640000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\48.png
-
-newmtl None_1.png
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.262144 0.262144 0.262144
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\1.png
 
 newmtl None_11.png.001
 Ns 0.000000
@@ -90,25 +60,6 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd C:\tiles\11.png
-
-newmtl None_15.png
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.262144 0.262144 0.262144
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\15.png
-
-newmtl None_31.png
-Ns 0
-Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
-illum 2
-map_Kd C:\tiles\31.png
 
 newmtl None_34.png.001
 Ns 0.000000
@@ -121,23 +72,13 @@ illum 2
 map_Kd C:\tiles\34.png
 
 newmtl None_35.png.001
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.262144 0.262144 0.262144
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\35.png
-
-newmtl None_38.png.001
 Ns 0
 Ka 0.000000 0.000000 0.000000
 Kd 0.8 0.8 0.8
 Ks 0.8 0.8 0.8
 d 1
 illum 2
-map_Kd C:\tiles\38.png
+map_Kd C:\tiles\35.png
 
 newmtl None_47.png.002
 Ns 0
@@ -157,16 +98,6 @@ d 1
 illum 2
 map_Kd C:\tiles\49.png
 
-newmtl None_51.png
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.262144 0.262144 0.262144
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
-map_Kd C:\tiles\51.png
-
 newmtl None_8.png
 Ns 0.000000
 Ka 0.000000 0.000000 0.000000
@@ -176,12 +107,3 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd C:\tiles\8.png
-
-newmtl None_NONE
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.262144 0.262144 0.262144
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
