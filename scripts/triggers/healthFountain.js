@@ -1,4 +1,3 @@
-// healthFountain - script for health regen "spots"
 var healing = {
     onEnter: function(unit) {
         if(unit.id > 0) { // players only
@@ -18,11 +17,11 @@ var healing = {
 
 var poison = {
     onEnter: function(unit) {
-        unit.Say('ouch!');
+        unit.Say("Ouch! That's poison!");
         unit.SetHealth(unit.health - 1);
     },
     onExit: function(unit) {
-        //unit.Say('left poison thing');
+        unit.Say("Oh, that feels better.");
     },
     onTick: function(unit) {
         unit.SetHealth(unit.health - 1);
