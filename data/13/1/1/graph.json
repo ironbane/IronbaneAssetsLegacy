@@ -11,36 +11,13 @@
                 1823,
                 1826
             ],
-            "f": 81,
-            "g": 1,
-            "h": 80,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1826,
-                "pos": {
-                    "x": 52,
-                    "y": 1.45,
-                    "z": 160
-                },
-                "edges": [
-                    1824,
-                    1823,
-                    1829,
-                    1827,
-                    1828,
-                    1830,
-                    1831
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1829,
@@ -54,36 +31,13 @@
                 1826,
                 1830
             ],
-            "f": 65,
-            "g": 1,
-            "h": 64,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1826,
-                "pos": {
-                    "x": 52,
-                    "y": 1.45,
-                    "z": 160
-                },
-                "edges": [
-                    1824,
-                    1823,
-                    1829,
-                    1827,
-                    1828,
-                    1830,
-                    1831
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1846,
@@ -1232,7 +1186,14 @@
                 1952,
                 1957,
                 1958
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 1954,
@@ -1247,7 +1208,14 @@
                 1953,
                 1955,
                 1956
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 1955,
@@ -1261,7 +1229,14 @@
                 1954,
                 1956,
                 1959
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 1958,
@@ -1273,7 +1248,14 @@
             "edges": [
                 1953,
                 1952
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         }
     ]
 }
