@@ -22,7 +22,7 @@
             "h": 0,
             "cost": 1,
             "visited": false,
-            "closed": true,
+            "closed": false,
             "parent": null
         },
         {
@@ -40,37 +40,13 @@
                 1982,
                 1984
             ],
-            "f": 149,
-            "g": 1,
-            "h": 148,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1962,
@@ -89,37 +65,13 @@
                 1978,
                 1979
             ],
-            "f": 21,
-            "g": 1,
-            "h": 20,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": true,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 1963,
@@ -135,37 +87,13 @@
                 1967,
                 1968
             ],
-            "f": 53,
-            "g": 1,
-            "h": 52,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1964,
@@ -181,37 +109,13 @@
                 1962,
                 1963
             ],
-            "f": 101,
-            "g": 1,
-            "h": 100,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1965,
@@ -225,37 +129,13 @@
                 1961,
                 1964
             ],
-            "f": 181,
-            "g": 1,
-            "h": 180,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1967,
@@ -274,60 +154,33 @@
                 1973,
                 1976
             ],
-            "f": 6,
-            "g": 2,
+            "f": 5,
+            "g": 1,
             "h": 4,
             "cost": 1,
             "visited": true,
-            "closed": true,
+            "closed": false,
             "parent": {
-                "id": 1962,
+                "id": 1972,
                 "pos": {
-                    "x": 156,
+                    "x": 150,
                     "y": 18.64,
-                    "z": 40
+                    "z": 38
                 },
                 "edges": [
-                    1960,
-                    1964,
-                    1963,
-                    1968,
+                    1969,
                     1967,
-                    1976,
-                    1978,
-                    1979
+                    1973,
+                    1974,
+                    1975
                 ],
-                "f": 21,
-                "g": 1,
-                "h": 20,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 1960,
-                    "pos": {
-                        "x": 160,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1961,
-                        1962,
-                        1963,
-                        1964,
-                        1965,
-                        1979,
-                        1981,
-                        1982
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
+                "parent": null
             }
         },
         {
@@ -345,61 +198,13 @@
                 1970,
                 1971
             ],
-            "f": 38,
-            "g": 2,
-            "h": 36,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1962,
-                "pos": {
-                    "x": 156,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1960,
-                    1964,
-                    1963,
-                    1968,
-                    1967,
-                    1976,
-                    1978,
-                    1979
-                ],
-                "f": 21,
-                "g": 1,
-                "h": 20,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 1960,
-                    "pos": {
-                        "x": 160,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1961,
-                        1962,
-                        1963,
-                        1964,
-                        1965,
-                        1979,
-                        1981,
-                        1982
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 1969,
@@ -414,84 +219,33 @@
                 1967,
                 1972
             ],
-            "f": 23.0001,
-            "g": 3,
-            "h": 20.0001,
+            "f": 5.0001,
+            "g": 1,
+            "h": 4.0001,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 1967,
+                "id": 1972,
                 "pos": {
-                    "x": 152,
+                    "x": 150,
                     "y": 18.64,
-                    "z": 40
+                    "z": 38
                 },
                 "edges": [
-                    1963,
-                    1968,
-                    1970,
                     1969,
-                    1962,
-                    1972,
+                    1967,
                     1973,
-                    1976
+                    1974,
+                    1975
                 ],
-                "f": 6,
-                "g": 2,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 1962,
-                    "pos": {
-                        "x": 156,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1960,
-                        1964,
-                        1963,
-                        1968,
-                        1967,
-                        1976,
-                        1978,
-                        1979
-                    ],
-                    "f": 21,
-                    "g": 1,
-                    "h": 20,
-                    "cost": 1,
-                    "visited": true,
-                    "closed": true,
-                    "parent": {
-                        "id": 1960,
-                        "pos": {
-                            "x": 160,
-                            "y": 18.64,
-                            "z": 40
-                        },
-                        "edges": [
-                            1961,
-                            1962,
-                            1963,
-                            1964,
-                            1965,
-                            1979,
-                            1981,
-                            1982
-                        ],
-                        "f": 0,
-                        "g": 0,
-                        "h": 0,
-                        "cost": 1,
-                        "visited": false,
-                        "closed": true,
-                        "parent": null
-                    }
-                }
+                "parent": null
             }
         },
         {
@@ -506,85 +260,13 @@
                 1967,
                 1969
             ],
-            "f": 55.0001,
-            "g": 3,
-            "h": 52.0001,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1967,
-                "pos": {
-                    "x": 152,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1963,
-                    1968,
-                    1970,
-                    1969,
-                    1962,
-                    1972,
-                    1973,
-                    1976
-                ],
-                "f": 6,
-                "g": 2,
-                "h": 4,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 1962,
-                    "pos": {
-                        "x": 156,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1960,
-                        1964,
-                        1963,
-                        1968,
-                        1967,
-                        1976,
-                        1978,
-                        1979
-                    ],
-                    "f": 21,
-                    "g": 1,
-                    "h": 20,
-                    "cost": 1,
-                    "visited": true,
-                    "closed": true,
-                    "parent": {
-                        "id": 1960,
-                        "pos": {
-                            "x": 160,
-                            "y": 18.64,
-                            "z": 40
-                        },
-                        "edges": [
-                            1961,
-                            1962,
-                            1963,
-                            1964,
-                            1965,
-                            1979,
-                            1981,
-                            1982
-                        ],
-                        "f": 0,
-                        "g": 0,
-                        "h": 0,
-                        "cost": 1,
-                        "visited": false,
-                        "closed": true,
-                        "parent": null
-                    }
-                }
-            }
+            "parent": null
         },
         {
             "id": 1971,
@@ -623,85 +305,13 @@
                 1974,
                 1975
             ],
-            "f": 7,
-            "g": 3,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
-            "closed": false,
-            "parent": {
-                "id": 1967,
-                "pos": {
-                    "x": 152,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1963,
-                    1968,
-                    1970,
-                    1969,
-                    1962,
-                    1972,
-                    1973,
-                    1976
-                ],
-                "f": 6,
-                "g": 2,
-                "h": 4,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 1962,
-                    "pos": {
-                        "x": 156,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1960,
-                        1964,
-                        1963,
-                        1968,
-                        1967,
-                        1976,
-                        1978,
-                        1979
-                    ],
-                    "f": 21,
-                    "g": 1,
-                    "h": 20,
-                    "cost": 1,
-                    "visited": true,
-                    "closed": true,
-                    "parent": {
-                        "id": 1960,
-                        "pos": {
-                            "x": 160,
-                            "y": 18.64,
-                            "z": 40
-                        },
-                        "edges": [
-                            1961,
-                            1962,
-                            1963,
-                            1964,
-                            1965,
-                            1979,
-                            1981,
-                            1982
-                        ],
-                        "f": 0,
-                        "g": 0,
-                        "h": 0,
-                        "cost": 1,
-                        "visited": false,
-                        "closed": true,
-                        "parent": null
-                    }
-                }
-            }
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 1973,
@@ -717,84 +327,33 @@
                 1976,
                 1977
             ],
-            "f": 3,
-            "g": 3,
-            "h": 0,
+            "f": 9,
+            "g": 1,
+            "h": 8,
             "cost": 1,
             "visited": true,
             "closed": false,
             "parent": {
-                "id": 1967,
+                "id": 1972,
                 "pos": {
-                    "x": 152,
+                    "x": 150,
                     "y": 18.64,
-                    "z": 40
+                    "z": 38
                 },
                 "edges": [
-                    1963,
-                    1968,
-                    1970,
                     1969,
-                    1962,
-                    1972,
+                    1967,
                     1973,
-                    1976
+                    1974,
+                    1975
                 ],
-                "f": 6,
-                "g": 2,
-                "h": 4,
+                "f": 0,
+                "g": 0,
+                "h": 0,
                 "cost": 1,
-                "visited": true,
+                "visited": false,
                 "closed": true,
-                "parent": {
-                    "id": 1962,
-                    "pos": {
-                        "x": 156,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1960,
-                        1964,
-                        1963,
-                        1968,
-                        1967,
-                        1976,
-                        1978,
-                        1979
-                    ],
-                    "f": 21,
-                    "g": 1,
-                    "h": 20,
-                    "cost": 1,
-                    "visited": true,
-                    "closed": true,
-                    "parent": {
-                        "id": 1960,
-                        "pos": {
-                            "x": 160,
-                            "y": 18.64,
-                            "z": 40
-                        },
-                        "edges": [
-                            1961,
-                            1962,
-                            1963,
-                            1964,
-                            1965,
-                            1979,
-                            1981,
-                            1982
-                        ],
-                        "f": 0,
-                        "g": 0,
-                        "h": 0,
-                        "cost": 1,
-                        "visited": false,
-                        "closed": true,
-                        "parent": null
-                    }
-                }
+                "parent": null
             }
         },
         {
@@ -807,13 +366,34 @@
             "edges": [
                 1972
             ],
-            "f": 0,
-            "g": 0,
-            "h": 0,
+            "f": 9.0001,
+            "g": 1,
+            "h": 8.0001,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 1972,
+                "pos": {
+                    "x": 150,
+                    "y": 18.64,
+                    "z": 38
+                },
+                "edges": [
+                    1969,
+                    1967,
+                    1973,
+                    1974,
+                    1975
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 1975,
@@ -826,13 +406,34 @@
                 1972,
                 1973
             ],
-            "f": 0,
-            "g": 0,
+            "f": 1,
+            "g": 1,
             "h": 0,
             "cost": 1,
-            "visited": false,
+            "visited": true,
             "closed": false,
-            "parent": null
+            "parent": {
+                "id": 1972,
+                "pos": {
+                    "x": 150,
+                    "y": 18.64,
+                    "z": 38
+                },
+                "edges": [
+                    1969,
+                    1967,
+                    1973,
+                    1974,
+                    1975
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 1976,
@@ -848,61 +449,13 @@
                 1962,
                 1978
             ],
-            "f": 6,
-            "g": 2,
-            "h": 4,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1962,
-                "pos": {
-                    "x": 156,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1960,
-                    1964,
-                    1963,
-                    1968,
-                    1967,
-                    1976,
-                    1978,
-                    1979
-                ],
-                "f": 21,
-                "g": 1,
-                "h": 20,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 1960,
-                    "pos": {
-                        "x": 160,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1961,
-                        1962,
-                        1963,
-                        1964,
-                        1965,
-                        1979,
-                        1981,
-                        1982
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 1977,
@@ -938,61 +491,13 @@
                 1979,
                 1980
             ],
-            "f": 18,
-            "g": 2,
-            "h": 16,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1962,
-                "pos": {
-                    "x": 156,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1960,
-                    1964,
-                    1963,
-                    1968,
-                    1967,
-                    1976,
-                    1978,
-                    1979
-                ],
-                "f": 21,
-                "g": 1,
-                "h": 20,
-                "cost": 1,
-                "visited": true,
-                "closed": true,
-                "parent": {
-                    "id": 1960,
-                    "pos": {
-                        "x": 160,
-                        "y": 18.64,
-                        "z": 40
-                    },
-                    "edges": [
-                        1961,
-                        1962,
-                        1963,
-                        1964,
-                        1965,
-                        1979,
-                        1981,
-                        1982
-                    ],
-                    "f": 0,
-                    "g": 0,
-                    "h": 0,
-                    "cost": 1,
-                    "visited": false,
-                    "closed": true,
-                    "parent": null
-                }
-            }
+            "parent": null
         },
         {
             "id": 1979,
@@ -1008,37 +513,13 @@
                 1960,
                 1981
             ],
-            "f": 37,
-            "g": 1,
-            "h": 36,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1980,
@@ -1074,37 +555,13 @@
                 1982,
                 1983
             ],
-            "f": 65,
-            "g": 1,
-            "h": 64,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1982,
@@ -1120,37 +577,13 @@
                 1961,
                 1984
             ],
-            "f": 101,
-            "g": 1,
-            "h": 100,
+            "f": 0,
+            "g": 0,
+            "h": 0,
             "cost": 1,
-            "visited": true,
+            "visited": false,
             "closed": false,
-            "parent": {
-                "id": 1960,
-                "pos": {
-                    "x": 160,
-                    "y": 18.64,
-                    "z": 40
-                },
-                "edges": [
-                    1961,
-                    1962,
-                    1963,
-                    1964,
-                    1965,
-                    1979,
-                    1981,
-                    1982
-                ],
-                "f": 0,
-                "g": 0,
-                "h": 0,
-                "cost": 1,
-                "visited": false,
-                "closed": true,
-                "parent": null
-            }
+            "parent": null
         },
         {
             "id": 1983,
@@ -1348,7 +781,14 @@
                 2026,
                 2027,
                 2028
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2024,
@@ -1361,7 +801,14 @@
                 2023,
                 2026,
                 2025
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2025,
@@ -1377,7 +824,14 @@
                 2030,
                 2024,
                 2032
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2026,
@@ -1395,7 +849,14 @@
                 2029,
                 2030,
                 2031
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2027,
@@ -1413,7 +874,14 @@
                 2046,
                 2051,
                 2028
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2028,
@@ -1427,7 +895,14 @@
                 2026,
                 2048,
                 2027
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2029,
@@ -1443,7 +918,14 @@
                 2033,
                 2034,
                 2035
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2030,
@@ -1461,7 +943,14 @@
                 2031,
                 2039,
                 2034
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2031,
@@ -1479,7 +968,14 @@
                 2039,
                 2041,
                 2046
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2032,
@@ -1490,7 +986,14 @@
             },
             "edges": [
                 2025
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2033,
@@ -1505,7 +1008,14 @@
                 2030,
                 2036,
                 2037
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2034,
@@ -1523,7 +1033,14 @@
                 2031,
                 2039,
                 2030
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2035,
@@ -1534,7 +1051,14 @@
             },
             "edges": [
                 2029
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2036,
@@ -1547,7 +1071,14 @@
                 2033,
                 2037,
                 2034
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2037,
@@ -1562,7 +1093,14 @@
                 2034,
                 2038,
                 2039
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2038,
@@ -1577,7 +1115,14 @@
                 2034,
                 2040,
                 2041
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2039,
@@ -1595,7 +1140,14 @@
                 2041,
                 2046,
                 2030
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2040,
@@ -1610,7 +1162,14 @@
                 2039,
                 2042,
                 2043
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2041,
@@ -1626,7 +1185,36 @@
                 2045,
                 2031,
                 2039
-            ]
+            ],
+            "f": 65,
+            "g": 1,
+            "h": 64,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 2045,
+                "pos": {
+                    "x": 60,
+                    "y": 18.68,
+                    "z": 32
+                },
+                "edges": [
+                    2043,
+                    2046,
+                    2041,
+                    2044,
+                    2047,
+                    2048
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 2042,
@@ -1638,7 +1226,14 @@
             "edges": [
                 2040,
                 2043
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2043,
@@ -1654,7 +1249,36 @@
                 2044,
                 2045,
                 2046
-            ]
+            ],
+            "f": 81,
+            "g": 1,
+            "h": 80,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 2045,
+                "pos": {
+                    "x": 60,
+                    "y": 18.68,
+                    "z": 32
+                },
+                "edges": [
+                    2043,
+                    2046,
+                    2041,
+                    2044,
+                    2047,
+                    2048
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 2044,
@@ -1666,7 +1290,36 @@
             "edges": [
                 2043,
                 2045
-            ]
+            ],
+            "f": 129,
+            "g": 1,
+            "h": 128,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 2045,
+                "pos": {
+                    "x": 60,
+                    "y": 18.68,
+                    "z": 32
+                },
+                "edges": [
+                    2043,
+                    2046,
+                    2041,
+                    2044,
+                    2047,
+                    2048
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 2045,
@@ -1682,7 +1335,14 @@
                 2044,
                 2047,
                 2048
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": true,
+            "parent": null
         },
         {
             "id": 2046,
@@ -1699,7 +1359,36 @@
                 2027,
                 2031,
                 2039
-            ]
+            ],
+            "f": 17,
+            "g": 1,
+            "h": 16,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 2045,
+                "pos": {
+                    "x": 60,
+                    "y": 18.68,
+                    "z": 32
+                },
+                "edges": [
+                    2043,
+                    2046,
+                    2041,
+                    2044,
+                    2047,
+                    2048
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 2047,
@@ -1715,7 +1404,36 @@
                 2049,
                 2050,
                 2051
-            ]
+            ],
+            "f": 17,
+            "g": 1,
+            "h": 16,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 2045,
+                "pos": {
+                    "x": 60,
+                    "y": 18.68,
+                    "z": 32
+                },
+                "edges": [
+                    2043,
+                    2046,
+                    2041,
+                    2044,
+                    2047,
+                    2048
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 2048,
@@ -1733,7 +1451,36 @@
                 2050,
                 2051,
                 2028
-            ]
+            ],
+            "f": 1,
+            "g": 1,
+            "h": 0,
+            "cost": 1,
+            "visited": true,
+            "closed": false,
+            "parent": {
+                "id": 2045,
+                "pos": {
+                    "x": 60,
+                    "y": 18.68,
+                    "z": 32
+                },
+                "edges": [
+                    2043,
+                    2046,
+                    2041,
+                    2044,
+                    2047,
+                    2048
+                ],
+                "f": 0,
+                "g": 0,
+                "h": 0,
+                "cost": 1,
+                "visited": false,
+                "closed": true,
+                "parent": null
+            }
         },
         {
             "id": 2049,
@@ -1744,7 +1491,14 @@
             },
             "edges": [
                 2047
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2050,
@@ -1756,7 +1510,14 @@
             "edges": [
                 2047,
                 2048
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         },
         {
             "id": 2051,
@@ -1769,7 +1530,14 @@
                 2047,
                 2048,
                 2027
-            ]
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
         }
     ]
 }
