@@ -1,5 +1,5 @@
 # Blender MTL File: 'crazyironbaneworld.blend'
-# Material Count: 11
+# Material Count: 12
 
 newmtl None
 Ns 0.000000
@@ -29,16 +29,6 @@ Ks 0.800000 0.800000 0.800000
 Ni 1.000000
 d 1.000000
 illum 2
-map_Kd C:\tiles\99.png
-
-newmtl None.002_11.png.001
-Ns 0.000000
-Ka 0.000000 0.000000 0.000000
-Kd 0.512000 0.512000 0.512000
-Ks 0.800000 0.800000 0.800000
-Ni 1.000000
-d 1.000000
-illum 2
 map_Kd C:\tiles\11.png
 
 newmtl None.002_17.png
@@ -50,6 +40,25 @@ Ni 1.000000
 d 1.000000
 illum 2
 map_Kd C:\tiles\17.png
+
+newmtl None.002_99.png
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.512000 0.512000 0.512000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\tiles\99.png
+
+newmtl None.003
+Ns 0.000000
+Ka 0.000000 0.000000 0.000000
+Kd 0.640000 0.640000 0.640000
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
+illum 2
 
 newmtl None_11.png.001
 Ns 0.000000
@@ -72,11 +81,12 @@ illum 2
 map_Kd C:\tiles\34.png
 
 newmtl None_35.png.001
-Ns 0
+Ns 0.000000
 Ka 0.000000 0.000000 0.000000
-Kd 0.8 0.8 0.8
-Ks 0.8 0.8 0.8
-d 1
+Kd 0.262144 0.262144 0.262144
+Ks 0.800000 0.800000 0.800000
+Ni 1.000000
+d 1.000000
 illum 2
 map_Kd C:\tiles\35.png
 
