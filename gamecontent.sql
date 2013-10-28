@@ -489,7 +489,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1757 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1759 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1276,6 +1276,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1748,-3.14,9.80,-47.26,7,88,1.91,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1749,4.30,1.90,27.77,1,10,NULL,96,'{\"loot\":\"100:118\",\"respawnTime\":100,\"rotY\":0.7800000000000002}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1752,3.04,1.90,26.62,1,9,NULL,2,'{\"text\":\"TRICK OR TREAT\",\"fontSize\":18,\"rotY\":0.8399999999999976}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1758,-181.87,9.66,-190.38,1,10,NULL,13,'{\"loot\":\"100:91;100:38\",\"respawnTime\":300,\"rotY\":3.1651853070644593}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
