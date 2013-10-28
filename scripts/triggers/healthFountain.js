@@ -17,11 +17,11 @@ var healing = {
 
 var poison = {
     onEnter: function(unit) {
-        unit.Say("Ouch! That's poison!");
+        unit.socket.emit('bigMessage', {message: "Ouch! That's Poison!"});
         unit.SetHealth(unit.health - 1);
     },
     onExit: function(unit) {
-        unit.Say("Oh, that feels better.");
+        unit.socket.emit('bigMessage', {message: 'Oh, that feels better.'});
     },
     onTick: function(unit) {
         unit.SetHealth(unit.health - 1);
