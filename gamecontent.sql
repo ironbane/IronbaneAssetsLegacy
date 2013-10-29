@@ -513,7 +513,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1759 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1762 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1301,6 +1301,9 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1749,4.30,1.90,27.77,1,10,NULL,96,'{\"loot\":\"100:118\",\"respawnTime\":100,\"rotY\":0.7800000000000002}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1752,3.04,1.90,26.62,1,9,NULL,2,'{\"text\":\"TRICK OR TREAT\",\"fontSize\":18,\"rotY\":0.8399999999999976}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1758,-181.87,9.66,-190.38,1,10,NULL,13,'{\"loot\":\"100:91;100:38\",\"respawnTime\":300,\"rotY\":3.1651853070644593}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1759,-10.82,8.48,-34.48,15,8,NULL,0,'{\"invisible\":false}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1760,1.47,8.48,-46.25,15,8,NULL,0,'{\"invisible\":false}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1761,13.17,8.48,-34.60,15,8,NULL,0,'{\"invisible\":false}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
@@ -1330,7 +1333,7 @@ INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (11,'Cave of Darkness(test)
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (12,'Magma Slime Cave',4);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (13,'Ironbane\'s Castle',4);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (14,'Maze',4);
-INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (15,'Haunted Mansion',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (15,'Haunted Mansion Lobby',5);
 /*!40000 ALTER TABLE `ib_zones` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
