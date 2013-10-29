@@ -1314,7 +1314,7 @@ CREATE TABLE `ib_zones` (
   `name` varchar(255) NOT NULL,
   `type` tinyint(3) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=16 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=26 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_zones` WRITE;
@@ -1333,7 +1333,17 @@ INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (11,'Cave of Darkness(test)
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (12,'Magma Slime Cave',4);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (13,'Ironbane\'s Castle',4);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (14,'Maze',4);
-INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (15,'Haunted Mansion Lobby',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (15,'Haunted Mansion',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (16,'The Warriors Room',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (17,'The Office',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (18,'The Library',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (19,'Storage Room A',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (20,'Dining Room',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (21,'Piano Room',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (22,'Pedestal Room',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (23,'Useless Wall Room',1);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (24,'Rock Room',1);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (25,'Room of Choices',1);
 /*!40000 ALTER TABLE `ib_zones` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
