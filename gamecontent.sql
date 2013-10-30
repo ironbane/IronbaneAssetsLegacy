@@ -513,7 +513,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1818 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1821 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1354,6 +1354,9 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1815,46.82,3.05,105.16,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1816,48.70,2.90,106.90,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1817,42.61,2.60,111.50,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1818,5.01,3.00,-29.32,19,32,3.39,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1819,-0.06,3.00,-32.65,19,32,1.92,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1820,2.56,3.00,-38.96,19,32,1.01,0,'null');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
