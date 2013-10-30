@@ -513,7 +513,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1844 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1855 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1379,6 +1379,15 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1841,1.40,3.00,-49.72,17,7,NULL,0,'{\"targetExit\":1832,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1842,16.46,3.00,-34.56,19,7,NULL,0,'{\"targetExit\":1829,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1843,1.42,3.00,-49.89,16,7,NULL,0,'{\"targetExit\":1838,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1844,1.45,3.00,-10.38,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1845,-9.77,3.00,-25.60,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1846,-9.90,3.00,-34.40,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1847,-9.91,3.00,-43.44,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1848,1.36,3.00,-55.01,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1849,12.84,3.00,-43.62,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1850,13.16,3.00,-34.50,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1851,13.14,3.00,-25.51,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1852,1.47,3.00,-14.01,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
