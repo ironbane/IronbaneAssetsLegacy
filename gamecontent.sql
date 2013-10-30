@@ -513,7 +513,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1810 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1818 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1346,6 +1346,14 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1803,1.46,3.00,-49.38,23,7,NULL,0,'{\"targetExit\":1797,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1809,19.29,1.70,68.55,1,109,NULL,0,'{\"name\":\"greeter\",\"script\":\"quest-halloween1\",\"range\":2.5,\"triggerInterval\":5}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1807,-13.30,3.00,-34.55,23,7,NULL,0,'{\"targetExit\":1796,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1810,45.19,2.30,107.77,1,109,NULL,0,'{\"name\":\"portal\",\"script\":\"quest-halloween3\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1811,45.93,2.60,111.28,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1812,48.46,3.65,109.34,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1813,41.69,1.85,109.59,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1814,42.06,1.85,105.88,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1815,46.82,3.05,105.16,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1816,48.70,2.90,106.90,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1817,42.61,2.60,111.50,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
