@@ -517,7 +517,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1900 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1906 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1425,6 +1425,12 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1897,-13.22,3.00,-25.47,21,7,NULL,0,'{\"targetExit\":1892,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1898,1.56,3.00,-58.45,21,7,NULL,0,'{\"targetExit\":1886,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1899,1.44,3.00,-23.38,27,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1900,-9.84,0.00,-0.30,36,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1901,1.55,0.00,-11.80,36,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1902,13.02,0.00,-0.45,36,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1903,1.59,0.00,10.90,36,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1904,16.21,0.00,-0.76,36,7,NULL,0,'{\"targetExit\":1862,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1905,1.52,0.00,13.77,36,7,NULL,0,'{\"targetExit\":1776,\"invisible\":true}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
