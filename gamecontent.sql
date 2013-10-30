@@ -418,7 +418,7 @@ CREATE TABLE `ib_unit_templates` (
   `usebashattack` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Whether this unit "bashes" into the enemy instead of throwing their weapon at the target. 0 or 1',
   `invisible` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '1 or 0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=110 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=112 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_unit_templates` WRITE;
@@ -497,6 +497,8 @@ INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`,
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (107,'','Craw',20,10,0,0,0,0,0,0,250,0,'102',3,'70:112;40:107;100:100;80:96',400,0,4.00,10,10,0,0,0,1.00,1,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (108,'a',NULL,NULL,0,0,0,0,0,0,0,1,0,'',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (109,'a','Trigger',16,0,0,0,0,0,0,0,1,0,'',3,'',30,1,1.00,10,10,1,0,0,1.00,0,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (110,'a',NULL,NULL,0,0,0,0,0,0,0,1,0,'',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (111,'a',NULL,NULL,0,0,0,0,0,0,0,1,0,'',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0);
 /*!40000 ALTER TABLE `ib_unit_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_units`;
@@ -513,7 +515,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1863 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1870 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1380,12 +1382,18 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1842,16.46,3.00,-34.56,19,7,NULL,0,'{\"targetExit\":1829,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1843,1.42,3.00,-49.89,16,7,NULL,0,'{\"targetExit\":1838,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1844,1.45,3.00,-10.38,21,7,NULL,0,'{\"targetExit\":1782,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1863,16.28,3.00,-43.59,21,7,NULL,0,'{\"targetExit\":1780,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1864,-13.53,3.00,-43.43,21,7,NULL,0,'{\"targetExit\":1761,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1865,-13.48,3.00,-34.54,21,7,NULL,0,'{\"targetExit\":1837,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1866,12.85,3.00,-43.53,21,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1860,1.46,3.00,-55.74,21,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1859,-10.41,3.00,-43.49,21,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1858,-10.34,3.00,-34.53,21,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1857,-10.39,3.00,-25.45,21,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1861,1.55,3.00,-19.66,22,7,NULL,0,'{\"targetExit\":1860,\"invisible\":true}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1862,-13.26,3.00,-43.49,21,7,NULL,0,'{\"targetExit\":1780,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1867,13.21,3.00,-34.47,21,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1868,13.04,3.00,-25.45,21,8,NULL,0,'{\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1869,1.51,3.00,-13.64,21,8,NULL,0,'{\"invisible\":true}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
