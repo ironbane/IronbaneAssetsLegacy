@@ -1421,7 +1421,7 @@ CREATE TABLE `ib_zones` (
   `name` varchar(255) NOT NULL,
   `type` tinyint(3) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=41 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=42 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_zones` WRITE;
@@ -1466,6 +1466,7 @@ INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (37,'Garden',5);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (38,'Weird Room',5);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (39,'Room of the Silver Arrow',5);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (40,'Storage Room D',5);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (41,'Welcome to Hell!',4);
 /*!40000 ALTER TABLE `ib_zones` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
