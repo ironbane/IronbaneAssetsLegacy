@@ -517,7 +517,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1950 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1951 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1451,6 +1451,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1937,-12.80,3.00,-34.57,35,7,NULL,0,'{\"targetExit\":1760,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1938,-9.97,3.00,-34.55,35,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1949,-11.81,17.10,-27.89,31,5,NULL,33,'{\"movementType\":1,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.5360000000296332,\"startOpen\":false}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1950,-24.48,16.42,-3.22,31,6,NULL,0,'{\"switchNumber\":1949}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1943,-13.22,3.00,-34.55,16,7,NULL,0,'{\"targetExit\":1837,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1945,-13.52,3.00,-34.35,19,7,NULL,0,'{\"targetExit\":1892,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1942,5.56,6.12,-13.54,15,9,NULL,3,'{\"text\":\"Welcome to the Haunted Mansion! | Can you find your way through | the disorientating maze? Can you make it to | the end and claim the treasure?\",\"fontSize\":16,\"rotY\":2.209814692852925}');
