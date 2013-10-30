@@ -517,7 +517,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1933 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1940 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1445,7 +1445,11 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1929,16.41,3.00,-34.57,38,7,NULL,0,'{\"targetExit\":1794,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1930,-11.46,28.77,-6.13,41,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1931,-4.50,15.04,-44.33,39,9,NULL,2,'{\"text\":\"Good job!\",\"fontSize\":20,\"rotY\":4.7168146928102574}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1932,-3.11,15.06,-63.44,39,9,NULL,2,'{\"text\":\"...You cheater!\",\"fontSize\":20,\"rotY\":1.4408146928173597}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1934,7.83,15.22,-68.85,39,9,NULL,2,'{\"text\":\"Here\'s your | reward... >:)\",\"fontSize\":20,\"rotY\":1.5448146928304538}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1933,-2.65,15.07,-65.28,39,9,NULL,2,'{\"text\":\"...You cheater!\",\"fontSize\":20,\"rotY\":3.076814692823179}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1936,10.23,15.25,-72.32,39,7,NULL,0,'{\"targetExit\":1930,\"invisible\":false}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1937,-12.80,3.00,-34.57,35,7,NULL,0,'{\"targetExit\":1760,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1938,-9.97,3.00,-34.55,35,8,NULL,0,'{\"invisible\":true}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
