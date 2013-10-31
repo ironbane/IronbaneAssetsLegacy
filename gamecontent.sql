@@ -529,7 +529,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2088 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2089 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1571,6 +1571,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2080,-19.42,17.09,-35.65,31,6,NULL,0,'{\"switchNumber\":1949}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2086,1.47,6.11,-1.40,15,7,NULL,0,'{\"targetExit\":2085,\"invisible\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2087,-5.44,3.00,-7.15,31,7,NULL,0,'{\"targetExit\":2085,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2088,4.13,3.40,-24.68,20,109,NULL,0,'{\"name\":\"storagebfountain\",\"script\":\"healthFountain\",\"range\":3,\"triggerInterval\":2}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
