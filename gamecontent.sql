@@ -1463,7 +1463,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1950,-24.48,16.42,-3.22,31,6,NULL,0,'{\"switchNumber\":1949}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1943,-13.22,3.00,-34.55,16,7,NULL,0,'{\"targetExit\":1837,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1945,-13.52,3.00,-34.35,19,7,NULL,0,'{\"targetExit\":1892,\"invisible\":true}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1942,5.56,6.12,-13.54,15,9,NULL,3,'{\"text\":\"Welcome to the Haunted Mansion! | Can you find your way through | the disorientating maze? Can you make it to | the end and claim the treasure?\",\"fontSize\":16,\"rotY\":2.209814692852925}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1951,1.61,3.00,-23.70,23,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1952,1.51,3.00,-19.59,23,7,NULL,0,'{\"targetExit\":1795,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1954,-10.18,3.03,-37.53,29,110,0.26,0,'null');
