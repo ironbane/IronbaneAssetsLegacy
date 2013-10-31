@@ -218,12 +218,12 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (120,'Candy Corn',152,'consumable','restorative',2,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (121,'Harrowing Fire',94,'weapon','sword',6,1.25,'0',0,10);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (122,'Piano Notebook',8,'tool','',0,1.00,'',0,0);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (123,'Golden Sickle',200,'weapon','axe',5,1.00,'',0,100);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (123,'Golden Sickle',200,'weapon','axe',1,0.20,'',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (124,'Skull Staff',201,'weapon','staff',8,1.00,'PLASMABALL',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (125,'Ghost Cloak',95,'armor','body',6,1.00,'',0,100);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (126,'Bloody Cleaver',153,'weapon','axe',10,1.75,'',0,100);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (126,'Bloody Cleaver',153,'weapon','axe',15,1.20,'',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (127,'Sword of the Raven',154,'weapon','sword',6,0.30,'',0,100);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (128,'Pumpkin Armor',97,'armor','body',10,1.00,'',0,100);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (128,'Pumpkin Armor',97,'armor','body',12,1.00,'',0,100);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_meshes`;
@@ -530,7 +530,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2106 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2108 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1579,7 +1579,9 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2097,8.09,3.00,-42.05,30,57,3.87,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2098,5.94,3.00,-43.72,30,10,NULL,13,'{\"loot\":\"100:122\",\"respawnTime\":30,\"rotY\":3.134814692754522}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2103,27.20,3.00,-34.49,35,10,NULL,13,'{\"loot\":\"100:123;100:124;100:126;100:127;100:128\",\"respawnTime\":30,\"rotY\":1.5346293856155668}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2106,12.12,3.00,-29.81,35,9,NULL,2,'{\"text\":\"You may take | ONE reward\",\"fontSize\":20,\"rotY\":0.6988146928275145}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2105,-3.45,3.00,-37.15,35,9,NULL,2,'{\"text\":\"Congratulations!\",\"fontSize\":20,\"rotY\":2.0648146928162228}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2107,18.62,3.00,-38.97,35,9,NULL,3,'{\"text\":\"After you take an item | you will be teleported out | of the Haunted Mansion. | | You can come back for | more rewards, however!\",\"fontSize\":20,\"rotY\":2.395814692854116}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
