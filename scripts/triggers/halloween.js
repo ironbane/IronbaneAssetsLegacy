@@ -167,43 +167,43 @@ module.exports = {
         onTick: function(unit) {
 
         }
-    },
-    "quest-halloween5": {
-        onEnter: function(unit) {
-            if (unit.id > 0) {
-                if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
-                    unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
-
-                    var exit = worldHandler.FindUnit(-2085);
-                    if(exit) {
-                        unit.TeleportToUnit(exit);
-                    }
-                }
-            }
-        },
-        onExit: function(unit) {
-            if (unit.id > 0) {
-                if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
-                    unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
-
-                    var exit = worldHandler.FindUnit(-2085);
-                    if(exit) {
-                        unit.TeleportToUnit(exit);
-                    }
-                }
-            }
-        },
-        onTick: function(unit) {
-            if (unit.id > 0) {
-                if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
-                    unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
-
-                    var exit = worldHandler.FindUnit(-2085);
-                    if(exit) {
-                        unit.TeleportToUnit(exit);
-                    }
-                }
-            }
-        }
     }
+//     "quest-halloween5": {
+//         onEnter: function(unit) {
+//             if (unit.id > 0) {
+//                 if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
+//                     unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
+//                     debugger;
+//                     var exit = worldHandler.FindUnit(-2085);
+//                     if(exit) {
+//                         unit.TeleportToUnit(exit);
+//                     }
+//                 }
+//             }
+//         },
+//         onExit: function(unit) {
+//             if (unit.id > 0) {
+//                 if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
+//                     unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
+// debugger;
+//                     var exit = worldHandler.FindUnit(-2085);
+//                     if(exit) {
+//                         unit.TeleportToUnit(exit);
+//                     }
+//                 }
+//             }
+//         },
+//         onTick: function(unit) {
+//             if (unit.id > 0) {
+//                 if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
+//                     unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
+// debugger;
+//                     var exit = worldHandler.FindUnit(-2085);
+//                     if(exit) {
+//                         unit.TeleportToUnit(exit);
+//                     }
+//                 }
+//             }
+//         }
+//     }
 };
