@@ -1,7 +1,7 @@
 // halloween related quests and triggers
 
 // hack! how to avoid this?
-    var _ = require(global.APP_ROOT_PATH + '/node_modules/underscore');
+var _ = require(global.APP_ROOT_PATH + '/node_modules/underscore');
 
 var phrases = [
     'trick or treat!',
@@ -28,7 +28,7 @@ module.exports = {
         onEnter: function(unit) {
             var trigger = this;
 
-            if(unit.id > 0) { // only for players!
+            if (unit.id > 0) { // only for players!
                 trigger.Say(_.sample(phrases));
             }
         },
@@ -65,12 +65,12 @@ module.exports = {
             // pumpkin players
             trigger.kin = trigger.kin || {};
 
-            if(unit.data && unit.data.name === 'pumpkin-chanter') {
+            if (unit.data && unit.data.name === 'pumpkin-chanter') {
                 trigger.chanters.push(unit);
             }
 
-            if(unit.id > 0) { // only for players!
-                if(unit.hasItemEquipped('Pumpkin Head')) {
+            if (unit.id > 0) { // only for players!
+                if (unit.hasItemEquipped('Pumpkin Head')) {
                     // begin chanting
                     trigger.kin[unit.id] = 0;
                 }
@@ -78,7 +78,7 @@ module.exports = {
         },
         onExit: function(unit) {
             var trigger = this;
-            if(unit.id > 0) {
+            if (unit.id > 0) {
                 // remove them from the lists just in case
                 delete trigger.kin[unit.id];
             }
@@ -86,29 +86,33 @@ module.exports = {
         onTick: function(unit) {
             var trigger = this;
 
-            if(unit.id > 0) {
+            if (unit.id > 0) {
                 // if we're not already kin
-                if(!trigger.kin.hasOwnProperty(unit.id)) {
-                    if(unit.hasItemEquipped('Pumpkin Head')) {
+                if (!trigger.kin.hasOwnProperty(unit.id)) {
+                    if (unit.hasItemEquipped('Pumpkin Head')) {
                         // begin chanting
                         trigger.kin[unit.id] = 0;
                     }
                 } else {
-                    if(!unit.hasItemEquipped('Pumpkin Head')) {
+                    if (!unit.hasItemEquipped('Pumpkin Head')) {
                         // took the mask off!
                         delete trigger.kin[unit.id];
                     }
                 }
 
-                if(trigger.kin.hasOwnProperty(unit.id)) {
+                if (trigger.kin.hasOwnProperty(unit.id)) {
                     _.each(trigger.chanters, function(chanter) {
                         chanter.Say('one of us!');
                     });
                     trigger.kin[unit.id]++;
 
-                    if(trigger.kin[unit.id] >= 3) {
+                    if (trigger.kin[unit.id] >= 3) {
                         // teleport time! (hard coded for now)
-                        unit.Teleport(15, {x: 1.41, y: 6.11, z: -1.85});
+                        unit.Teleport(15, {
+                            x: 1.41,
+                            y: 6.11,
+                            z: -1.85
+                        });
                     }
                 } else {
                     _.each(_.sample(trigger.chanters, 3), function(chanter) {
@@ -123,27 +127,32 @@ module.exports = {
             var trigger = this;
             var rewardItem = 'Ghost Cloak';
 
-            trigger.questers = trigger.questers || {active: [], complete: []};
+            trigger.questers = trigger.questers || {
+                active: [],
+                complete: []
+            };
 
-            if(unit.id > 0) { // only for players!
+            if (unit.id > 0) { // only for players!
                 // make this repeatable instead?
-                if(trigger.questers.complete.indexOf(unit.id) >= 0 || unit.getItem(rewardItem)) {
+                if (trigger.questers.complete.indexOf(unit.id) >= 0 || unit.getItem(rewardItem)) {
                     trigger.Say('Thank you for bringing my notebook back.');
                     return;
                 }
 
                 var notebook = unit.getItem('Piano Notebook');
-                if(!notebook && trigger.questers.active.indexOf(unit.id) < 0) {
+                if (!notebook && trigger.questers.active.indexOf(unit.id) < 0) {
                     trigger.Say('Some rogue ghosts have stolen my precious notebook!');
                     trigger.Say('Without it I can\'t play my favorite song.');
                     trigger.Say('Please find it and bring it to me!');
-                    if(trigger.questers.active.indexOf(unit.id) < 0) {
+                    if (trigger.questers.active.indexOf(unit.id) < 0) {
                         trigger.questers.active.push(unit.id);
                     }
                 } else {
-                    if(unit.replaceItem('Piano Notebook', rewardItem, {data: {
-                        permanent: true
-                    }})) {
+                    if (unit.replaceItem('Piano Notebook', rewardItem, {
+                        data: {
+                            permanent: true
+                        }
+                    })) {
                         trigger.questers.complete.push(unit.id);
                         trigger.Say('Thank you so much for returning my notebook!');
                     } else {
@@ -157,6 +166,35 @@ module.exports = {
         },
         onTick: function(unit) {
 
+        }
+    },
+    "quest-halloween5": {
+        onEnter: function(unit) {
+            if (unit.id > 0) {
+                if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
+                    unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
+
+                    unit.TeleportToUnit(2085);
+                }
+            }
+        },
+        onExit: function(unit) {
+            if (unit.id > 0) {
+                if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
+                    unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
+
+                    unit.TeleportToUnit(2085);
+                }
+            }
+        },
+        onTick: function(unit) {
+            if (unit.id > 0) {
+                if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
+                    unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
+
+                    unit.TeleportToUnit(2085);
+                }
+            }
         }
     }
 };
