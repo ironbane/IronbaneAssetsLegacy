@@ -1350,7 +1350,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1786,-10.18,3.01,-34.40,23,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1787,1.46,3.01,-46.39,23,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1788,13.34,3.01,-34.49,23,8,NULL,0,'{\"invisible\":true}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1808,24.40,1.70,47.68,1,109,NULL,0,'{\"name\":\"greeter\",\"script\":\"quest-halloween1\",\"range\":2.5,\"triggerInterval\":5}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1808,24.40,3.44,47.68,1,109,NULL,0,'{\"name\":\"greeter\",\"script\":\"quest-halloween1\",\"range\":2.5,\"triggerInterval\":5}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1790,7.48,3.00,-40.84,24,10,NULL,13,'{\"loot\":\"\",\"respawnTime\":300,\"rotY\":4.726444078503017}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1791,-10.04,3.00,-34.40,24,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1792,1.52,3.00,-22.94,24,8,NULL,0,'{\"invisible\":true}');
