@@ -521,7 +521,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2018 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2023 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1518,6 +1518,11 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2014,-3.50,7.26,-32.03,38,4,NULL,74,'{\"movementType\":26,\"speedMultiplier\":0.2,\"distanceMultiplier\":1,\"rotY\":2.653000000011378}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2016,6.24,6.67,-28.54,38,4,NULL,10,'{\"movementType\":22,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":2.682000000005761}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2017,0.11,9.01,-36.57,38,4,NULL,114,'{\"movementType\":22,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":1.2440000000075073}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2018,0.91,3.91,-32.66,38,4,NULL,38,'{\"movementType\":27,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":1.8980000000044221}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2019,3.68,5.59,-29.42,38,4,NULL,38,'{\"movementType\":27,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":0.7900000000040726}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2020,1.90,3.00,-39.98,38,1,4.89,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2021,4.89,3.00,-37.23,38,1,4.46,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2022,-1.24,3.00,-37.22,38,1,3.43,0,'null');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
