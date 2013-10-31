@@ -117,5 +117,46 @@ module.exports = {
                 }
             }
         }
+    },
+    "quest-halloween4": {
+        onEnter: function(unit) {
+            var trigger = this;
+            var rewardItem = 'Ghost Cloak';
+
+            trigger.questers = trigger.questers || {active: [], complete: []};
+
+            if(unit.id > 0) { // only for players!
+                // make this repeatable instead?
+                if(trigger.questers.complete.indexOf(unit.id) >= 0 || unit.getItem(rewardItem)) {
+                    trigger.Say('Thank you for bringing my notebook back.');
+                    return;
+                }
+
+                var notebook = unit.getItem('Piano Notebook');
+                if(!notebook && trigger.questers.active.indexOf(unit.id) < 0) {
+                    trigger.Say('Some rogue ghosts have stolen my precious notebook!');
+                    trigger.Say('Without it I can\'t play my favorite song.');
+                    trigger.Say('Please find it and bring it to me!');
+                    if(trigger.questers.active.indexOf(unit.id) < 0) {
+                        trigger.questers.active.push(unit.id);
+                    }
+                } else {
+                    if(unit.replaceItem('Piano Notebook', rewardItem, {data: {
+                        permanent: true
+                    }})) {
+                        trigger.questers.complete.push(unit.id);
+                        trigger.Say('Thank you so much for returning my notebook!');
+                    } else {
+                        console.error('unable to replaceItem for quest for : ', unit.id);
+                    }
+                }
+            }
+        },
+        onExit: function(unit) {
+
+        },
+        onTick: function(unit) {
+
+        }
     }
 };

@@ -28,8 +28,7 @@ module.exports = {
                         trigger.Say('Come to me when you are in need of help!');
                     }
                 } else if(weapon.$template.name === 'Dull Sword') {
-                    // todo: replace their sword instead of just giving another...
-                    unit.GiveItem(dataHandler.items['107']); // Blessed Dull Sword
+                    unit.replaceItem('Dull Sword', 'Blessed Dull Sword'); // Blessed Dull Sword
                     trigger.questers.complete.push(unit.id);
                     trigger.Say('May my strength be yours!');
                 }
