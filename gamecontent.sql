@@ -521,7 +521,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2007 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2018 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1509,7 +1509,15 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2001,-9.23,3.00,-12.18,37,111,2.90,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2002,-11.95,3.00,-24.84,37,111,0.44,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2003,-5.13,3.00,-24.60,37,111,0.20,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2006,-5.48,3.00,-23.68,37,106,3.36,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2007,-7.64,3.00,-32.66,37,7,NULL,0,'{\"targetExit\":1925,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2008,-3.43,8.43,-38.62,38,4,NULL,87,'{\"movementType\":21,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.8000000000104768}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2009,2.27,7.68,-32.18,38,4,NULL,91,'{\"movementType\":22,\"speedMultiplier\":0.8,\"distanceMultiplier\":1,\"rotY\":2.3040000000149297}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2010,-2.73,6.43,-28.22,38,4,NULL,91,'{\"movementType\":21,\"speedMultiplier\":1.5,\"distanceMultiplier\":1,\"rotY\":2.4100000000153945}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2011,5.79,6.17,-36.65,38,4,NULL,36,'{\"movementType\":23,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":1.3410000000158022}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2015,-2.87,5.24,-40.74,38,4,NULL,34,'{\"movementType\":28,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":2.6500000000078567}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2014,-3.50,7.26,-32.03,38,4,NULL,74,'{\"movementType\":26,\"speedMultiplier\":0.2,\"distanceMultiplier\":1,\"rotY\":2.653000000011378}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2016,6.24,6.67,-28.54,38,4,NULL,10,'{\"movementType\":22,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":2.682000000005761}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2017,0.11,9.01,-36.57,38,4,NULL,114,'{\"movementType\":22,\"speedMultiplier\":2,\"distanceMultiplier\":1,\"rotY\":1.2440000000075073}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
