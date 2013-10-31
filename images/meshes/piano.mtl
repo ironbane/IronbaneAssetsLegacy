@@ -1,0 +1,60 @@
+# Blender MTL File: 'piano.blend'
+# Material Count: 6
+
+newmtl Color_000noCulling
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\tiles\51.png
+
+newmtl Color_000noCulling_94.png
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\tiles\94.png
+
+newmtl Color_007noCulling
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.181961 0.181961 0.181961
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\tiles\51.png
+
+newmtl Color_007noCulling_94.png
+Ns 37.254902
+Ka 0.000000 0.000000 0.000000
+Kd 0.181961 0.181961 0.181961
+Ks 0.165000 0.165000 0.165000
+Ni 1.000000
+d 1.000000
+illum 2
+map_Kd C:\tiles\94.png
+
+newmtl None
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd C:\tiles\75.png
+
+newmtl None_94.png
+Ns 0
+Ka 0.000000 0.000000 0.000000
+Kd 0.8 0.8 0.8
+Ks 0.8 0.8 0.8
+d 1
+illum 2
+map_Kd C:\tiles\94.png

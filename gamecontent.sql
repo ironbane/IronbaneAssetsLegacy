@@ -247,7 +247,7 @@ CREATE TABLE `ib_meshes` (
   `ts8` float(4,2) NOT NULL DEFAULT '1.00' COMMENT 'Tile Scaling Multiplier 8',
   `special` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Whether this model uses special things, such as particles (e.g. Lantern)',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1139 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1140 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_meshes` WRITE;
@@ -386,6 +386,7 @@ INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transpa
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1136,'Pumpkin4_2b','Halloween','pumpkin_04_02_b.obj',1.00,0,'textures/pixel_pumpkin_atlas_orangeall',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1137,'Pumpkin4_2c','Halloween','pumpkin_04_02_c.obj',1.00,0,'textures/pixel_pumpkin_atlas_orangeall',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1138,'Long Table','Decoration','longtable.obj',1.00,0,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1139,'Piano (enormous mesh)','Decoration','piano.obj',1.00,0,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 /*!40000 ALTER TABLE `ib_meshes` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_unit_templates`;
