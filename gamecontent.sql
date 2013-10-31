@@ -220,9 +220,9 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (122,'Piano Notebook',8,'tool','',0,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (123,'Golden Sickle',200,'weapon','axe',8,1.50,'',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (124,'Skull Staff',201,'weapon','staff',6,1.00,'',0,100);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (125,'Ghost Cloak',95,'armor','body',2,1.00,'',0,100);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (125,'Ghost Cloak',95,'armor','body',6,1.00,'',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (126,'Bloody Cleaver',153,'weapon','axe',8,1.75,'',0,100);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (127,'Sword of the Raven',153,'weapon','sword',4,0.60,'',0,100);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (127,'Sword of the Raven',153,'weapon','sword',5,0.60,'',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (128,'Pumpkin Armor',97,'armor','body',10,1.00,'',0,100);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
 UNLOCK TABLES;
@@ -530,7 +530,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2096 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2099 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1576,6 +1576,8 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2091,0.76,3.00,-37.69,28,9,NULL,2,'{\"text\":\"Beautiful | Art\",\"fontSize\":20,\"rotY\":3.077000000154078}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2094,-0.86,3.00,-33.22,22,109,NULL,0,'{\"name\":\"Ghost Lady\",\"script\":\"quest-halloween4\",\"range\":3,\"triggerInterval\":3}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2095,-1.16,3.52,-33.95,22,114,1.74,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2097,8.09,3.00,-42.05,30,57,3.87,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2098,5.94,3.00,-43.72,30,10,NULL,13,'{\"loot\":\"100:122\",\"respawnTime\":30,\"rotY\":3.134814692754522}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
