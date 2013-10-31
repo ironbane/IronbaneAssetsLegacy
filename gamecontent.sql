@@ -530,7 +530,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2100 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2104 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1578,7 +1578,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2095,-1.16,3.52,-33.95,22,114,1.74,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2097,8.09,3.00,-42.05,30,57,3.87,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2098,5.94,3.00,-43.72,30,10,NULL,13,'{\"loot\":\"100:122\",\"respawnTime\":30,\"rotY\":3.134814692754522}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2099,26.68,3.00,-34.29,35,10,NULL,13,'{\"loot\":\"100:123;100:124;100:126;100;127;100;128\",\"respawnTime\":30,\"rotY\":1.5856293855786618}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2103,27.20,3.00,-34.49,35,10,NULL,13,'{\"loot\":\"100:123;100:124;100:126;100:127;100:128\",\"respawnTime\":30,\"rotY\":1.5346293856155668}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
