@@ -530,7 +530,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2108 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2110 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1582,6 +1582,8 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2106,12.12,3.00,-29.81,35,9,NULL,2,'{\"text\":\"You may take | ONE reward\",\"fontSize\":20,\"rotY\":0.6988146928275145}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2105,-3.45,3.00,-37.15,35,9,NULL,2,'{\"text\":\"Congratulations!\",\"fontSize\":20,\"rotY\":2.0648146928162228}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2107,18.62,3.00,-38.97,35,9,NULL,3,'{\"text\":\"After you take an item | you will be teleported out | of the Haunted Mansion. | | You can come back for | more rewards, however!\",\"fontSize\":20,\"rotY\":2.395814692854116}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2108,1.17,3.00,-34.30,26,30,0.13,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2109,4.37,3.00,-32.56,26,30,0.17,0,'null');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
