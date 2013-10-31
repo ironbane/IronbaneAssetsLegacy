@@ -174,7 +174,7 @@ module.exports = {
                 if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
                     unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
 
-                    var exit = worldHandler.FindUnit(2085);
+                    var exit = worldHandler.FindUnit(-2085);
                     if(exit) {
                         unit.TeleportToUnit(exit);
                     }
@@ -186,7 +186,7 @@ module.exports = {
                 if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
                     unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
 
-                    var exit = worldHandler.FindUnit(2085);
+                    var exit = worldHandler.FindUnit(-2085);
                     if(exit) {
                         unit.TeleportToUnit(exit);
                     }
@@ -198,7 +198,7 @@ module.exports = {
                 if (unit.getItem('Golden Sickle') || unit.getItem('Skull Staff') || unit.getItem('Bloody Cleaver') || unit.getItem('Sword of the Raven') ||
                     unit.getItem('Pumpkin Armor') || unit.getItem('Pumpkin Island Key') || unit.getItem('Ghost House Key') || unit.getItem('Undead Crypt Key')) {
 
-                    var exit = worldHandler.FindUnit(2085);
+                    var exit = worldHandler.FindUnit(-2085);
                     if(exit) {
                         unit.TeleportToUnit(exit);
                     }
