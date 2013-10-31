@@ -9,7 +9,7 @@
         "colors": 0,
         "uvs": 4429,
         "materials": 6,
-        "md5": "bla"
+        "md5": "dfd60021eaa00927544db8046e0ebe54"
     },
     "scale": 1,
     "materials": [
