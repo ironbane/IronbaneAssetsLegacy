@@ -431,7 +431,7 @@ CREATE TABLE `ib_unit_templates` (
   `usebashattack` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Whether this unit "bashes" into the enemy instead of throwing their weapon at the target. 0 or 1',
   `invisible` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '1 or 0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=114 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=115 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_unit_templates` WRITE;
@@ -513,6 +513,7 @@ INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`,
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (110,'a','Lil Pumpkin',20,665,0,0,0,0,0,0,2,0,'1',3,'10:119;10:120;10:118',30,0,0.50,10,10,0,0,0,1.00,1,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (111,'a','Pumpkin Monster',20,664,0,0,0,0,0,0,20,0,'58',3,'30:119;30:120;30:118',70,0,1.00,10,10,0,0,0,1.00,1,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (112,'a','Jack o Lantern',20,666,0,0,0,0,0,0,200,0,'101',3,'90:119;90:120;90:118;100:121',200,0,2.00,10,10,0,0,0,1.00,1,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (114,'a','Lady Ghost',21,24,0,0,0,0,0,1,1,0,'',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0);
 /*!40000 ALTER TABLE `ib_unit_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_units`;
@@ -529,7 +530,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2094 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2096 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1573,7 +1574,8 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2087,-5.44,3.00,-7.15,31,7,NULL,0,'{\"targetExit\":2085,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2088,4.13,3.40,-24.68,20,109,NULL,0,'{\"name\":\"storagebfountain\",\"script\":\"healthFountain\",\"range\":3,\"triggerInterval\":2}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2091,0.76,3.00,-37.69,28,9,NULL,2,'{\"text\":\"Beautiful | Art\",\"fontSize\":20,\"rotY\":3.077000000154078}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2093,-1.05,3.52,-33.99,22,109,NULL,0,'{\"name\":\"Ghost Lady\",\"script\":\"quest-halloween4\",\"range\":5,\"triggerInterval\":3}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2094,-0.86,3.00,-33.22,22,109,NULL,0,'{\"name\":\"Ghost Lady\",\"script\":\"quest-halloween4\",\"range\":3,\"triggerInterval\":3}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2095,-1.16,3.52,-33.95,22,114,1.74,0,'null');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
