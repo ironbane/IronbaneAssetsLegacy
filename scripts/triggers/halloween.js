@@ -43,19 +43,22 @@ module.exports = {
         onEnter: function(unit) {
             var trigger = this;
 
-            // gimme candy!
-            // player drops candy
-            // get item (pumpkin mask?)
-
+            trigger.say("Trick or Treat!")
+            if(item.$template.name === '') {//candy
+            unit.GiveItem(dataHandler.items[''])//pumkin mask or something
+            trigger.questers.complete.push(unit.id);
+            trigger.Say('Thank you!');
+            
+            }
             //console.log('h2 enter: ', unit.id, ' :: ', unit.data, ' :: ', unit.loot);
-        },
+        }
         onExit: function(unit) {
 
-        },
+        }
         onTick: function(unit) {
 
         }
-    },
+    }
     "quest-halloween3": {
         onEnter: function(unit) {
             var trigger = this;
