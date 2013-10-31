@@ -106,7 +106,7 @@ module.exports = {
                     });
                     trigger.kin[unit.id]++;
 
-                    if(trigger.kin[unit.id] >= 5) {
+                    if(trigger.kin[unit.id] >= 3) {
                         // teleport time! (hard coded for now)
                         unit.Teleport(15, {x: 1.41, y: 6.11, z: -1.85});
                     }
