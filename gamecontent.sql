@@ -1589,8 +1589,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2109,4.37,3.00,-32.56,26,30,0.17,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2110,1.51,3.00,-49.50,27,7,NULL,0,'{\"targetExit\":2068,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2111,1.31,3.00,-19.25,27,7,NULL,0,'{\"targetExit\":1891,\"invisible\":true}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2113,25.92,3.00,-34.02,35,109,NULL,0,'{\"name\":\"quest-halloween5\",\"script\":\"\",\"range\":3,\"triggerInterval\":3}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2114,25.96,3.00,-34.18,35,109,NULL,0,'{\"name\":\"quest-halloween5\",\"script\":\"quest-halloween5\",\"range\":3,\"triggerInterval\":3}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
