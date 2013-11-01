@@ -107,12 +107,10 @@ module.exports = {
                     trigger.kin[unit.id]++;
 
                     if (trigger.kin[unit.id] >= 3) {
-                        // teleport time! (hard coded for now)
-                        unit.Teleport(15, {
-                            x: 1.41,
-                            y: 6.11,
-                            z: -1.85
-                        });
+                        var exit = worldHandler.FindUnit(-2072);
+                        if (exit) {
+                            unit.TeleportToUnit(exit);
+                        }
                     }
                 } else {
                     _.each(_.sample(trigger.chanters, 3), function(chanter) {
