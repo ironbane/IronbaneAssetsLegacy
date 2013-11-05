@@ -7,7 +7,7 @@ module.exports = {
 
             trigger.questers = trigger.questers || {active: [], complete: []};
 
-            if(unit.id > 0) { // only for players!
+            if(unit.isPlayer()) { // only for players!
                 // make this repeatable instead?
                 if(trigger.questers.complete.indexOf(unit.id) >= 0) {
                     trigger.Say('I can provide you with no more help.');

@@ -28,7 +28,7 @@ module.exports = {
         onEnter: function(unit) {
             var trigger = this;
 
-            if (unit.id > 0) { // only for players!
+            if (unit.isPlayer()) { // only for players!
                 trigger.Say(_.sample(phrases));
             }
         },
@@ -69,7 +69,7 @@ module.exports = {
                 trigger.chanters.push(unit);
             }
 
-            if (unit.id > 0) { // only for players!
+            if (unit.isPlayer()) { // only for players!
                 if (unit.hasItemEquipped('Pumpkin Head')) {
                     // begin chanting
                     trigger.kin[unit.id] = 0;
@@ -78,7 +78,7 @@ module.exports = {
         },
         onExit: function(unit) {
             var trigger = this;
-            if (unit.id > 0) {
+            if (unit.isPlayer()) {
                 // remove them from the lists just in case
                 delete trigger.kin[unit.id];
             }
@@ -86,7 +86,7 @@ module.exports = {
         onTick: function(unit) {
             var trigger = this;
 
-            if (unit.id > 0) {
+            if (unit.isPlayer()) {
                 // if we're not already kin
                 if (!trigger.kin.hasOwnProperty(unit.id)) {
                     if (unit.hasItemEquipped('Pumpkin Head')) {
@@ -130,7 +130,7 @@ module.exports = {
                 complete: []
             };
 
-            if (unit.id > 0) { // only for players!
+            if (unit.isPlayer()) { // only for players!
                 // make this repeatable instead?
                 if (trigger.questers.complete.indexOf(unit.id) >= 0 || unit.getItem(rewardItem)) {
                     trigger.Say('Thank you for bringing my notebook back.');

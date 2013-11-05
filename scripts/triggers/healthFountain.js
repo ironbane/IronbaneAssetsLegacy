@@ -1,6 +1,6 @@
 var healing = {
     onEnter: function(unit) {
-        if(unit.id > 0) { // players only
+        if(unit.isPlayer()) { // players only
             unit.socket.emit('bigMessage', {message: 'You feel warmth wash over you.'});
         }
         unit.SetHealth(unit.health + 1);
