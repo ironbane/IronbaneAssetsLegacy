@@ -535,7 +535,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2125 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2130 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1597,6 +1597,9 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2118,-8.28,6.16,-65.72,20,10,NULL,13,'{\"loot\":\"100:121;100:67;100:29\",\"respawnTime\":2000,\"rotY\":4.572444078360653}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2119,-1.40,3.04,-35.96,29,112,0.59,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2124,156.28,23.06,250.08,2,7,NULL,0,'{\"targetExit\":2123,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2126,154.45,21.63,244.16,2,9,NULL,1,'{\"text\":\"Ironbane Tales Staff only\",\"fontSize\":20,\"rotY\":1.6639999999766764}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2128,-265.89,104.74,76.29,2,5,NULL,67,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.569999999981797,\"startOpen\":false}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2129,-266.55,104.92,76.15,2,6,NULL,0,'{\"switchNumber\":2128}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
