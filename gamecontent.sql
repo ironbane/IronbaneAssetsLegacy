@@ -535,7 +535,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2123 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2125 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1466,6 +1466,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1934,7.83,15.22,-68.85,39,9,NULL,2,'{\"text\":\"Here\'s your | reward... >:)\",\"fontSize\":20,\"rotY\":1.5448146928304538}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1933,-2.65,15.07,-65.28,39,9,NULL,2,'{\"text\":\"...You cheater!\",\"fontSize\":20,\"rotY\":3.076814692823179}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1936,10.23,15.25,-72.32,39,7,NULL,0,'{\"targetExit\":1930,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2123,-261.15,104.30,76.56,2,8,NULL,0,'{\"invisible\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1938,-9.97,3.00,-34.55,35,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1949,-11.81,17.10,-27.89,31,5,NULL,33,'{\"movementType\":1,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.5360000000296332,\"startOpen\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1950,-24.48,16.42,-3.22,31,6,NULL,0,'{\"switchNumber\":1949}');
@@ -1595,6 +1596,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2117,0.62,9.99,-39.32,20,7,NULL,0,'{\"targetExit\":2116,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2118,-8.28,6.16,-65.72,20,10,NULL,13,'{\"loot\":\"100:121;100:67;100:29\",\"respawnTime\":2000,\"rotY\":4.572444078360653}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2119,-1.40,3.04,-35.96,29,112,0.59,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2124,156.28,23.06,250.08,2,7,NULL,0,'{\"targetExit\":2123,\"invisible\":true}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
