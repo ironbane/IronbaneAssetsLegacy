@@ -94,7 +94,7 @@ CREATE TABLE `ib_item_templates` (
   `charimage` smallint(4) unsigned NOT NULL DEFAULT '0' COMMENT 'UNUSED',
   `basevalue` int(11) NOT NULL DEFAULT '0' COMMENT 'base value for price before any modifiers.',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=132 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=136 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_item_templates` WRITE;
@@ -227,6 +227,10 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (129,'Pumpkin Island Key',7,'tool','key',0,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (130,'Ghost House Key',7,'tool','key',0,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (131,'Undead Crypt Key',7,'tool','key',0,1.00,'',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (132,'',0,'','',0,1.00,'',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (133,'',0,'','',0,1.00,'',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (134,'',0,'','',0,1.00,'',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (135,'',0,'','',0,1.00,'',0,0);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_meshes`;
@@ -435,7 +439,7 @@ CREATE TABLE `ib_unit_templates` (
   `usebashattack` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Whether this unit "bashes" into the enemy instead of throwing their weapon at the target. 0 or 1',
   `invisible` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '1 or 0',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=116 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=119 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_unit_templates` WRITE;
@@ -519,6 +523,9 @@ INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`,
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (112,'a','Jack o Lantern',20,666,0,0,0,0,0,0,200,0,'101',3,'90:119;90:120;90:118;100:121',200,0,2.00,10,10,0,0,0,1.00,1,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (114,'a','Lady Ghost',21,24,0,0,0,0,0,1,1,0,'',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0);
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (115,'a','Bank',17,0,0,0,0,0,0,0,1,0,'',3,'',30,1,1.00,10,10,1,0,0,1.00,0,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (116,'a','Flying Book',20,667,0,0,0,0,0,0,8,0,'10',2,'0',60,1,1.00,10,10,0,0,0,1.00,0,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (117,'a','Gentleman',21,668,0,0,0,0,0,0,2,0,'',3,'0',30,1,1.00,10,10,0,0,0,1.00,0,0);
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`) VALUES (118,'a','Vampire',20,669,0,0,0,0,0,0,20,6,'24',3,'0',60,1,1.00,10,10,0,0,0,1.00,1,0);
 /*!40000 ALTER TABLE `ib_unit_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_units`;
