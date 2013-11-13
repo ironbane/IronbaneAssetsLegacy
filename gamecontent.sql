@@ -544,7 +544,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2175 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2176 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -932,7 +932,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (901,-670.00,-1.00,202.00,1,44,3.09,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (902,-670.00,-1.00,208.00,1,82,5.53,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (904,-4.00,16.00,5.00,1,90,5.78,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (905,88.00,9.00,51.00,1,9,NULL,2,'{\"text\":\"Upcoming | Bank\",\"fontSize\":20,\"rotY\":0.89}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (912,-687.00,3.00,122.00,1,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (913,-681.00,2.00,117.00,1,7,NULL,0,'{\"targetExit\":912,\"invisible\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (968,-1336.00,112.00,560.00,1,7,NULL,0,'{\"targetExit\":967,\"invisible\":false}');
@@ -1068,6 +1067,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1170,40.09,1.65,21.54,1,9,NULL,2,'{\"text\":\"The Engineer\'s Office\",\"fontSize\":12,\"rotY\":4.68}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1171,31.00,1.69,81.00,1,9,NULL,2,'{\"text\":\"William the Blacksmith\",\"fontSize\":10,\"rotY\":5.2}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1577,34.09,0.00,-90.20,9,100,4.78,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2175,86.46,8.74,50.50,1,115,NULL,0,'{\"name\":\"bank\",\"slots\":10,\"mesh\":\"13\",\"rotY\":6.12918530712231}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1177,-51.96,12.70,39.50,3,10,NULL,13,'{\"loot\":\"100:18\",\"respawnTime\":30,\"rotY\":1.5827439999894688}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1178,-164.65,0.96,54.73,3,69,3.15,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1182,31.01,7.73,-202.42,12,10,NULL,13,'{\"loot\":\"100:10;65:10;50:75;12:83\",\"respawnTime\":1800,\"rotY\":3.18799999998797}');
