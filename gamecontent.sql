@@ -233,10 +233,10 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (135,'Top-hat',98,'armor','head',2,1.00,'0',0,16);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (136,'Suit',99,'armor','body',2,1.00,'',0,16);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (137,'Trousers',100,'armor','feet',2,1.00,'',0,16);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (138,'Ironbanes Shard',158,'weapon','sword',0,1.00,'',0,0);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (139,'Ironbanes Blade',159,'weapon','sword',0,1.00,'',0,0);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (140,'Ironbanes Bow',160,'weapon','bow',0,1.00,'',0,0);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (141,'Ironbanes Cleaver',161,'weapon','axe',0,1.00,'',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (138,'Ironbanes Shard',158,'weapon','sword',7,1.00,'',0,30);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (139,'Ironbanes Blade',159,'weapon','sword',8,0.80,'',0,30);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (140,'Ironbanes Bow',160,'weapon','bow',6,0.75,'ARROW',0,30);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (141,'Ironbanes Cleaver',161,'weapon','axe',10,1.25,'',0,30);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (142,'',0,'','',0,1.00,'',0,0);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
 UNLOCK TABLES;
