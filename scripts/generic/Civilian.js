@@ -44,13 +44,13 @@ var Civilian = MonsterState.extend({
             case "attacked":
                 unit.maxSpeed = 4;
 
-                unit.stateMachine.changeState(new FleeEnemy(data.attacker, this.waypointList));
+                unit.stateMachine.changeState(new FleeEnemy(data.attacker));
                 break;
             case "stopFlee":
                 // We lost the enemy or gave  up
 
                 // Go back to wandering
-                unit.stateMachine.changeState(new Wander(this.waypointList));
+                unit.stateMachine.changeState(new Wander());
                 unit.maxSpeed = this.normalSpeed;
                 break;
         }
