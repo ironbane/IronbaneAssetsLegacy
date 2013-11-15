@@ -1651,7 +1651,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2168,-346.43,110.80,71.57,2,44,2.79,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2174,-74.18,0.25,-21.14,2,109,NULL,0,'{\"name\":\"trigger\",\"script\":\"weaponDelay=0\",\"range\":100,\"triggerInterval\":3}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2177,160.12,53.89,47.77,1,9,NULL,1,'{\"text\":\"\",\"fontSize\":20,\"rotY\":1.4905553071495463}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2178,157.51,53.88,49.71,1,9,NULL,1,'{\"text\":\"Joe\'s farmawww\",\"fontSize\":20,\"rotY\":1.6628613071425438}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
