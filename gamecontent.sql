@@ -1665,9 +1665,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2189,149.36,55.73,56.78,1,59,1.20,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2190,139.42,57.31,52.44,1,59,1.50,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2191,147.48,56.10,64.68,1,59,1.44,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2202,91.24,-2.46,146.72,1,4,NULL,38,'{\"movementType\":8,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.4699999999999993}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2200,161.58,53.93,42.22,1,9,NULL,2,'{\"text\":\"Joe\'s farm\",\"fontSize\":20,\"rotY\":6.251553921545779}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2203,91.24,-2.46,146.72,1,4,NULL,38,'{\"movementType\":7,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":0.8099999999999987}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2204,91.24,-2.46,146.72,1,4,NULL,38,'{\"movementType\":4,\"speedMultiplier\":1,\"distanceMultiplier\":0.2,\"rotY\":0.8099999999999987}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
