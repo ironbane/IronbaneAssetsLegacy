@@ -22,7 +22,8 @@ var Civilian = MonsterState.extend({
             unit.skin = _.random(Constants.skinIdMaleStart, Constants.skinIdMaleEnd);
             unit.hair = _.random(Constants.hairIdMaleStart, Constants.hairIdMaleEnd);
             unit.eyes = _.random(Constants.eyesIdMaleStart, Constants.eyesIdMaleEnd);
-        } else {
+        }
+        else {
             unit.skin = _.random(Constants.skinIdFemaleStart, Constants.skinIdFemaleEnd);
             unit.hair = _.random(Constants.hairIdFemaleStart, Constants.hairIdFemaleEnd);
             unit.eyes = _.random(Constants.eyesIdFemaleStart, Constants.eyesIdFemaleEnd);
@@ -33,11 +34,17 @@ var Civilian = MonsterState.extend({
 
         if (_.sample([false, true])) {
             unit.head = _.sample([1, 2, 3, 4, 5, 6, 7, 8, 9, 12, 17, 22, 86, 87, 89, 93]);
-        } else {
+        }
+        else {
             unit.head = 0;
         }
 
         this._super(unit);
+    },
+    execute: function(unit, dTime) {
+        // This must stay because otherwise it will not overload MonsterState's
+        // execute, causing the Civilian to look for enemies. Feel free to change if you know
+        // a better solution
     },
     handleMessage: function(unit, message, data) {
         switch (message) {
