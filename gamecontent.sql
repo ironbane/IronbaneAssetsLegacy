@@ -99,10 +99,10 @@ CREATE TABLE `ib_item_templates` (
 
 LOCK TABLES `ib_item_templates` WRITE;
 /*!40000 ALTER TABLE `ib_item_templates` DISABLE KEYS */;
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (1,'Dull Sword',14,'weapon','sword',1,0.50,'',0,0);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (1,'Dull Sword',14,'weapon','sword',2,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (18,'Iron Helmet',2,'armor','head',2,1.00,'',0,4);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (5,'Wooden Helmet',1,'armor','head',1,1.00,'',1,4);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (6,'Wooden Armor',1,'armor','body',1,1.00,'',1,4);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (6,'Wooden Armor',1,'armor','body',2,1.00,'',1,4);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (7,'Wooden Leggings',1,'armor','feet',1,1.00,'',1,4);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (8,'Old Bow',5,'weapon','bow',1,1.25,'ARROW',0,10);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (9,'Acid Staff',15,'weapon','staff',3,1.50,'ACIDBALL',0,4);
