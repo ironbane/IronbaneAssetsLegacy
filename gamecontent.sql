@@ -118,7 +118,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (20,'Iron Leggings',2,'armor','feet',2,1.00,'',0,4);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (21,'Plasma Staff',88,'weapon','staff',6,1.25,'PLASMABALL',0,8);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (22,'Bone Sword',36,'weapon','sword',4,1.00,'',0,8);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (23,'Alabaster Axe',25,'weapon','axe',10,2.00,'',0,24);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (23,'Alabaster Axe',25,'weapon','axe',10,1.50,'',0,24);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (24,'Claymore',31,'weapon','sword',3,0.75,'',0,12);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (25,'Long Bow',61,'weapon','bow',2,1.25,'ARROW',0,8);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (26,'Dull Dagger',55,'weapon','dagger',1,0.75,'',0,2);
@@ -126,7 +126,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (28,'Rod of Healing',6,'weapon','staff',-4,1.25,'PLASMABALL',0,50);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (29,'Blessed Wand',62,'weapon','staff',-6,1.25,'PLASMABALL',0,100);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (30,'Hatchet',17,'weapon','axe',4,1.25,'',0,6);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (31,'Zombiefinger',27,'weapon','staff',1,0.30,'ACIDBALL',0,2);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (31,'Zombiefinger',27,'weapon','staff',4,1.00,'ACIDBALL',0,2);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (32,'Honey',28,'consumable','restorative',5,1.00,'',0,10);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (33,'Battle Axe',23,'weapon','axe',6,1.50,'',0,10);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (34,'White Tunic',3,'armor','body',1,1.00,'',0,2);
@@ -162,7 +162,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (64,'Thiefdagger',64,'weapon','dagger',2,0.50,'',0,4);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (65,'Kingsword',65,'weapon','sword',8,1.00,'',0,20);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (66,'Applehead',18,'armor','head',15,1.00,'',0,30);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (67,'Wings',5,'armor','body',2,1.00,'',0,12);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (67,'Wings',5,'armor','body',3,1.00,'',0,12);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (68,'Shadowknight Sword',33,'weapon','sword',5,1.00,'',0,16);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (69,'Dragon Boots',13,'armor','feet',8,1.00,'',0,36);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (70,'Mithril Boots',15,'armor','feet',3,1.00,'',0,20);
@@ -186,7 +186,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (88,'Sapphire Armor',83,'armor','body',8,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (89,'Moneybag',137,'cash','',1,1.00,'',0,1);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (90,'Moneybag',137,'cash','',1,1.00,'',0,5);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (91,'Torrent Staff',141,'weapon','staff',8,1.00,'PLASMABALL',0,19);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (91,'Torrent Staff',141,'weapon','staff',9,1.50,'PLASMABALL',0,19);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (92,'Gladiator Sword',140,'weapon','sword',4,0.75,'',0,10);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (93,'Bo Staff',144,'weapon','sword',3,1.00,'',0,4);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (94,'Pocket Knife',103,'weapon','dagger',1,0.75,'0',0,5);
@@ -210,7 +210,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (112,'Spectator',81,'armor','body',10,1.00,'',0,36);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (113,'Quick Hat',93,'armor','head',3,1.00,'',0,20);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (114,'AI: Acid Zombie Attack',0,'weapon','staff',12,2.00,'ACIDBALL',0,0);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (115,'Winters Mantle',94,'armor','body',6,1.00,'',0,32);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (115,'Winters Mantle',94,'armor','body',9,1.00,'',0,32);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (116,'Archer Bow',150,'weapon','bow',5,1.25,'ARROW',0,20);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (117,'Carrotsword',149,'weapon','sword',6,1.25,'',0,32);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (118,'Pumpkin Head',96,'armor','head',2,1.00,'',0,0);
@@ -228,7 +228,7 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (130,'Ghost House Key',7,'tool','key',0,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (131,'Undead Crypt Key',7,'tool','key',0,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (132,'Mean Apple',155,'consumable','restorative',10,1.00,'0',0,5);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (133,'War Fan',156,'weapon','dagger',2,0.80,'',0,8);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (133,'War Fan',156,'weapon','dagger',3,1.00,'',0,8);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (134,'Molten Sword',157,'weapon','sword',4,1.00,'',0,12);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (135,'Top-hat',98,'armor','head',2,1.00,'0',0,16);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (136,'Suit',99,'armor','body',2,1.00,'',0,16);
