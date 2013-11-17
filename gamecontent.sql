@@ -1651,7 +1651,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2167,-348.39,110.80,70.01,2,44,0.09,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2168,-346.43,110.80,71.57,2,44,2.79,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2174,-74.18,0.25,-21.14,2,109,NULL,0,'{\"name\":\"trigger\",\"script\":\"weaponDelay=0\",\"range\":100,\"triggerInterval\":3}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2206,-11.71,0.59,-63.09,1,119,2.78,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2206,-11.71,0.59,-63.09,1,119,2.78,0,'{\"buyPercentage\":0.2,\"sellPercentage\":5}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2176,143.81,55.17,30.50,1,59,3.31,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2177,143.23,55.17,27.31,1,59,3.01,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2178,142.92,55.28,23.28,1,59,3.47,0,'null');
