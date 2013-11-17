@@ -1072,7 +1072,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1170,40.09,1.65,21.54,1,9,NULL,2,'{\"text\":\"The Engineer\'s Office\",\"fontSize\":12,\"rotY\":4.68}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1171,31.00,1.69,81.00,1,9,NULL,2,'{\"text\":\"William the Blacksmith\",\"fontSize\":10,\"rotY\":5.2}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1577,34.09,0.00,-90.20,9,100,4.78,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2175,86.46,8.74,50.50,1,115,NULL,0,'{\"name\":\"bank\",\"slots\":10,\"mesh\":\"13\",\"rotY\":6.12918530712231}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2175,88.00,8.74,51.00,1,115,2.77,0,'{\"name\":\"Town Bank\",\"slots\":10,\"mesh\":\"13\",\"rotY\":2.77}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1177,-51.96,12.70,39.50,3,10,NULL,13,'{\"loot\":\"100:18\",\"respawnTime\":30,\"rotY\":1.5827439999894688}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1178,-164.65,0.96,54.73,3,69,3.15,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1182,31.01,7.73,-202.42,12,10,NULL,13,'{\"loot\":\"100:10;65:10;50:75;12:83\",\"respawnTime\":1800,\"rotY\":3.18799999998797}');
