@@ -270,7 +270,7 @@ CREATE TABLE `ib_meshes` (
   `ts8` float(4,2) NOT NULL DEFAULT '1.00' COMMENT 'Tile Scaling Multiplier 8',
   `special` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Whether this model uses special things, such as particles (e.g. Lantern)',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1145 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1150 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_meshes` WRITE;
@@ -414,6 +414,10 @@ INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transpa
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1142,'Sink','Decoration','sink.obj',1.00,0,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1143,'Weird Statue','Halloween','weirdstatue.obj',1.00,0,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1144,'Large Pumpkin','Halloween','largepumpkin.obj',1.00,0,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1146,'Corn Stalk','Foliage','corn_stalk.obj',1.00,1,'textures/corn_stalk',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1147,'Small Dresser','Decoration','small_dresser.obj',1.00,0,'textures/small_dresser',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1148,'Picture Frame (s)','Decoration','picture_frame_small.obj',1.00,0,'textures/picture_frame_small',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1149,'Berry Bush','Foliage','berry_bush.obj',1.00,1,'textures/berry_bush',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 /*!40000 ALTER TABLE `ib_meshes` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_unit_templates`;
