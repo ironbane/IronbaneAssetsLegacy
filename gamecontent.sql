@@ -204,9 +204,9 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (106,'Shadowsword',148,'weapon','sword',9,1.00,'0',0,17);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (107,'Blessed Dull Sword',142,'weapon','sword',5,1.00,'',0,15);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (108,'Slime Head',25,'armor','head',2,1.00,'',0,10);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (109,'Farmershirt',23,'armor','body',1,1.00,'',0,1);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (110,'Farmerpants',24,'armor','feet',1,1.00,'',0,1);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (111,'Farmerhat',22,'armor','head',1,1.00,'',0,1);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (109,'Farmershirt',23,'armor','body',1,1.00,'',0,10);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (110,'Farmerpants',24,'armor','feet',1,1.00,'',0,10);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (111,'Farmerhat',22,'armor','head',1,1.00,'',0,16);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (112,'Spectator',81,'armor','body',10,1.00,'',0,36);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (113,'Quick Hat',93,'armor','head',3,1.00,'',0,20);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (114,'AI: Acid Zombie Attack',0,'weapon','staff',12,2.00,'ACIDBALL',0,0);
@@ -237,7 +237,6 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (139,'Ironbanes Blade',159,'weapon','sword',10,0.80,'',0,30);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (140,'Ironbanes Bow',160,'weapon','bow',6,1.25,'ARROW',0,30);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (141,'Ironbanes Cleaver',161,'weapon','axe',13,1.25,'',0,30);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (142,'',0,'','',0,1.00,'',0,0);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (143,'Quickdraw',150,'weapon','bow',2,0.75,'ARROW',0,45);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (144,'Pink Plinker',166,'weapon','bow',1,0.50,'ARROW',0,80);
 /*!40000 ALTER TABLE `ib_item_templates` ENABLE KEYS */;
@@ -1267,10 +1266,8 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1720,69.01,18.67,26.05,13,77,3.63,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1722,65.00,17.64,43.92,13,4,NULL,40,'{\"movementType\":1,\"speedMultiplier\":1,\"distanceMultiplier\":2,\"rotY\":4.712444078385635}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1726,-21.68,0.49,-74.07,2,10,NULL,13,'{\"loot\":\"100:52333,100\",\"respawnTime\":20,\"rotY\":4.714073463226569}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1750,2.41,1.90,28.59,1,10,NULL,87,'{\"loot\":\"100:119;100:120\",\"respawnTime\":50,\"rotY\":0.8400000000000003}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2214,126.02,56.52,15.99,1,120,0.00,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1748,-3.14,9.80,-47.26,7,88,1.91,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1749,4.30,1.90,27.77,1,10,NULL,96,'{\"loot\":\"100:118\",\"respawnTime\":100,\"rotY\":0.7800000000000002}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1752,3.04,1.90,26.62,1,9,NULL,2,'{\"text\":\"TRICK OR TREAT\",\"fontSize\":18,\"rotY\":0.8399999999999976}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2122,-182.18,9.66,-190.28,1,10,NULL,13,'{\"loot\":\"100:91;100:38;100:73\",\"respawnTime\":300,\"rotY\":0.0028146926176045306}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1759,-10.82,8.48,-34.48,15,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1760,1.47,8.48,-46.25,15,8,NULL,0,'{\"invisible\":true}');
