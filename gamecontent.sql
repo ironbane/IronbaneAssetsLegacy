@@ -557,7 +557,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2212 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2215 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -652,6 +652,8 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (824,2.00,25.00,17.00,4,7,NULL,0,'{\"targetExit\":823,\"invisible\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (895,-711.00,43.00,204.00,1,4,NULL,40,'{\"movementType\":3,\"speedMultiplier\":0.5,\"distanceMultiplier\":2,\"rotY\":4.73}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (829,-449.00,3.00,1271.00,1,9,NULL,2,'{\"text\":\"Beware the magic Naruto Symbol\",\"fontSize\":10,\"rotY\":4.22}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2212,132.49,56.12,14.55,1,42,6.19,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2213,138.04,56.08,15.86,1,41,5.73,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (821,-943.00,4.00,507.00,1,38,3.04,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (189,5.00,60.00,13.00,3,4,NULL,40,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":4.2,\"rotY\":3.14}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (170,-188.00,5.00,53.00,3,4,NULL,40,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":4.3,\"rotY\":3.18}');
