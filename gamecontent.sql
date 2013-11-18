@@ -1266,7 +1266,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1720,69.01,18.67,26.05,13,77,3.63,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1722,65.00,17.64,43.92,13,4,NULL,40,'{\"movementType\":1,\"speedMultiplier\":1,\"distanceMultiplier\":2,\"rotY\":4.712444078385635}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1726,-21.68,0.49,-74.07,2,10,NULL,13,'{\"loot\":\"100:52333,100\",\"respawnTime\":20,\"rotY\":4.714073463226569}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2214,126.02,56.52,15.99,1,120,0.00,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2214,126.02,56.52,15.99,1,120,0.00,0,'{\"sellPercentage\":10}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1748,-3.14,9.80,-47.26,7,88,1.91,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2122,-182.18,9.66,-190.28,1,10,NULL,13,'{\"loot\":\"100:91;100:38;100:73\",\"respawnTime\":300,\"rotY\":0.0028146926176045306}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1759,-10.82,8.48,-34.48,15,8,NULL,0,'{\"invisible\":true}');
@@ -1312,14 +1312,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1802,1.56,3.00,-19.72,19,7,NULL,0,'{\"targetExit\":1787,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1803,1.46,3.00,-49.38,23,7,NULL,0,'{\"targetExit\":1797,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1807,-13.30,3.00,-34.55,23,7,NULL,0,'{\"targetExit\":1796,\"invisible\":true}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1810,45.19,2.30,107.77,1,109,NULL,0,'{\"name\":\"portal\",\"script\":\"quest-halloween3\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1811,45.93,2.60,111.28,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1812,48.46,3.65,109.34,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1813,41.69,1.85,109.59,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1814,42.06,1.85,105.88,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1815,46.82,3.05,105.16,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1816,48.70,2.90,106.90,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1817,42.61,2.60,111.50,1,109,NULL,0,'{\"name\":\"pumpkin-chanter\",\"script\":\"\",\"range\":5,\"triggerInterval\":4}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1818,5.01,3.00,-29.32,19,32,3.39,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1819,-0.06,3.00,-32.65,19,32,1.92,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1820,2.56,3.00,-38.96,19,32,1.01,0,'null');
