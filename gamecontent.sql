@@ -453,7 +453,7 @@ CREATE TABLE `ib_unit_templates` (
   `invisible` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '1 or 0',
   `immune` varchar(255) DEFAULT '{}',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=120 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=121 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_unit_templates` WRITE;
@@ -541,6 +541,7 @@ INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`,
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (117,'a','Gentleman',21,668,0,0,0,0,0,0,2,0,'',3,'0',30,1,1.00,10,10,0,0,0,1.00,0,0,'{}');
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (118,'a','Vampire',20,669,0,0,0,0,0,0,20,6,'24',3,'40:135;40:136;40:137',60,1,1.00,10,10,0,0,0,1.00,1,0,'{}');
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (119,'a','Jimmy the Fence',21,1002,1003,1002,24,0,6,1,10,6,'64',1,'64;64;98;46;47;144;143',20,1,1.00,10,10,0,0,0,1.00,0,0,'{}');
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (120,'a','Joe Farmer',21,1002,1001,1003,24,23,22,1,10,5,'0',1,'111;110;109',30,0,1.00,10,10,0,0,0,1.00,0,0,'{}');
 /*!40000 ALTER TABLE `ib_unit_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_units`;
