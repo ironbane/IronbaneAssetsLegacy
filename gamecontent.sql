@@ -561,7 +561,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=2222 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=2257 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -651,12 +651,14 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2210,-327.84,28.63,45.50,1,74,2.69,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (131,-1400.00,27.00,-55.00,1,30,5.65,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (838,-717.00,36.00,207.00,1,4,NULL,53,'{\"movementType\":3,\"speedMultiplier\":0.5,\"distanceMultiplier\":3,\"rotY\":3.14}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2255,-215.44,45.44,9.87,1,121,0.29,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (825,-268.00,76.00,68.00,6,10,NULL,13,'{\"loot\":\"100:29\",\"respawnTime\":2000,\"rotY\":3.16}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (824,2.00,25.00,17.00,4,7,NULL,0,'{\"targetExit\":823,\"invisible\":false}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (895,-711.00,43.00,204.00,1,4,NULL,40,'{\"movementType\":3,\"speedMultiplier\":0.5,\"distanceMultiplier\":2,\"rotY\":4.73}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (829,-449.00,3.00,1271.00,1,9,NULL,2,'{\"text\":\"Beware the magic Naruto Symbol\",\"fontSize\":10,\"rotY\":4.22}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2212,132.49,56.12,14.55,1,42,6.19,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2213,138.04,56.08,15.86,1,41,5.73,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2254,-215.44,45.44,9.87,1,121,0.29,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (189,5.00,60.00,13.00,3,4,NULL,40,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":4.2,\"rotY\":3.14}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (170,-188.00,5.00,53.00,3,4,NULL,40,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":4.3,\"rotY\":3.18}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (173,45.00,56.00,44.00,3,9,NULL,2,'{\"text\":\"W, A, S, D | to move\",\"fontSize\":20,\"rotY\":0}');
@@ -1578,6 +1580,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2174,-74.18,0.25,-21.14,2,109,NULL,0,'{\"name\":\"trigger\",\"script\":\"weaponDelay=0\",\"range\":100,\"triggerInterval\":3}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2206,-11.71,0.59,-63.09,1,119,2.78,0,'{\"buyPercentage\":0.2,\"sellPercentage\":5}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2218,139.97,56.64,32.00,1,59,4.04,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2256,-217.72,45.05,9.32,1,122,3.40,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2217,135.95,56.83,36.01,1,59,1.36,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2184,152.08,55.02,39.95,1,75,4.82,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2185,153.10,54.86,40.15,1,75,4.16,0,'null');
