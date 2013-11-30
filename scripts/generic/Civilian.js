@@ -1,6 +1,7 @@
 // A civilian NPC that wanders around and has a random appearance
 // Not hostile to the player
 
+
 var MonsterState = require(global.APP_ROOT_PATH + '/src/server/game/ai/states/monster'),
     FleeEnemy = require(global.APP_ROOT_PATH + '/src/server/game/ai/states/fleeEnemy'),
     Wander = require(global.APP_ROOT_PATH + '/src/server/game/ai/states/wander'),
