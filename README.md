@@ -13,4 +13,3 @@ Instructions for importing models
 6. Stop the server if it is running.
 7. Run ```grunt``` in the root folder.
 7. Start the server.
-
