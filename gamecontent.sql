@@ -478,7 +478,7 @@ CREATE TABLE `ib_unit_templates` (
   `invisible` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT '1 or 0',
   `immune` varchar(255) DEFAULT '{}',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=133 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=136 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_unit_templates` WRITE;
@@ -576,7 +576,9 @@ INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`,
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (127,'a','Sapphire Golem',20,673,0,0,0,0,0,0,1,550,'162',3,'100:157;100:75;30:65;10:157;10:154;10:155;10:157;10:152;10:153;5:165',400,0,3.00,10,10,0,0,0,1.00,0,0,'{\"bow\":true}');
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (128,'a','King Crudley',20,675,0,0,0,0,0,0,320,200,'164',3,'100:158;70:65;10:157;10:154;10:155;10:157;20:152;20:153',400,0,2.50,10,10,0,0,0,1.00,0,0,'{\"staff\":true;\"bow\";true}');
 INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (130,'a',NULL,NULL,0,0,0,0,0,0,0,1,0,'',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0,'{}');
-INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (131,'a','Snowman',20,677,0,0,0,0,0,0,2,2,'167',5,'5:135;50:167;1:172',30,1,1.00,20,20,0,0,0,1.00,0,0,'{}');
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (131,'a','Snowman',20,677,0,0,0,0,0,0,4,4,'167',5,'5:135;50:167;1:172',30,1,1.00,20,20,0,0,0,1.00,0,0,'{}');
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (134,'','Friendly snowman',1,678,0,0,0,0,0,1,10,10,'0',3,'',30,1,1.00,10,10,0,0,0,1.00,0,0,'{}');
+INSERT INTO `ib_unit_templates` (`id`, `prefix`, `name`, `type`, `skin`, `eyes`, `hair`, `feet`, `body`, `head`, `friendly`, `health`, `armor`, `weapons`, `aimerror`, `loot`, `respawntime`, `displayweapon`, `size`, `aggroradius`, `spawnguardradius`, `special`, `param`, `disabled`, `weaponoffsetmultiplier`, `usebashattack`, `invisible`, `immune`) VALUES (135,'a','Ice Goblin',20,1034,0,0,0,0,0,0,8,4,'172',3,'1:172;',60,1,1.00,10,10,0,0,0,1.00,0,0,'{}');
 /*!40000 ALTER TABLE `ib_unit_templates` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_units`;
@@ -593,7 +595,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3014 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3019 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1857,6 +1859,8 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2956,5.07,170.54,137.04,4,4,NULL,108,'{\"movementType\":1,\"speedMultiplier\":100,\"distanceMultiplier\":1e+78,\"rotY\":4.4351469289277}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2957,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2958,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3014,34.00,1.75,55.00,1,134,1.97,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3013,34.00,1.75,55.00,1,134,1.97,0,'null');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
