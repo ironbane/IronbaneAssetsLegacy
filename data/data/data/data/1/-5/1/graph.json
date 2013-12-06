@@ -1,0 +1,106 @@
+{
+    "nodes": [
+        {
+            "id": 353,
+            "pos": {
+                "x": -575.54,
+                "y": 4.82,
+                "z": 63.83
+            },
+            "edges": [
+                355,
+                354
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
+        },
+        {
+            "id": 354,
+            "pos": {
+                "x": -581.42,
+                "y": 5.49,
+                "z": 58.46
+            },
+            "edges": [
+                353,
+                355,
+                360,
+                361,
+                356
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
+        },
+        {
+            "id": 355,
+            "pos": {
+                "x": -572.28,
+                "y": 4.81,
+                "z": 57.97
+            },
+            "edges": [
+                353,
+                354,
+                361
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
+        },
+        {
+            "id": 356,
+            "pos": {
+                "x": -589.85,
+                "y": 6.18,
+                "z": 60.78
+            },
+            "edges": [
+                357,
+                358,
+                354,
+                360
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
+        },
+        {
+            "id": 358,
+            "pos": {
+                "x": -598.45,
+                "y": 6.85,
+                "z": 62.45
+            },
+            "edges": [
+                357,
+                359,
+                356
+            ],
+            "f": 0,
+            "g": 0,
+            "h": 0,
+            "cost": 1,
+            "visited": false,
+            "closed": false,
+            "parent": null
+        }
+    ]
+}
