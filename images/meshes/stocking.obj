@@ -1,0 +1,15 @@
+# Blender v2.68 (sub 0) OBJ File: 'stocking_large.blend'
+# www.blender.org
+mtllib stocking.mtl
+o stocking_stocking_mesh
+v 0.500000 -1.000000 0.000000
+v -0.500000 -1.000000 0.000000
+v 0.500000 0.000000 -0.000000
+v -0.500000 0.000000 -0.000000
+vt 0.000100 0.000100
+vt 0.999900 0.000100
+vt 0.999900 0.999900
+vt 0.000100 0.999900
+usemtl stocking_mat
+s off
+f 2/1 1/2 3/3 4/4

@@ -1,0 +1,13 @@
+# Blender MTL File: 'pine_tree.blend'
+# Material Count: 1
+
+newmtl pine_tree_mat
+Ns 96.078431
+Ka 0.000000 0.000000 0.000000
+Kd 0.800000 0.800000 0.800000
+Ks 0.000000 0.000000 0.000000
+Ni 1.000000
+d 1.000000
+illum 0
+map_Kd pine_tree.png
+map_d pine_tree.png
