@@ -615,7 +615,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3187 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3191 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1660,7 +1660,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3004,319.02,52.97,-198.88,1,123,0.93,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3005,320.90,53.01,-199.61,1,123,1.29,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3085,180.41,51.36,225.53,1,138,2.19,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3091,164.20,48.38,250.22,1,139,3.18,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3189,136.11,-2.11,152.23,1,10,NULL,91,'{\"loot\":\"5:169;5:169;5:169;5:169;5:169;5:169;5:169;5:169;5:169\",\"respawnTime\":120,\"rotY\":2.33999999999999}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3150,113.01,-2.50,135.43,1,4,NULL,35,'{\"movementType\":2,\"speedMultiplier\":0.82,\"distanceMultiplier\":0.12,\"rotY\":0.41999999999999826}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3083,188.42,50.92,224.06,1,138,3.81,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2768,1.41,0.24,2.22,2,96,0.90,0,'null');
@@ -1891,6 +1891,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3133,130.52,9.96,146.77,1,10,NULL,13,'{\"loot\":\"100:32; 100:14; 25:25\",\"respawnTime\":100000,\"rotY\":1.1400000000000006}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3154,112.79,-1.90,139.45,1,4,NULL,34,'{\"movementType\":2,\"speedMultiplier\":0.62,\"distanceMultiplier\":0.14,\"rotY\":4.723185307179594}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3169,115.00,-1.75,139.00,1,4,NULL,91,'{\"movementType\":2,\"speedMultiplier\":0.83,\"distanceMultiplier\":0.26,\"rotY\":1.0200000000000005}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3190,162.43,48.00,249.51,1,139,3.53,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3172,118.70,-1.90,142.79,1,4,NULL,96,'{\"movementType\":2,\"speedMultiplier\":0.74,\"distanceMultiplier\":0.23,\"rotY\":4.303185307179597}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3148,114.50,-2.80,132.80,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.69,\"distanceMultiplier\":0.22,\"rotY\":4.4231853071795975}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3147,114.50,-2.80,132.80,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.69,\"distanceMultiplier\":0.22,\"rotY\":4.4231853071795975}');
