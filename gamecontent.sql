@@ -298,7 +298,7 @@ CREATE TABLE `ib_meshes` (
   `ts8` float(4,2) NOT NULL DEFAULT '1.00' COMMENT 'Tile Scaling Multiplier 8',
   `special` tinyint(1) unsigned NOT NULL DEFAULT '0' COMMENT 'Whether this model uses special things, such as particles (e.g. Lantern)',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=1153 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=1163 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_meshes` WRITE;
@@ -448,7 +448,17 @@ INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transpa
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1149,'Berry Bush','Foliage','berry_bush.obj',1.00,1,'textures/berry_bush',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1150,'Hay Wagon','Farm','hay_wagon.obj',1.00,1,'textures/hay_wagon',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1151,'Igloo','Winter','igloo.obj',1.00,0,'textures/igloo',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
-INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1152,'Pine Tree','Winter','pine_tree.obj',1.00,0,'textures/pine_tree',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1152,'Pine Tree','Winter','pine_tree.obj',1.00,1,'textures/pine_tree',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1153,'Pine Tree Snow','Winter','pine_tree_snow.obj',1.00,1,'textures/pine_tree',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1154,'Pine Tree Snow (L)','Winter','pine_tree_snow_large.obj',1.00,1,'textures/pine_tree_snow_large',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1155,'Mistletoe','Winter','mistle_toe.obj',1.00,1,'textures/mistle_toe',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1156,'Ornament','Winter','ornament_ball.obj',1.00,0,'textures/ornament_ball',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1157,'Present (S)','Winter','present_box_small.obj',1.00,0,'textures/present_box_small',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1158,'Present (L)','Winter','present_box_large.obj',1.00,0,'textures/present_box_large',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1159,'Stocking','Winter','stocking.obj',1.00,1,'textures/stocking',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1160,'Santa Statue','Winter','santa_statue.obj',1.00,0,'textures/santa_statue',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1161,'Santa Statue (L)','Winter','santa_statue_large.obj',1.00,0,'textures/santa_statue',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
+INSERT INTO `ib_meshes` (`id`, `name`, `category`, `filename`, `scale`, `transparent`, `t1`, `ts1`, `t2`, `ts2`, `t3`, `ts3`, `t4`, `ts4`, `t5`, `ts5`, `t6`, `ts6`, `t7`, `ts7`, `t8`, `ts8`, `special`) VALUES (1162,'Santa Statue Ice (L)','Winter','santa_statue_large_ice.obj',1.00,0,'textures/santa_statue_ice',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,'tiles/1',1.00,0);
 /*!40000 ALTER TABLE `ib_meshes` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_unit_templates`;
@@ -605,7 +615,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3134 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3187 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1631,7 +1641,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2204,91.24,-2.46,146.72,1,4,NULL,38,'{\"movementType\":4,\"speedMultiplier\":1,\"distanceMultiplier\":0.2,\"rotY\":0.8099999999999987}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2265,35.99,4.27,-30.73,1,10,NULL,38,'{\"loot\":\"100:79;100:88;100:70\",\"respawnTime\":15,\"rotY\":3.08237061435691}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2266,36.19,4.27,-30.51,1,10,NULL,38,'{\"loot\":\"100:79;100:88;100:70\",\"respawnTime\":15,\"rotY\":1.170370614355977}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3129,108.10,-0.60,148.18,1,4,NULL,88,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":0.9599999999999977}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3160,113.43,-1.90,142.47,1,4,NULL,1147,'{\"movementType\":2,\"speedMultiplier\":1.12,\"distanceMultiplier\":0.17,\"rotY\":0.5399999999999965}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3081,166.39,50.89,230.45,1,134,5.74,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3082,181.33,50.08,233.66,1,134,1.32,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2299,-217.45,45.11,9.37,1,122,0.28,0,'null');
@@ -1649,9 +1659,9 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3003,317.68,52.93,-199.23,1,123,0.66,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3004,319.02,52.97,-198.88,1,123,0.93,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3005,320.90,53.01,-199.61,1,123,1.29,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3130,113.45,-0.75,149.63,1,4,NULL,82,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.9199999999999986}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3085,180.41,51.36,225.53,1,138,2.19,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3091,164.20,48.38,250.22,1,139,3.18,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3150,113.01,-2.50,135.43,1,4,NULL,35,'{\"movementType\":2,\"speedMultiplier\":0.82,\"distanceMultiplier\":0.12,\"rotY\":0.41999999999999826}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3083,188.42,50.92,224.06,1,138,3.81,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2768,1.41,0.24,2.22,2,96,0.90,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2539,-324.88,28.64,43.79,1,10,NULL,106,'{\"loot\":\"50:77; 50:77; 50:77; 50:76; 50:76; 50:76; 20:57; 20:57\",\"respawnTime\":1,\"rotY\":5.609999999999996}');
@@ -1879,14 +1889,16 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3072,9.36,0.27,-43.99,2,131,0.61,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3055,4.91,1.89,35.94,1,99,4.72,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3133,130.52,9.96,146.77,1,10,NULL,13,'{\"loot\":\"100:32; 100:14; 25:25\",\"respawnTime\":100000,\"rotY\":1.1400000000000006}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3132,117.56,-0.75,148.41,1,4,NULL,97,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":1.8599999999999985}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3127,109.95,-0.90,143.38,1,4,NULL,36,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":2.0399999999999987}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3124,115.81,-1.20,139.76,1,4,NULL,35,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":1,\"rotY\":2.9231853071795983}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3123,112.99,-0.94,140.98,1,4,NULL,1147,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":0.4,\"rotY\":1.2936293856407999}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3119,114.84,-0.94,136.61,1,4,NULL,97,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":0.4,\"rotY\":5.759999999999989}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3121,116.47,-0.64,134.70,1,4,NULL,34,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":0.4,\"rotY\":1.6536293856408002}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3117,115.01,-1.65,131.06,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":0.4,\"rotY\":2.459999999999999}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3116,112.33,-1.65,131.04,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":1,\"distanceMultiplier\":0.4,\"rotY\":2.459999999999999}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3154,112.79,-1.90,139.45,1,4,NULL,34,'{\"movementType\":2,\"speedMultiplier\":0.62,\"distanceMultiplier\":0.14,\"rotY\":4.723185307179594}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3169,115.00,-1.75,139.00,1,4,NULL,91,'{\"movementType\":2,\"speedMultiplier\":0.83,\"distanceMultiplier\":0.26,\"rotY\":1.0200000000000005}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3172,118.70,-1.90,142.79,1,4,NULL,96,'{\"movementType\":2,\"speedMultiplier\":0.74,\"distanceMultiplier\":0.23,\"rotY\":4.303185307179597}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3148,114.50,-2.80,132.80,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.69,\"distanceMultiplier\":0.22,\"rotY\":4.4231853071795975}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3147,114.50,-2.80,132.80,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.69,\"distanceMultiplier\":0.22,\"rotY\":4.4231853071795975}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3146,112.00,-2.35,131.00,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.6,\"distanceMultiplier\":0.2,\"rotY\":4.243185307179599}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3186,117.39,-2.35,137.85,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.73,\"distanceMultiplier\":0.19,\"rotY\":4.7063706143591855}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3175,115.56,-1.75,145.14,1,4,NULL,97,'{\"movementType\":2,\"speedMultiplier\":0.64,\"distanceMultiplier\":0.19,\"rotY\":5.743185307179587}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3176,115.56,-1.60,145.14,1,4,NULL,97,'{\"movementType\":2,\"speedMultiplier\":0.64,\"distanceMultiplier\":0.19,\"rotY\":4.543185307179595}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3183,117.42,-2.35,148.28,1,4,NULL,38,'{\"movementType\":2,\"speedMultiplier\":0.63,\"distanceMultiplier\":0.15,\"rotY\":1.7399999999999967}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
