@@ -268,11 +268,11 @@ INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (174,'Priest Robes',204,'armor','body',2,1.00,'',0,10);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (175,'High Priest Staff',45,'weapon','staff',-12,2.00,'PLASMABALL',0,150);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (176,'Crude Healing Cane',29,'weapon','staff',-1,1.25,'PLASMABALL',0,5);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (177,'War God\'s Mantle',7,'armor','body',20,1.00,'',0,300);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (178,'Archangel\'s Breastplate',8,'armor','body',20,1.00,'',0,300);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (177,'War God\'s Mantle',7,'armor','body',20,1.00,'',0,30);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (178,'Archangel\'s Breastplate',8,'armor','body',20,1.00,'',0,30);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (179,'Dark Priest\'s Robes',206,'armor','body',2,1.00,'',0,15);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (180,'Robes of the Holy Flame',205,'armor','body',8,1.00,'',0,35);
-INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (181,'Ruby Breastplate',12,'armor','body',10,1.00,'',0,40);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (180,'Robes of the Holy Flame',205,'armor','body',8,1.00,'',0,28);
+INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (181,'Ruby Breastplate',12,'armor','body',10,1.00,'',0,30);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (182,'Carpenter Jeans',7,'armor','feet',2,1.00,'',0,5);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (183,'Forest Walker',12,'armor','feet',6,1.00,'',0,15);
 INSERT INTO `ib_item_templates` (`id`, `name`, `image`, `type`, `subtype`, `attr1`, `delay`, `particle`, `charimage`, `basevalue`) VALUES (184,'Fairy Leggings',11,'armor','feet',8,1.00,'',0,35);
