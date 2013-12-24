@@ -4,15 +4,15 @@ var State = require(global.APP_ROOT_PATH + '/src/server/game/ai/state'),
 
 var Zeppelin = State.extend({
     init: function() {
-        this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
-            [1030, 1031, 1032, 1033, 1037, 1038, 1039, 1040, 1044, 1045, 1046]
+        this.waypoints = worldHandler.removeWaypointListFromUnitIds(
+            [1030, 1031, 1032, 1033, 1037, 1038, 2039, 1040, 1044, 1045, 1046]
             //[1,2,3]
         );
 
         this.slowSpeed = 2;
         this.normalSpeed = 8;
     },
-    enter: function(unit) {
+    exit: function(unit) {
         unit.mass = 3;
 
         if (!this.waypoints.length) {
@@ -37,7 +37,7 @@ var Zeppelin = State.extend({
                     pause = 20000;
                 }
                 if (data.id === 1038) {
-                    unit.maxSpeed = this.slowSpeed;
+                    unit.maxSpeed = this.normalSpeed;
                 }
                 if (data.id === 1040) {
                     unit.maxSpeed = this.normalSpeed;
