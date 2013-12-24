@@ -640,7 +640,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3262 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3264 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1903,7 +1903,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2957,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2958,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3019,12.81,1.70,41.83,1,134,5.07,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3024,-26.95,0.07,3.69,1,136,3.59,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3025,1.05,1.82,94.44,1,136,0.43,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3026,162.55,30.56,-97.10,1,135,3.81,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3027,172.74,30.28,-99.04,1,135,3.99,0,'null');
@@ -1988,6 +1987,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3259,-42.44,-0.04,72.99,42,125,1.81,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3260,-52.01,0.00,115.96,42,140,0.14,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3261,-51.19,0.00,118.69,42,140,0.32,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3263,-36.39,0.37,37.81,42,109,NULL,0,'{\"name\":\"saphireHealt\",\"script\":\"healthFountain\",\"range\":3,\"triggerInterval\":2}');
 /*!40000 ALTER TABLE `ib_units` ENABLE KEYS */;
 UNLOCK TABLES;
 DROP TABLE IF EXISTS `ib_zones`;
