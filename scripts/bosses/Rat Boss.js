@@ -8,7 +8,7 @@ var RatBoss = MonsterState.extend({
     handleMessage: function(unit, message, data) {
         switch (message) {
             case "attacked":
-                unit.Say("<Squeak!>");
+                unit.Say("<ouch!>");
                 break;
         }
         this._super(unit, message, data);
