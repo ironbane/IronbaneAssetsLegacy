@@ -1734,7 +1734,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2868,3.25,165.86,81.15,4,10,NULL,109,'{\"loot\":\"\",\"respawnTime\":300,\"rotY\":2.0159265358979694}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2392,-181.76,0.14,84.47,2,71,2.08,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2712,-312.07,28.63,41.91,1,74,0.50,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2863,-320.89,28.65,38.96,1,7,NULL,0,'{\"targetExit\":767,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2864,-454.96,871.15,-2001.05,1,7,NULL,0,'{\"targetExit\":767,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2713,-312.07,28.63,41.91,1,74,0.50,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2714,-312.07,28.63,41.91,1,74,0.50,0,'null');
@@ -1753,7 +1752,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2663,239.97,82.08,-208.40,1,4,NULL,58,'{\"movementType\":2,\"speedMultiplier\":0.8,\"distanceMultiplier\":6,\"rotY\":5.3474653074248915}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2648,241.26,75.80,-205.42,1,4,NULL,58,'{\"movementType\":3,\"speedMultiplier\":1.3,\"distanceMultiplier\":1.5,\"rotY\":5.465681307259723}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2649,241.26,75.80,-205.42,1,4,NULL,58,'{\"movementType\":3,\"speedMultiplier\":1.3,\"distanceMultiplier\":1.5,\"rotY\":5.465681307259723}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2529,-325.43,32.19,34.17,1,10,NULL,91,'{\"loot\":\"100:68; 100:72; 100:49; 100:80; 100:70; 100:67\",\"respawnTime\":1,\"rotY\":5.189999999999993}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2530,-325.43,32.19,34.17,1,10,NULL,91,'{\"loot\":\"100:68; 100:72; 100:49; 100:80; 100:70; 100:67\",\"respawnTime\":1,\"rotY\":5.189999999999993}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2487,-675.17,826.81,927.73,41,9,NULL,2,'{\"text\":\"Accept your fate\",\"fontSize\":20,\"rotY\":2.8017765597785393}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2501,-674.56,826.91,925.96,41,8,NULL,0,'{\"invisible\":true}');
