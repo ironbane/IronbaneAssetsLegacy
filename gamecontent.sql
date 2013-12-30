@@ -1030,9 +1030,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1616,-8.71,9.90,254.93,13,89,6.25,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3010,138.38,29.52,-94.31,1,131,6.05,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3012,140.21,29.54,-92.89,1,131,1.69,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3018,14.92,1.70,40.33,1,134,5.12,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3017,14.92,1.70,40.33,1,134,5.12,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3020,12.81,1.70,41.83,1,134,5.07,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1614,-43.13,7.00,173.50,1,109,NULL,0,'{\"name\":\"trigger\",\"script\":\"quest-sword1\",\"range\":3,\"triggerInterval\":1000}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1613,33.62,1.83,50.08,1,109,NULL,0,'{\"name\":\"town health\",\"script\":\"healthFountain\",\"range\":3,\"triggerInterval\":2}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (1612,-626.92,8.02,55.99,1,9,NULL,2,'{\"text\":\"Coming soon!\",\"fontSize\":20,\"rotY\":1.9368146928203998}');
@@ -1890,8 +1887,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2956,5.07,170.54,137.04,4,4,NULL,108,'{\"movementType\":1,\"speedMultiplier\":100,\"distanceMultiplier\":1e+78,\"rotY\":4.4351469289277}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2957,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2958,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3019,12.81,1.70,41.83,1,134,5.07,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3025,1.05,1.82,94.44,1,136,0.43,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3026,162.55,30.56,-97.10,1,135,3.81,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3027,172.74,30.28,-99.04,1,135,3.99,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3031,43.15,2.52,66.87,1,40,3.37,0,'null');
