@@ -4,23 +4,33 @@ var State = require(global.APP_ROOT_PATH + '/src/server/game/ai/state'),
 
 var Zeppelin = State.extend({
     init: function() {
-        this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
-            [1030, 1031, 1032, 1033, 1037, 1038, 1039, 1040, 1044, 1045, 1046]
-            //[1,2,3]
-        );
+
+        this.waypoints = [];
 
         this.slowSpeed = 2;
         this.normalSpeed = 8;
     },
+    load : function() {
+
+        var self = this;
+
+        return worldHandler.BuildWaypointListFromUnitIds(
+            [1030, 1031, 1032, 1033, 1037, 1038, 1039, 1040, 1044, 1045, 1046]
+        ).then(function(waypoints) {
+            self.waypoints = waypoints;
+        }); 
+    },
     enter: function(unit) {
+
         unit.mass = 3;
 
-        if (!this.waypoints.length) {
-            return;
-        }
+        var self = this;
 
-        unit.position.copy(this.waypoints[0].pos);
-        unit.stateMachine.changeState(new Patrol(this.waypoints));
+        self.load().then(function() { 
+            unit.position.copy(self.waypoints[0].pos);
+            unit.stateMachine.changeState(new Patrol(self.waypoints));
+        });
+
     },
     handleMessage: function(unit, message, data) {
         switch (message) {
@@ -69,15 +79,17 @@ var ZeppelinB = Zeppelin.extend({
     enter: function(unit) {
         unit.mass = 3;
 
-        if (!this.waypoints.length) {
-            return;
-        }
+        var self = this;
 
-        unit.position.copy(this.waypoints[7].pos);
+        self.load().then(function() { 
 
-        unit.stateMachine.changeState(new Patrol(this.waypoints, {
-            firstWaypoint: 1040
-        }));
+            unit.position.copy(self.waypoints[7].pos);
+
+            unit.stateMachine.changeState(new Patrol(self.waypoints, {
+                firstWaypoint: 1040
+            }));
+
+        });
     }
 });
 
