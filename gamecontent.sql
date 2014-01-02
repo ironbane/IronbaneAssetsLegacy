@@ -640,7 +640,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3268 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3279 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1844,6 +1844,10 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2866,-431.23,871.23,-2024.29,1,7,NULL,0,'{\"targetExit\":2856,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2865,-324.07,28.63,37.78,1,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2845,-442.20,871.22,-2004.88,1,9,NULL,1,'{\"text\":\"IRONBANE MOUNTAIN BASE\",\"fontSize\":16,\"rotY\":2.6654570000001105}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3277,-176.40,11.46,-186.03,1,116,1.44,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3278,-179.34,11.46,-183.79,1,116,0.42,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3275,-178.54,11.46,-190.32,1,116,1.44,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3276,-181.05,11.46,-185.85,1,116,1.44,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2950,2.30,170.73,68.99,4,4,NULL,108,'{\"movementType\":1,\"speedMultiplier\":100,\"distanceMultiplier\":1e+78,\"rotY\":1.5393322359778383}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2894,-441.85,873.20,-1984.97,1,89,3.00,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2895,-441.85,873.20,-1984.97,1,89,3.00,0,'null');
@@ -1889,6 +1893,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2957,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2958,1.59,168.96,75.49,4,9,NULL,3,'{\"text\":\"ENJOY THE EPIC LIGHTS\",\"fontSize\":20,\"rotY\":0.02014692808019991}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3266,-329.12,28.66,15.44,1,10,NULL,35,'{\"loot\":\"100;95;100:189;70:192\",\"respawnTime\":300,\"rotY\":0.2519999999997673}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3274,-175.82,11.46,-190.88,1,116,1.44,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3026,162.55,30.56,-97.10,1,135,3.81,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3027,172.74,30.28,-99.04,1,135,3.99,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3031,43.15,2.52,66.87,1,40,3.37,0,'null');
