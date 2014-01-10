@@ -625,7 +625,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3291 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3298 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1827,9 +1827,11 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2969,-181.56,0.09,151.35,2,9,NULL,2,'{\"text\":\"SLIME SANCTUARY\",\"fontSize\":20,\"rotY\":0.20999999999999358}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2970,-456.87,872.34,-1995.12,1,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2903,-432.47,871.22,-2023.38,1,123,1.07,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3296,-39.97,0.00,67.30,42,10,NULL,13,'{\"loot\":\"100:16\",\"respawnTime\":600,\"rotY\":3.4068146928204115}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2972,-182.36,1.33,146.65,2,7,NULL,0,'{\"targetExit\":2970,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2973,-182.36,1.33,146.65,2,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2914,-447.22,873.19,-1987.24,1,117,1.53,0,'null');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3297,-38.91,0.00,77.27,42,10,NULL,13,'{\"loot\":\"100:16\",\"respawnTime\":600,\"rotY\":0.12362938564082082}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2963,-444.75,871.29,-1998.37,1,129,5.11,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2964,-449.91,871.21,-2000.59,1,129,5.59,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2966,-438.28,871.22,-2007.50,1,127,1.11,0,'null');
