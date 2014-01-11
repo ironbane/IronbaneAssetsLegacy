@@ -625,7 +625,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3318 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3322 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -728,7 +728,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (349,-3.00,43.00,37.00,3,9,NULL,1,'{\"text\":\"Kill the rats!\",\"fontSize\":20,\"rotY\":3.12}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (340,5.00,56.00,18.00,3,9,NULL,1,'{\"text\":\"Jump on|the platform\",\"fontSize\":20,\"rotY\":4.71}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (341,5.00,56.00,9.00,3,9,NULL,1,'{\"text\":\"Jump on|the platform\",\"fontSize\":20,\"rotY\":1.57}');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (348,-2.00,43.00,21.00,3,9,NULL,3,'{\"text\":\"Equip your sword and|press the left mouse button| to attack.||\",\"fontSize\":20,\"rotY\":4.71}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3321,-8.04,45.60,15.96,3,9,NULL,3,'{\"text\":\"Left click to attack\",\"fontSize\":20,\"rotY\":3.1608146938439163}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (192,10.00,43.00,34.00,3,70,0.38,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (193,14.00,43.00,37.00,3,70,5.83,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (194,19.00,43.00,30.00,3,70,1.97,0,'null');
@@ -1837,7 +1837,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2964,-449.91,871.21,-2000.59,1,129,5.59,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2966,-438.28,871.22,-2007.50,1,127,1.11,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2967,-440.77,871.22,-2008.46,1,127,1.17,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3315,-24.97,56.46,4.13,3,9,NULL,3,'{\"text\":\"You can change your| camera angle by holding your| left mouse button\",\"fontSize\":25,\"rotY\":1.5808146928180404}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2974,-180.68,0.10,151.31,2,117,1.83,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2975,-456.86,872.33,-1995.10,1,7,NULL,0,'{\"targetExit\":2973,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2945,2.68,164.56,74.39,4,4,NULL,108,'{\"movementType\":1,\"speedMultiplier\":100,\"distanceMultiplier\":1e+78,\"rotY\":4.791702848628969}');
@@ -1864,7 +1863,6 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3031,43.15,2.52,66.87,1,40,3.37,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3032,32.17,0.51,-26.09,1,40,4.35,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3034,38.68,2.33,43.83,1,130,3.18,0,'null');
-INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3316,-24.97,56.46,4.13,3,9,NULL,3,'{\"text\":\"You can change your| camera angle by holding your| left mouse button\",\"fontSize\":25,\"rotY\":1.5808146928180404}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3055,4.91,1.89,35.94,1,99,4.72,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3133,130.52,9.96,146.77,1,10,NULL,13,'{\"loot\":\"100:32; 100:14; 25:25\",\"respawnTime\":100000,\"rotY\":1.1400000000000006}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3154,112.79,-1.90,139.45,1,4,NULL,34,'{\"movementType\":2,\"speedMultiplier\":0.62,\"distanceMultiplier\":0.14,\"rotY\":4.723185307179594}');
@@ -1883,6 +1881,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3193,70.77,41.22,246.85,1,136,1.99,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3194,117.11,62.27,258.29,1,10,NULL,1157,'{\"loot\":\"1:175;1:115;1:144;1:28;1:82;1:169;1:133\",\"respawnTime\":3600,\"rotY\":3.704814692825499}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3195,-4.60,6.10,-27.47,1,10,NULL,102,'{\"loot\":\"50:133\",\"respawnTime\":7200,\"rotY\":2.413185307179599}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3320,-24.61,56.45,4.32,3,9,NULL,3,'{\"text\":\"You can change your camera|angle by holding down your|right mouse button\",\"fontSize\":20,\"rotY\":4.6940000000596}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3202,4.95,0.26,-41.83,2,11,0.17,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3209,-40.55,0.00,6.61,42,129,0.17,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3210,-38.14,-0.02,5.22,42,124,0.55,0,'null');
