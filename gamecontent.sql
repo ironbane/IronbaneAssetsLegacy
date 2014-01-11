@@ -625,7 +625,7 @@ CREATE TABLE `ib_units` (
   `param` int(10) NOT NULL DEFAULT '0',
   `data` text,
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=3317 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=3318 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_units` WRITE;
@@ -1809,6 +1809,7 @@ INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2711,-314.95,29.89,43.27,1,7,NULL,0,'{\"targetExit\":2500,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2726,-313.85,31.20,43.19,1,7,NULL,0,'{\"targetExit\":2500,\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2727,-313.83,31.20,43.02,1,7,NULL,0,'{\"targetExit\":2500,\"invisible\":true}');
+INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (3317,-5.59,15.92,4.93,1,90,5.88,0,'null');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2837,-329.84,28.64,48.28,1,9,NULL,2,'{\"text\":\"Ironbane Secret Operations\",\"fontSize\":14,\"rotY\":2.6284882903415148}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2841,-432.98,871.23,-2025.06,1,8,NULL,0,'{\"invisible\":true}');
 INSERT INTO `ib_units` (`id`, `x`, `y`, `z`, `zone`, `template`, `roty`, `param`, `data`) VALUES (2842,-321.70,28.65,36.42,1,7,NULL,0,'{\"targetExit\":2841,\"invisible\":true}');
