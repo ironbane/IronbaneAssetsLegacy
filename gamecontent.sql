@@ -1950,7 +1950,7 @@ CREATE TABLE `ib_zones` (
   `name` varchar(255) NOT NULL,
   `type` tinyint(3) unsigned NOT NULL DEFAULT '1',
   PRIMARY KEY (`id`)
-) ENGINE=MyISAM AUTO_INCREMENT=43 DEFAULT CHARSET=utf8;
+) ENGINE=MyISAM AUTO_INCREMENT=44 DEFAULT CHARSET=utf8;
 /*!40101 SET character_set_client = @saved_cs_client */;
 
 LOCK TABLES `ib_zones` WRITE;
@@ -1962,6 +1962,7 @@ INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (7,'Ironbane\'s Chamber',4)
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (9,'Rat Basement',2);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (13,'Ironbane\'s Castle',4);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (14,'Maze',4);
+INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (43,'Mineshaft',2);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (42,'Sapphire Slime Cave',2);
 INSERT INTO `ib_zones` (`id`, `name`, `type`) VALUES (41,'Welcome to Hell!',4);
 /*!40000 ALTER TABLE `ib_zones` ENABLE KEYS */;
