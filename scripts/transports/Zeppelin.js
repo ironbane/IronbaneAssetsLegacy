@@ -4,23 +4,25 @@ var State = require(global.APP_ROOT_PATH + '/src/server/game/ai/state'),
 
 var Zeppelin = State.extend({
     init: function() {
-        this.waypoints = worldHandler.BuildWaypointListFromUnitIds(
-            [1030, 1031, 1032, 1033, 1037, 1038, 1039, 1040, 1044, 1045, 1046]
-            //[1,2,3]
-        );
-
         this.slowSpeed = 2;
         this.normalSpeed = 8;
     },
     enter: function(unit) {
         unit.mass = 3;
 
-        if (!this.waypoints.length) {
-            return;
-        }
+        var me = this;
 
-        unit.position.copy(this.waypoints[0].pos);
-        unit.stateMachine.changeState(new Patrol(this.waypoints));
+        worldHandler.BuildWaypointListFromUnitIds(
+            [1030, 1031, 1032, 1033, 1037, 1038, 1039, 1040, 1044, 1045, 1046]
+            //[1,2,3]
+        ).then(function(waypoints) {
+            if ( waypoints.length ) {
+                unit.position.copy(waypoints[0].pos);
+                unit.stateMachine.changeState(new Patrol(waypoints));
+                me.waypoints = waypoints;
+            }
+        });
+
     },
     handleMessage: function(unit, message, data) {
         switch (message) {
