@@ -71,15 +71,20 @@ var ZeppelinB = Zeppelin.extend({
     enter: function(unit) {
         unit.mass = 3;
 
-        if (!this.waypoints.length) {
-            return;
-        }
+        var me = this;
 
-        unit.position.copy(this.waypoints[7].pos);
-
-        unit.stateMachine.changeState(new Patrol(this.waypoints, {
-            firstWaypoint: 1040
-        }));
+        worldHandler.BuildWaypointListFromUnitIds(
+            [1030, 1031, 1032, 1033, 1037, 1038, 1039, 1040, 1044, 1045, 1046]
+            //[1,2,3]
+        ).then(function(waypoints) {
+            if ( waypoints.length ) {
+                unit.position.copy(waypoints[7].pos);
+                unit.stateMachine.changeState(new Patrol(waypoints, {
+                    firstWaypoint: 1040
+                }));
+                me.waypoints = waypoints;
+            }
+        });
     }
 });
 
