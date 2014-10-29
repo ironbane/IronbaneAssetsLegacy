@@ -1,3 +1,8 @@
+DEPRECATED
+========================
+This repository is no longer maintained as the server and client for Ironbane are being rewritten.
+Please visit the [new server repository](https://github.com/ironbane/ironbane-server) and the [new client repository](https://github.com/ironbane/ironbane-client).
+
 IronbaneAssets
 ==============
 
